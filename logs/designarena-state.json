@@ -1,5 +1,5 @@
 {
-  "timestamp": 1777320775989,
+  "timestamp": 1777327119266,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -7090,6 +7090,26 @@
           "imagetohtml"
         ]
       }
+    },
+    {
+      "id": "happy-horse-1.0",
+      "displayName": "Happy Horse 1.0",
+      "provider": "alibaba",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "video",
+          "imagetovideo",
+          "videotovideo",
+          "multitovideo",
+          "multimodaltovideo"
+        ]
+      },
+      "display": {
+        "logoName": "alibaba.png"
+      }
     }
   ],
   "providers": [
@@ -9794,6 +9814,13 @@
       "text": {
         "input": 5,
         "output": 30
+      }
+    },
+    {
+      "id": "happy-horse-1.0",
+      "video": {
+        "perSecond": 0.28,
+        "perSecondVideoToVideo": 0.56
       }
     }
   ]

@@ -6556,33 +6556,6 @@
           }
         },
         {
-          "id": "MiniMaxAI/MiniMax-M2.5-FP4",
-          "name": "MiniMaxAI/MiniMax-M2.5-FP4",
-          "object": "model",
-          "type": "chat",
-          "running": false,
-          "display_name": "MiniMax M2.5 FP4",
-          "organization": "MiniMaxAI",
-          "context_length": 8192,
-          "config": {
-            "chat_template": null,
-            "stop": [],
-            "bos_token": null,
-            "eos_token": null
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0,
-            "image_pixel": 0,
-            "transcribe": 0,
-            "image": 0,
-            "video": 0
-          }
-        },
-        {
           "id": "MiniMaxAI/MiniMax-M2.7",
           "name": "MiniMaxAI/MiniMax-M2.7",
           "uuid": "endpoint-f657dadd-0b1a-4671-b00c-e7a14221433d",
@@ -10340,36 +10313,6 @@
           }
         },
         {
-          "id": "zai-org/GLM-5-FP4",
-          "name": "zai-org/GLM-5-FP4",
-          "object": "model",
-          "type": "chat",
-          "running": false,
-          "display_name": "GLM 5 Fp4",
-          "organization": "Zai Org",
-          "link": "https://huggingface.co/api/models/togethercomputer/GLM-5-FP4",
-          "context_length": 202752,
-          "config": {
-            "chat_template": null,
-            "stop": [
-              "<|endoftext|>"
-            ],
-            "bos_token": null,
-            "eos_token": "<|endoftext|>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0,
-            "image_pixel": 0,
-            "transcribe": 0,
-            "image": 0,
-            "video": 0
-          }
-        },
-        {
           "id": "zai-org/GLM-5.1",
           "name": "zai-org/GLM-5.1",
           "uuid": "endpoint-b3089874-2df3-45d7-9d76-6a12456411eb",
@@ -10974,6 +10917,29 @@
               "input_tokens": 0.25,
               "output_tokens": 2,
               "cache_read_tokens": 0.05
+            },
+            "tags": [
+              "vision",
+              "prompt_cache",
+              "reasoning"
+            ]
+          }
+        },
+        {
+          "id": "ByteDance/Seed-2.0-code",
+          "name": "ByteDance/Seed-2.0-code",
+          "owned_by": "deepinfra",
+          "root": "ByteDance/Seed-2.0-code",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "A coding model optimized for real-world development environments, with reliable tool use in common IDEs such as Claude Code. It delivers strong front-end performance and supports Skills.",
+            "context_length": 256000,
+            "max_tokens": 256000,
+            "pricing": {
+              "input_tokens": 0.5,
+              "output_tokens": 2.9999999999999996,
+              "cache_read_tokens": 0.1
             },
             "tags": [
               "vision",
@@ -14311,34 +14277,6 @@
           "deprecation": null,
           "deprecation_replacement_model": null,
           "default_model_temperature": 0.3,
-          "type": "base"
-        },
-        {
-          "id": "mistral-vibe-cli-latest",
-          "name": "mistral-vibe-cli-latest",
-          "owned_by": "mistralai",
-          "object": "model",
-          "capabilities": {
-            "completion_chat": true,
-            "function_calling": true,
-            "reasoning": false,
-            "completion_fim": false,
-            "fine_tuning": false,
-            "vision": false,
-            "ocr": false,
-            "classification": false,
-            "moderation": false,
-            "audio": false,
-            "audio_transcription": false,
-            "audio_transcription_realtime": false,
-            "audio_speech": false
-          },
-          "description": "Devstral 2512 release model",
-          "max_context_length": 262144,
-          "aliases": [],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
-          "default_model_temperature": 0.2,
           "type": "base"
         },
         {
@@ -27254,7 +27192,7 @@
           "pricing": {
             "prompt": "0.00000175",
             "completion": "0.000014",
-            "web_search": "0.1",
+            "web_search": "0.01",
             "input_cache_read": "0.000000175"
           },
           "top_provider": {

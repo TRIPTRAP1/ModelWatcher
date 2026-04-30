@@ -12183,12 +12183,10 @@
             "max_tokens": 262144,
             "pricing": {
               "input_tokens": 0.29,
-              "output_tokens": 2.9000000000000004,
-              "cache_read_tokens": 0.145
+              "output_tokens": 2.4
             },
             "tags": [
               "vision",
-              "prompt_cache",
               "reasoning_effort",
               "reasoning"
             ]
@@ -12250,13 +12248,11 @@
             "context_length": 262144,
             "max_tokens": 262144,
             "pricing": {
-              "input_tokens": 0.2,
-              "output_tokens": 0.95,
-              "cache_read_tokens": 0.1
+              "input_tokens": 0.18,
+              "output_tokens": 1
             },
             "tags": [
               "vision",
-              "prompt_cache",
               "reasoning_effort",
               "reasoning"
             ]
@@ -12275,12 +12271,10 @@
             "max_tokens": 262144,
             "pricing": {
               "input_tokens": 0.54,
-              "output_tokens": 3.4,
-              "cache_read_tokens": 0.27
+              "output_tokens": 3.4
             },
             "tags": [
               "vision",
-              "prompt_cache",
               "reasoning_effort",
               "reasoning"
             ]
@@ -12309,6 +12303,27 @@
           }
         },
         {
+          "id": "Qwen/Qwen3.5-9B",
+          "name": "Qwen/Qwen3.5-9B",
+          "owned_by": "deepinfra",
+          "root": "Qwen/Qwen3.5-9B",
+          "parent": null,
+          "object": "model",
+          "metadata": {
+            "description": "Qwen3.5-9B is a high-performance model from Alibaba's Qwen3.5 series with a hybrid Gated Delta Networks and sparse MoE architecture. It features a 262K token context window, thinking/reasoning mode, tool calling, multi-token prediction, and support for 201 languages. Excels at reasoning, coding, instruction following, and long-context tasks.",
+            "context_length": 262144,
+            "max_tokens": 262144,
+            "pricing": {
+              "input_tokens": 0.04,
+              "output_tokens": 0.15
+            },
+            "tags": [
+              "vision",
+              "reasoning_effort"
+            ]
+          }
+        },
+        {
           "id": "Qwen/Qwen3.6-35B-A3B",
           "name": "Qwen/Qwen3.6-35B-A3B",
           "owned_by": "deepinfra",
@@ -12320,7 +12335,7 @@
             "context_length": 262144,
             "max_tokens": 262144,
             "pricing": {
-              "input_tokens": 0.2,
+              "input_tokens": 0.19,
               "output_tokens": 1
             },
             "tags": [
@@ -13047,8 +13062,8 @@
           "aliases": [
             "magistral-small-latest"
           ],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
+          "deprecation": "2026-07-31T12:00:00Z",
+          "deprecation_replacement_model": "mistral-small-latest",
           "default_model_temperature": 0.7,
           "type": "base"
         },
@@ -13077,8 +13092,8 @@
           "aliases": [
             "magistral-small-2509"
           ],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
+          "deprecation": "2026-07-31T12:00:00Z",
+          "deprecation_replacement_model": "mistral-small-latest",
           "default_model_temperature": 0.7,
           "type": "base"
         },
@@ -13554,7 +13569,7 @@
           "aliases": [],
           "deprecation": null,
           "deprecation_replacement_model": null,
-          "default_model_temperature": 0.7,
+          "default_model_temperature": 1,
           "type": "base"
         },
         {
@@ -13582,7 +13597,7 @@
           "aliases": [],
           "deprecation": null,
           "deprecation_replacement_model": null,
-          "default_model_temperature": 0.7,
+          "default_model_temperature": 1,
           "type": "base"
         },
         {
@@ -13610,7 +13625,7 @@
           "aliases": [],
           "deprecation": null,
           "deprecation_replacement_model": null,
-          "default_model_temperature": 0.7,
+          "default_model_temperature": 1,
           "type": "base"
         },
         {
@@ -13638,7 +13653,7 @@
           "aliases": [],
           "deprecation": null,
           "deprecation_replacement_model": null,
-          "default_model_temperature": 0.7,
+          "default_model_temperature": 1,
           "type": "base"
         },
         {
@@ -13666,7 +13681,7 @@
           "aliases": [],
           "deprecation": null,
           "deprecation_replacement_model": null,
-          "default_model_temperature": 0.7,
+          "default_model_temperature": 1,
           "type": "base"
         },
         {
@@ -13900,8 +13915,8 @@
           "description": "Our latest enterprise-grade small model with the latest version released June 2025.",
           "max_context_length": 131072,
           "aliases": [],
-          "deprecation": null,
-          "deprecation_replacement_model": null,
+          "deprecation": "2026-07-31T12:00:00Z",
+          "deprecation_replacement_model": "mistral-small-latest",
           "default_model_temperature": 0.3,
           "type": "base"
         },
@@ -14087,7 +14102,7 @@
           "aliases": [],
           "deprecation": null,
           "deprecation_replacement_model": null,
-          "default_model_temperature": 0.7,
+          "default_model_temperature": 1,
           "type": "base"
         },
         {
@@ -18778,7 +18793,7 @@
           "canonical_slug": "google/gemini-2.0-flash-001",
           "hugging_face_id": "",
           "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-          "context_length": 1000000,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text+image+file+audio+video->text",
             "input_modalities": [
@@ -18805,7 +18820,7 @@
             "input_cache_write": "0.00000008333333333333334"
           },
           "top_provider": {
-            "context_length": 1000000,
+            "context_length": 1048576,
             "max_completion_tokens": 8192,
             "is_moderated": false
           },

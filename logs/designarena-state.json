@@ -1,5 +1,5 @@
 {
-  "timestamp": 1777593542641,
+  "timestamp": 1777608644824,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -7196,6 +7196,26 @@
           "ascii"
         ]
       }
+    },
+    {
+      "id": "grok-4-3",
+      "displayName": "Grok 4.3",
+      "provider": "xai",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "vision": true
     }
   ],
   "providers": [
@@ -9928,6 +9948,13 @@
       "text": {
         "input": 0.4,
         "output": 2
+      }
+    },
+    {
+      "id": "grok-4-3",
+      "text": {
+        "input": 1.25,
+        "output": 2.5
       }
     }
   ]

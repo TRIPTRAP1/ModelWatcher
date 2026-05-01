@@ -11382,24 +11382,6 @@
           }
         },
         {
-          "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-          "name": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-          "owned_by": "deepinfra",
-          "root": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Mixtral is mixture of expert large language model (LLM) from Mistral AI. This is state of the art machine learning model using a mixture 8 of experts (MoE) 7b models. During inference 2 expers are selected. This architecture allows large models to be fast and cheap at inference. The Mixtral-8x7B outperforms Llama 2 70B on most benchmarks.",
-            "context_length": 32768,
-            "max_tokens": 32768,
-            "pricing": {
-              "input_tokens": 0.54,
-              "output_tokens": 0.54
-            },
-            "tags": []
-          }
-        },
-        {
           "id": "moonshotai/Kimi-K2.5",
           "name": "moonshotai/Kimi-K2.5",
           "owned_by": "deepinfra",
@@ -11476,24 +11458,6 @@
             "pricing": {
               "input_tokens": 0.3,
               "output_tokens": 0.3
-            },
-            "tags": []
-          }
-        },
-        {
-          "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
-          "name": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
-          "owned_by": "deepinfra",
-          "root": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries. This model reaches Arena Hard of 85.0, AlpacaEval 2 LC of 57.6 and GPT-4-Turbo MT-Bench of 8.98, which are known to be predictive of LMSys Chatbot Arena Elo.  As of 16th Oct 2024, this model is #1 on all three automatic alignment benchmarks (verified tab for AlpacaEval 2 LC), edging out strong frontier models such as GPT-4o and Claude 3.5 Sonnet.",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 1.2,
-              "output_tokens": 1.2
             },
             "tags": []
           }
@@ -12247,24 +12211,6 @@
           "object": "model",
           "metadata": {
             "description": "Euryale 3.1 - 70B v2.2 is a model focused on creative roleplay from Sao10k",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 0.85,
-              "output_tokens": 0.85
-            },
-            "tags": []
-          }
-        },
-        {
-          "id": "Sao10K/L3.3-70B-Euryale-v2.3",
-          "name": "Sao10K/L3.3-70B-Euryale-v2.3",
-          "owned_by": "deepinfra",
-          "root": "Sao10K/L3.3-70B-Euryale-v2.3",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "L3.3-70B-Euryale-v2.3 is a model focused on creative roleplay from Sao10k",
             "context_length": 131072,
             "max_tokens": 131072,
             "pricing": {
@@ -23424,7 +23370,7 @@
             "temperature": 0.3
           },
           "knowledge_cutoff": "2023-12-31",
-          "expiration_date": null,
+          "expiration_date": "2026-05-08",
           "links": {
             "details": "/api/v1/models/mistralai/mixtral-8x7b-instruct/endpoints"
           }
@@ -24298,7 +24244,7 @@
           ],
           "default_parameters": {},
           "knowledge_cutoff": "2023-12-31",
-          "expiration_date": null,
+          "expiration_date": "2026-05-08",
           "links": {
             "details": "/api/v1/models/nvidia/llama-3.1-nemotron-70b-instruct/endpoints"
           }
@@ -30161,9 +30107,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000014",
+            "prompt": "0.00000012",
             "completion": "0.0000008",
-            "input_cache_read": "0.00000009"
+            "input_cache_read": "0.00000007"
           },
           "top_provider": {
             "context_length": 262144,
@@ -33207,8 +33153,8 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000002",
-            "completion": "0.000006",
+            "prompt": "0.00000125",
+            "completion": "0.0000025",
             "web_search": "0.005",
             "input_cache_read": "0.0000002"
           },

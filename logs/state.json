@@ -7498,6 +7498,36 @@
           }
         },
         {
+          "id": "pixverse/pixverse-v6",
+          "name": "pixverse/pixverse-v6",
+          "uuid": "endpoint-9782553a-d1f6-4641-b70f-cf3664e95a8a",
+          "object": "model",
+          "type": "video",
+          "running": false,
+          "display_name": "PixVerse v6",
+          "organization": "PixVerse",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": {
+              "example_price": 0.09,
+              "example_description": "0.090/s at 1080p without audio. 0.115/s with audio"
+            }
+          }
+        },
+        {
           "id": "Qwen/Qwen-Image",
           "name": "Qwen/Qwen-Image",
           "uuid": "endpoint-d4d29f48-ce86-4533-863a-23e9245f6570",
@@ -9807,6 +9837,36 @@
               "example_price": 0.1,
               "example_description": "per 5 seconds of video"
             }
+          }
+        },
+        {
+          "id": "xai/grok-imagine-image-pro",
+          "name": "xai/grok-imagine-image-pro",
+          "uuid": "endpoint-1d79f179-06af-4c18-a111-72b6c2d0d8b7",
+          "object": "model",
+          "type": "image",
+          "running": false,
+          "display_name": "Grok Imagine Image Pro",
+          "organization": "xAI",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": {
+              "example_price": 0.07,
+              "example_description": "$0.002 per input image & $0.07 per output image"
+            },
+            "video": 0
           }
         },
         {
@@ -17879,6 +17939,7 @@
             "response_format",
             "seed",
             "stop",
+            "structured_outputs",
             "temperature",
             "tool_choice",
             "tools",
@@ -24558,6 +24619,7 @@
             "frequency_penalty",
             "include_reasoning",
             "logit_bias",
+            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -24570,6 +24632,7 @@
             "tool_choice",
             "tools",
             "top_k",
+            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {
@@ -31555,6 +31618,8 @@
             "stop",
             "structured_outputs",
             "temperature",
+            "tool_choice",
+            "tools",
             "top_k",
             "top_p"
           ],

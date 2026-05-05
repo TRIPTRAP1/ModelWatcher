@@ -2,7 +2,7 @@
   "https://gemini.google.com/": {
     "patterns": {
       "gemini-[0-9]+(?:[a-z0-9.-]+)*": {
-        "count": 18,
+        "count": 22,
         "matchedStrings": [
           "gemini-2.0-flash",
           "gemini-2.5-flash",
@@ -10,11 +10,13 @@
           "gemini-2.5-flash-preview-05-20",
           "gemini-2.5-flash-preview-09-2025",
           "gemini-2.5-flash-image-preview",
+          "gemini-2.5-flash-image",
+          "gemini-3.1-flash-image-preview",
           "gemini-3-pro-image-preview-11-2025",
           "gemini-2.5-flash-preview-tts",
           "gemini-3-flash-preview"
         ],
-        "timestamp": 1777863256160
+        "timestamp": 1777949170576
       }
     }
   },
@@ -23,13 +25,13 @@
       "gpt-[0-9]+(?:[a-z0-9.-]+)*": {
         "count": 10,
         "matchedStrings": [
-          "GPT-5.5",
           "gpt-5.5",
+          "GPT-5.5",
           "gpt-5.4",
           "GPT-5.4",
           "gpt-4o"
         ],
-        "timestamp": 1777863264216
+        "timestamp": 1777949179060
       }
     }
   },
@@ -51,7 +53,7 @@
           "grok-3",
           "grok-420"
         ],
-        "timestamp": 1777863276289
+        "timestamp": 1777949189737
       }
     }
   },
@@ -60,7 +62,7 @@
       "claude-[a-z]+-[0-9]+(?:[a-z]+)?(?:\\\\.[0-9]+)*": {
         "count": 0,
         "matchedStrings": [],
-        "timestamp": 1777863269721
+        "timestamp": 1777949184374
       }
     }
   }

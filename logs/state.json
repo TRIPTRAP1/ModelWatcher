@@ -18825,7 +18825,7 @@
           "canonical_slug": "google/gemini-2.0-flash-001",
           "hugging_face_id": "",
           "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-          "context_length": 1000000,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text+image+file+audio+video->text",
             "input_modalities": [
@@ -18852,7 +18852,7 @@
             "input_cache_write": "0.00000008333333333333334"
           },
           "top_provider": {
-            "context_length": 1000000,
+            "context_length": 1048576,
             "max_completion_tokens": 8192,
             "is_moderated": false
           },
@@ -22015,6 +22015,56 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/microsoft/phi-4/endpoints"
+          }
+        },
+        {
+          "id": "microsoft/phi-4-mini-instruct",
+          "name": "Microsoft: Phi 4 Mini Instruct",
+          "canonical_slug": "microsoft/phi-4-mini-instruct",
+          "hugging_face_id": "microsoft/Phi-4-mini-instruct",
+          "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...",
+          "context_length": 128000,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.00000008",
+            "completion": "0.00000035",
+            "input_cache_read": "0.00000008"
+          },
+          "top_provider": {
+            "context_length": 128000,
+            "max_completion_tokens": 128000,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "max_tokens",
+            "presence_penalty",
+            "repetition_penalty",
+            "response_format",
+            "seed",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {},
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/microsoft/phi-4-mini-instruct/endpoints"
           }
         },
         {

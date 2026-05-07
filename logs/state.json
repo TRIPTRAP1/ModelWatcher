@@ -5694,7 +5694,7 @@
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Llama 3.3 70B Instruct FP8",
+          "display_name": "Llama 3.3 70B Instruct FP8 Lora",
           "organization": "Redhatai",
           "context_length": 131072,
           "config": {
@@ -6624,6 +6624,35 @@
             "hourly": 0,
             "input": 0.6,
             "output": 0.6,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
+          "id": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
+          "name": "mistralai/Mixtral-8x7B-Instruct-v0.1-FP8-Lora",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "Mixtral 8x7B Instruct V0.1 FP8 Lora",
+          "organization": "Mistral AI",
+          "context_length": 32768,
+          "config": {
+            "chat_template": "{%- if messages[0]['role'] == 'system' %}\n    {%- set system_message = messages[0]['content'] %}\n    {%- set loop_messages = messages[1:] %}\n{%- else %}\n    {%- set loop_messages = messages %}\n{%- endif %}\n\n{{- bos_token }}\n{%- for message in loop_messages %}\n    {%- if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}\n        {{- raise_exception('After the optional system message, conversation roles must alternate user/assistant/user/assistant/...') }}\n    {%- endif %}\n    {%- if message['role'] == 'user' %}\n        {%- if loop.first and system_message is defined %}\n            {{- ' [INST] ' + system_message + '\\n\\n' + message['content'] + ' [/INST]' }}\n        {%- else %}\n            {{- ' [INST] ' + message['content'] + ' [/INST]' }}\n        {%- endif %}\n    {%- elif message['role'] == 'assistant' %}\n        {{- ' ' + message['content'] + eos_token}}\n    {%- else %}\n        {{- raise_exception('Only user and assistant roles are supported, with the exception of an initial optional system message!') }}\n    {%- endif %}\n{%- endfor %}\n",
+            "stop": [
+              "</s>"
+            ],
+            "bos_token": "<s>",
+            "eos_token": "</s>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
             "base": 0,
             "finetune": 0,
             "image_pixel": 0,
@@ -15594,63 +15623,6 @@
           }
         },
         {
-          "id": "allenai/olmo-3.1-32b-instruct",
-          "name": "AllenAI: Olmo 3.1 32B Instruct",
-          "canonical_slug": "allenai/olmo-3.1-32b-instruct-20251215",
-          "hugging_face_id": "allenai/Olmo-3.1-32B-Instruct",
-          "description": "Olmo 3.1 32B Instruct is a large-scale, 32-billion-parameter instruction-tuned language model engineered for high-performance conversational AI, multi-turn dialogue, and practical instruction following. As part of the Olmo 3.1 family, this...",
-          "context_length": 65536,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.0000002",
-            "completion": "0.0000006"
-          },
-          "top_provider": {
-            "context_length": 65536,
-            "max_completion_tokens": 16384,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "logit_bias",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": 0.6,
-            "top_p": 0.95,
-            "frequency_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-05-07",
-          "links": {
-            "details": "/api/v1/models/allenai/olmo-3.1-32b-instruct-20251215/endpoints"
-          }
-        },
-        {
           "id": "alpindale/goliath-120b",
           "name": "Goliath 120B",
           "canonical_slug": "alpindale/goliath-120b",
@@ -18921,7 +18893,7 @@
           "canonical_slug": "google/gemini-2.0-flash-001",
           "hugging_face_id": "",
           "description": "Gemini Flash 2.0 offers a significantly faster time to first token (TTFT) compared to [Gemini Flash 1.5](/google/gemini-flash-1.5), while maintaining quality on par with larger models like [Gemini Pro 1.5](/google/gemini-pro-1.5). It...",
-          "context_length": 1000000,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text+image+file+audio+video->text",
             "input_modalities": [
@@ -18948,7 +18920,7 @@
             "input_cache_write": "0.00000008333333333333334"
           },
           "top_provider": {
-            "context_length": 1000000,
+            "context_length": 1048576,
             "max_completion_tokens": 8192,
             "is_moderated": false
           },
@@ -21204,12 +21176,12 @@
             "instruct_type": "llama3"
           },
           "pricing": {
-            "prompt": "0.00000003",
+            "prompt": "0.00000004",
             "completion": "0.00000004"
           },
           "top_provider": {
             "context_length": 8192,
-            "max_completion_tokens": 16384,
+            "max_completion_tokens": 8192,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -21220,19 +21192,16 @@
             "min_p",
             "presence_penalty",
             "repetition_penalty",
-            "response_format",
             "seed",
             "stop",
             "temperature",
-            "tool_choice",
-            "tools",
             "top_k",
             "top_p"
           ],
           "default_parameters": {},
           "supported_voices": null,
           "knowledge_cutoff": "2023-12-31",
-          "expiration_date": "2026-05-07",
+          "expiration_date": null,
           "links": {
             "details": "/api/v1/models/meta-llama/llama-3-8b-instruct/endpoints"
           }
@@ -22865,7 +22834,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": "2023-09-30",
-          "expiration_date": null,
+          "expiration_date": "2026-05-30",
           "links": {
             "details": "/api/v1/models/mistralai/mistral-7b-instruct-v0.1/endpoints"
           }
@@ -24915,64 +24884,6 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-3-super-120b-a12b-20230311/endpoints"
-          }
-        },
-        {
-          "id": "nvidia/nemotron-nano-12b-v2-vl",
-          "name": "NVIDIA: Nemotron Nano 12B 2 VL",
-          "canonical_slug": "nvidia/nemotron-nano-12b-v2-vl",
-          "hugging_face_id": "nvidia/NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
-          "description": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer-level accuracy with Mamba’s...",
-          "context_length": 131072,
-          "architecture": {
-            "modality": "text+image+video->text",
-            "input_modalities": [
-              "image",
-              "text",
-              "video"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.0000002",
-            "completion": "0.0000006"
-          },
-          "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 16384,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logit_bias",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "temperature",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": null,
-            "top_p": null,
-            "frequency_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-05-07",
-          "links": {
-            "details": "/api/v1/models/nvidia/nemotron-nano-12b-v2-vl/endpoints"
           }
         },
         {
@@ -32865,7 +32776,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": "2026-05-08",
+          "expiration_date": null,
           "links": {
             "details": "/api/v1/models/tencent/hy3-preview-20260421/endpoints"
           }

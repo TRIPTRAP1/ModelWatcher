@@ -20857,6 +20857,64 @@
           }
         },
         {
+          "id": "inclusionai/ring-2.6-1t:free",
+          "name": "inclusionAI: Ring-2.6-1T (free)",
+          "canonical_slug": "inclusionai/ring-2.6-1t-20260508",
+          "hugging_face_id": null,
+          "description": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool...",
+          "context_length": 262144,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 262144,
+            "max_completion_tokens": 65536,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "repetition_penalty",
+            "seed",
+            "stop",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/inclusionai/ring-2.6-1t-20260508/endpoints"
+          }
+        },
+        {
           "id": "inflection/inflection-3-pi",
           "name": "Inflection: Inflection 3 Pi",
           "canonical_slug": "inflection/inflection-3-pi",
@@ -28837,7 +28895,7 @@
           "name": "Pareto Code Router",
           "canonical_slug": "openrouter/pareto-code",
           "hugging_face_id": "",
-          "description": "The Pareto Router is a way to have OpenRouter always pick a strong coding model for your needs without committing to a specific one. You express a single `min_coding_score` preference...",
+          "description": "The Pareto Router maintains a tiered shortlist of strong coding models, ranked by [Artificial Analysis](https://artificialanalysis.ai/) coding percentiles. Set min_coding_score between 0 and 1 on the [pareto-router plugin](https://openrouter.ai/docs/guides/routing/routers/pareto-router#the-min_coding_score-parameter) to control how...",
           "context_length": 200000,
           "architecture": {
             "modality": "text->text",
@@ -30239,12 +30297,11 @@
           },
           "pricing": {
             "prompt": "0.00000008",
-            "completion": "0.00000024",
-            "input_cache_read": "0.00000004"
+            "completion": "0.00000028"
           },
           "top_provider": {
             "context_length": 40960,
-            "max_completion_tokens": 40960,
+            "max_completion_tokens": 16384,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -32986,60 +33043,6 @@
           }
         },
         {
-          "id": "tngtech/deepseek-r1t2-chimera",
-          "name": "TNG: DeepSeek R1T2 Chimera",
-          "canonical_slug": "tngtech/deepseek-r1t2-chimera",
-          "hugging_face_id": "tngtech/DeepSeek-TNG-R1T2-Chimera",
-          "description": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an Assembly-of-Experts merge. The...",
-          "context_length": 163840,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "DeepSeek",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.0000003",
-            "completion": "0.0000011",
-            "input_cache_read": "0.00000015"
-          },
-          "top_provider": {
-            "context_length": 163840,
-            "max_completion_tokens": 163840,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "max_tokens",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "tool_choice",
-            "tools",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": "2024-07-31",
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/tngtech/deepseek-r1t2-chimera/endpoints"
-          }
-        },
-        {
           "id": "undi95/remm-slerp-l2-13b",
           "name": "ReMM SLERP 13B",
           "canonical_slug": "undi95/remm-slerp-l2-13b",
@@ -33857,9 +33860,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000009",
-            "completion": "0.00000029",
-            "input_cache_read": "0.000000045"
+            "prompt": "0.0000001",
+            "completion": "0.0000003",
+            "input_cache_read": "0.00000001"
           },
           "top_provider": {
             "context_length": 262144,
@@ -33877,7 +33880,6 @@
             "response_format",
             "seed",
             "stop",
-            "structured_outputs",
             "temperature",
             "tool_choice",
             "tools",

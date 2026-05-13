@@ -4635,6 +4635,38 @@
           }
         },
         {
+          "id": "google/gemma-3-27b-it",
+          "name": "google/gemma-3-27b-it",
+          "uuid": "endpoint-7330ad61-fe41-4856-af8b-da0b8c43713a",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "Gemma 3 27B It",
+          "organization": "Google",
+          "link": "https://huggingface.co/api/models/google/gemma-3-27b-it",
+          "license": "gemma",
+          "context_length": 65536,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<eos>"
+            ],
+            "bos_token": "<bos>",
+            "eos_token": "<eos>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
           "id": "google/gemma-3-27b-pt",
           "name": "google/gemma-3-27b-pt",
           "object": "model",
@@ -9488,6 +9520,64 @@
           }
         },
         {
+          "id": "rime-labs/rime-mist-v3",
+          "name": "rime-labs/rime-mist-v3",
+          "object": "model",
+          "type": "audio",
+          "running": false,
+          "display_name": "Rime Labs Mist v3",
+          "organization": "Rime Labs",
+          "context_length": 448,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<|endoftext|>"
+            ],
+            "bos_token": "<|endoftext|>",
+            "eos_token": "<|endoftext|>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
+          "id": "rime-labs/rime-mist-v3-omni",
+          "name": "rime-labs/rime-mist-v3-omni",
+          "object": "model",
+          "type": "audio",
+          "running": false,
+          "display_name": "Rime Labs Mist v3 Omni",
+          "organization": "Rime Labs",
+          "context_length": 448,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<|endoftext|>"
+            ],
+            "bos_token": "<|endoftext|>",
+            "eos_token": "<|endoftext|>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
           "id": "Rundiffusion/Juggernaut-Lightning-Flux",
           "name": "Rundiffusion/Juggernaut-Lightning-Flux",
           "uuid": "endpoint-63c3e50f-b9eb-41e3-a3ed-7242665874e4",
@@ -10441,67 +10531,68 @@
       "success": true,
       "models": [
         {
-          "id": "anthropic/claude-3-7-sonnet-latest",
-          "name": "anthropic/claude-3-7-sonnet-latest",
+          "id": "anthropic/claude-haiku-4-5",
+          "name": "anthropic/claude-haiku-4-5",
           "owned_by": "deepinfra",
-          "root": "anthropic/claude-3-7-sonnet-latest",
+          "root": "anthropic/claude-haiku-4-5",
           "parent": null,
           "object": "model",
           "metadata": {
-            "description": "",
+            "description": "The next generation of Anthropic's fastest and most cost-effective model, optimal for use cases where speed and affordability matter.",
             "context_length": 200000,
             "max_tokens": 200000,
             "pricing": {
-              "input_tokens": 3.3000000000000003,
-              "output_tokens": 16.5,
-              "cache_read_tokens": 0.33000000000000007
+              "input_tokens": 1,
+              "output_tokens": 5
             },
             "tags": [
               "vision",
-              "prompt_cache",
-              "reasoning_effort"
+              "reasoning_effort",
+              "reasoning"
             ]
           }
         },
         {
-          "id": "anthropic/claude-4-opus",
-          "name": "anthropic/claude-4-opus",
+          "id": "anthropic/claude-opus-4-7",
+          "name": "anthropic/claude-opus-4-7",
           "owned_by": "deepinfra",
-          "root": "anthropic/claude-4-opus",
+          "root": "anthropic/claude-opus-4-7",
           "parent": null,
           "object": "model",
           "metadata": {
-            "description": "Anthropic’s most powerful model yet and the state-of-the-art coding model. It delivers sustained performance on long-running tasks that require focused effort and thousands of steps, significantly expanding what AI agents can solve. Claude Opus 4 is ideal for powering frontier agent products and features.",
-            "context_length": 200000,
-            "max_tokens": 200000,
+            "description": "Anthropic's most capable production model yet, advancing performance across coding, enterprise workflows, and long-running agentic tasks.",
+            "context_length": 1000000,
+            "max_tokens": 1000000,
             "pricing": {
-              "input_tokens": 16.5,
-              "output_tokens": 82.5
+              "input_tokens": 5,
+              "output_tokens": 25
             },
             "tags": [
               "vision",
-              "reasoning_effort"
+              "reasoning_effort",
+              "reasoning"
             ]
           }
         },
         {
-          "id": "anthropic/claude-4-sonnet",
-          "name": "anthropic/claude-4-sonnet",
+          "id": "anthropic/claude-sonnet-4-6",
+          "name": "anthropic/claude-sonnet-4-6",
           "owned_by": "deepinfra",
-          "root": "anthropic/claude-4-sonnet",
+          "root": "anthropic/claude-sonnet-4-6",
           "parent": null,
           "object": "model",
           "metadata": {
-            "description": "Anthropic's mid-size model with superior intelligence for high-volume uses in coding, in-depth research, agents, & more.",
-            "context_length": 200000,
-            "max_tokens": 200000,
+            "description": "Claude Sonnet 4.6 delivers frontier intelligence at scale—built for coding, agents, and enterprise workflows.",
+            "context_length": 1000000,
+            "max_tokens": 1000000,
             "pricing": {
-              "input_tokens": 3.3000000000000003,
-              "output_tokens": 16.5
+              "input_tokens": 2.9999999999999996,
+              "output_tokens": 15
             },
             "tags": [
               "vision",
-              "reasoning_effort"
+              "reasoning_effort",
+              "reasoning"
             ]
           }
         },
@@ -27248,7 +27339,7 @@
           "top_provider": {
             "context_length": 128000,
             "max_completion_tokens": 16384,
-            "is_moderated": true
+            "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1778627272867,
+  "timestamp": 1778644635680,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -1518,14 +1518,13 @@
       "id": "dune",
       "displayName": "Dune",
       "provider": "dune",
-      "active": false,
+      "active": true,
       "openSource": false,
       "router": false,
       "arenas": {
         "agents": [
           "agon_webapps",
-          "mobileapps",
-          "nativeapps"
+          "agon_slides"
         ]
       }
     },
@@ -1734,6 +1733,7 @@
         ],
         "agents": [
           "agon_webapps",
+          "agon_slides",
           "mobileapps",
           "nativeapps"
         ]
@@ -3714,7 +3714,8 @@
       "router": false,
       "arenas": {
         "agents": [
-          "agon_webapps"
+          "agon_webapps",
+          "agon_slides"
         ]
       },
       "inputModalities": [
@@ -7010,7 +7011,8 @@
           "ascii"
         ],
         "agents": [
-          "agon_webapps"
+          "agon_webapps",
+          "agon_slides"
         ]
       },
       "vision": true,
@@ -7277,7 +7279,7 @@
       "id": "coconut",
       "displayName": "GLM 5.1",
       "provider": "zhipu",
-      "active": false,
+      "active": true,
       "openSource": true,
       "router": false,
       "arenas": {
@@ -7496,6 +7498,7 @@
         ],
         "agents": [
           "agon_webapps",
+          "agon_slides",
           "fullstack",
           "mobileapps",
           "nativeapps"
@@ -7639,6 +7642,9 @@
           "uicomponent",
           "ascii",
           "svg"
+        ],
+        "agents": [
+          "agon_slides"
         ]
       },
       "vision": true,
@@ -7748,6 +7754,9 @@
           "svg",
           "ascii",
           "imagetohtml"
+        ],
+        "agents": [
+          "agon_slides"
         ]
       },
       "inputModalities": [
@@ -10445,6 +10454,13 @@
       "text": {
         "input": 1.2,
         "output": 4
+      }
+    },
+    {
+      "id": "coconut",
+      "text": {
+        "input": 1.4,
+        "output": 4.4
       }
     },
     {

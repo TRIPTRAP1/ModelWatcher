@@ -1,5 +1,5 @@
 {
-  "timestamp": 1778695566551,
+  "timestamp": 1778705299621,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -1522,25 +1522,11 @@
       "openSource": false,
       "router": false,
       "arenas": {
-        "models": [
-          "website",
-          "3d",
-          "dataviz",
-          "gamedev",
-          "uicomponent",
-          "svg",
-          "ascii"
-        ],
         "agents": [
           "agon_webapps",
           "agon_slides"
         ]
-      },
-      "vision": true,
-      "inputModalities": [
-        "text",
-        "image"
-      ]
+      }
     },
     {
       "id": "ember",
@@ -7293,7 +7279,7 @@
       "id": "coconut",
       "displayName": "GLM 5.1",
       "provider": "zhipu",
-      "active": true,
+      "active": false,
       "openSource": true,
       "router": false,
       "arenas": {
@@ -7313,10 +7299,8 @@
           "nativeapps"
         ]
       },
-      "vision": true,
       "inputModalities": [
-        "text",
-        "image"
+        "text"
       ]
     },
     {
@@ -7869,11 +7853,7 @@
           "mobileapps"
         ]
       },
-      "vision": true,
-      "inputModalities": [
-        "text",
-        "image"
-      ]
+      "vision": true
     },
     {
       "id": "orange",
@@ -10474,13 +10454,6 @@
       "text": {
         "input": 1.2,
         "output": 4
-      }
-    },
-    {
-      "id": "coconut",
-      "text": {
-        "input": 1.4,
-        "output": 4.4
       }
     },
     {

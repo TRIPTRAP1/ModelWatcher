@@ -22756,9 +22756,10 @@
           "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
           "context_length": 256000,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -22808,9 +22809,10 @@
           "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
           "context_length": 262144,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -22862,9 +22864,10 @@
           "description": "Devstral Medium is a high-performance code generation and agentic reasoning model developed jointly by Mistral AI and All Hands AI. Positioned as a step up from Devstral Small, it achieves...",
           "context_length": 131072,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -22914,9 +22917,10 @@
           "description": "Devstral Small 1.1 is a 24B parameter open-weight language model for software engineering agents, developed by Mistral AI in collaboration with All Hands AI. Finetuned from Mistral Small 3.1 and...",
           "context_length": 131072,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23188,9 +23192,10 @@
           "description": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
           "context_length": 128000,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23240,9 +23245,10 @@
           "description": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https://mistral.ai/news/mistral-large-2407/)....",
           "context_length": 131072,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23292,9 +23298,10 @@
           "description": "Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](/mistralai/pixtral-large-2411) It provides a significant upgrade on the previous [Mistral Large 24.07](/mistralai/mistral-large-2407), with notable...",
           "context_length": 131072,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23344,10 +23351,11 @@
           "description": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
           "context_length": 262144,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+file->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23399,10 +23407,11 @@
           "description": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal performance with 8× lower cost...",
           "context_length": 131072,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+file->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23452,10 +23461,11 @@
           "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
           "context_length": 262144,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+file->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23511,10 +23521,11 @@
           "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
           "context_length": 131072,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+file->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23621,9 +23632,10 @@
           "description": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated regional...",
           "context_length": 32768,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23894,9 +23906,10 @@
           "description": "Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include: - strong math, coding,...",
           "context_length": 65536,
           "architecture": {
-            "modality": "text->text",
+            "modality": "text+file->text",
             "input_modalities": [
-              "text"
+              "text",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23946,10 +23959,11 @@
           "description": "Pixtral Large is a 124B parameter, open-weight, multimodal model built on top of [Mistral Large 2](/mistralai/mistral-large-2411). The model is able to understand documents, charts and natural images. The model is...",
           "context_length": 131072,
           "architecture": {
-            "modality": "text+image->text",
+            "modality": "text+image+file->text",
             "input_modalities": [
               "text",
-              "image"
+              "image",
+              "file"
             ],
             "output_modalities": [
               "text"
@@ -23999,10 +24013,11 @@
           "description": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio understanding. Input audio...",
           "context_length": 32000,
           "architecture": {
-            "modality": "text+audio->text",
+            "modality": "text+file+audio->text",
             "input_modalities": [
               "text",
-              "audio"
+              "audio",
+              "file"
             ],
             "output_modalities": [
               "text"

@@ -18971,6 +18971,55 @@
           }
         },
         {
+          "id": "deepseek/deepseek-v4-flash:free",
+          "name": "DeepSeek: DeepSeek V4 Flash (free)",
+          "canonical_slug": "deepseek/deepseek-v4-flash-20260423",
+          "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash",
+          "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
+          "context_length": 256000,
+          "architecture": {
+            "modality": "text->text",
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "DeepSeek",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0",
+            "completion": "0"
+          },
+          "top_provider": {
+            "context_length": 256000,
+            "max_completion_tokens": 256000,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "reasoning",
+            "tool_choice",
+            "tools"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260423/endpoints"
+          }
+        },
+        {
           "id": "deepseek/deepseek-v4-pro",
           "name": "DeepSeek: DeepSeek V4 Pro",
           "canonical_slug": "deepseek/deepseek-v4-pro-20260423",

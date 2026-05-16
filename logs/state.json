@@ -15755,7 +15755,7 @@
           "canonical_slug": "~moonshotai/kimi-latest",
           "hugging_face_id": null,
           "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
-          "context_length": 262142,
+          "context_length": 262144,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -16561,7 +16561,7 @@
           "canonical_slug": "anthracite-org/magnum-v4-72b",
           "hugging_face_id": "anthracite-org/magnum-v4-72b",
           "description": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\nThe model is fine-tuned on top of [Qwen2.5 72B](https://openrouter.ai/qwen/qwen-2.5-72b-instruct).",
-          "context_length": 16384,
+          "context_length": 32768,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -17840,7 +17840,7 @@
           "canonical_slug": "baidu/ernie-4.5-21b-a3b",
           "hugging_face_id": "baidu/ERNIE-4.5-21B-A3B-PT",
           "description": "A sophisticated text-based Mixture-of-Experts (MoE) model featuring 21B total parameters with 3B activated per token, delivering exceptional multimodal understanding and generation through heterogeneous MoE structures and modality-isolated routing. Supporting an...",
-          "context_length": 120000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -17946,7 +17946,7 @@
           "canonical_slug": "baidu/ernie-4.5-300b-a47b",
           "hugging_face_id": "baidu/ERNIE-4.5-300B-A47B-PT",
           "description": "ERNIE-4.5-300B-A47B is a 300B parameter Mixture-of-Experts (MoE) language model developed by Baidu as part of the ERNIE 4.5 series. It activates 47B parameters per token and supports text generation in...",
-          "context_length": 123000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -17994,7 +17994,7 @@
           "canonical_slug": "baidu/ernie-4.5-vl-28b-a3b",
           "hugging_face_id": "baidu/ERNIE-4.5-VL-28B-A3B-PT",
           "description": "A powerful multimodal Mixture-of-Experts chat model featuring 28B total parameters with 3B activated per token, delivering exceptional text and vision understanding through its innovative heterogeneous MoE structure with modality-isolated routing....",
-          "context_length": 30000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -18046,7 +18046,7 @@
           "canonical_slug": "baidu/ernie-4.5-vl-424b-a47b",
           "hugging_face_id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
           "description": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu’s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data...",
-          "context_length": 123000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -18887,7 +18887,7 @@
           "canonical_slug": "deepseek/deepseek-r1",
           "hugging_face_id": "deepseek-ai/DeepSeek-R1",
           "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass....",
-          "context_length": 64000,
+          "context_length": 163840,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -19060,7 +19060,7 @@
           "canonical_slug": "deepseek/deepseek-r1-distill-qwen-32b",
           "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
           "description": "DeepSeek R1 Distill Qwen 32B is a distilled large language model based on [Qwen 2.5 32B](https://huggingface.co/Qwen/Qwen2.5-32B), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). It outperforms OpenAI's o1-mini across various benchmarks, achieving new...",
-          "context_length": 32768,
+          "context_length": 128000,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -19352,7 +19352,7 @@
           "canonical_slug": "deepseek/deepseek-v4-flash-20260423",
           "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash",
           "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
-          "context_length": 1048575,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -20262,7 +20262,7 @@
           "canonical_slug": "google/gemini-3.1-flash-image-preview-20260226",
           "hugging_face_id": "",
           "description": "Gemini 3.1 Flash Image Preview, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines...",
-          "context_length": 65536,
+          "context_length": 131072,
           "architecture": {
             "modality": "text+image->text+image",
             "input_modalities": [
@@ -20517,7 +20517,7 @@
           "canonical_slug": "google/gemini-3.1-pro-preview-customtools-20260219",
           "hugging_face_id": null,
           "description": "Gemini 3.1 Pro Preview Custom Tools is a variant of Gemini 3.1 Pro that improves tool selection behavior by preventing overuse of a general bash tool when more efficient third-party...",
-          "context_length": 1048576,
+          "context_length": 1048756,
           "architecture": {
             "modality": "text+image+file+audio+video->text",
             "input_modalities": [
@@ -21723,7 +21723,7 @@
           "canonical_slug": "liquid/lfm-2-24b-a2b-20260224",
           "hugging_face_id": "LiquidAI/LFM2-24B-A2B",
           "description": "LFM2-24B-A2B is the largest model in the LFM2 family of hybrid architectures designed for efficient on-device deployment. Built as a 24B parameter Mixture-of-Experts model with only 2B active parameters per...",
-          "context_length": 32768,
+          "context_length": 128000,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22088,7 +22088,7 @@
           "canonical_slug": "meta-llama/llama-3.1-8b-instruct",
           "hugging_face_id": "meta-llama/Meta-Llama-3.1-8B-Instruct",
           "description": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to...",
-          "context_length": 16384,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22194,7 +22194,7 @@
           "canonical_slug": "meta-llama/llama-3.2-1b-instruct",
           "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
           "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
-          "context_length": 60000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22240,7 +22240,7 @@
           "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
           "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
           "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
-          "context_length": 80000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22384,7 +22384,7 @@
           "canonical_slug": "meta-llama/llama-3.3-70b-instruct",
           "hugging_face_id": "meta-llama/Llama-3.3-70B-Instruct",
           "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model...",
-          "context_length": 65536,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22483,7 +22483,7 @@
           "canonical_slug": "meta-llama/llama-4-scout-17b-16e-instruct",
           "hugging_face_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
           "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input...",
-          "context_length": 327680,
+          "context_length": 10000000,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -22687,7 +22687,7 @@
           "canonical_slug": "microsoft/phi-4-mini-instruct",
           "hugging_face_id": "microsoft/Phi-4-mini-instruct",
           "description": "Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4...",
-          "context_length": 128000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22737,7 +22737,7 @@
           "canonical_slug": "microsoft/wizardlm-2-8x22b",
           "hugging_face_id": "microsoft/WizardLM-2-8x22B",
           "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models. It is...",
-          "context_length": 65535,
+          "context_length": 65536,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22886,7 +22886,7 @@
           "canonical_slug": "minimax/minimax-m2",
           "hugging_face_id": "MiniMaxAI/MiniMax-M2",
           "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
-          "context_length": 196608,
+          "context_length": 204800,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -22992,7 +22992,7 @@
           "canonical_slug": "minimax/minimax-m2.1",
           "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
           "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
-          "context_length": 196608,
+          "context_length": 204800,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -23052,7 +23052,7 @@
           "canonical_slug": "minimax/minimax-m2.5-20260211",
           "hugging_face_id": "MiniMaxAI/MiniMax-M2.5",
           "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
-          "context_length": 196608,
+          "context_length": 204800,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -23118,7 +23118,7 @@
           "canonical_slug": "minimax/minimax-m2.5-20260211",
           "hugging_face_id": "MiniMaxAI/MiniMax-M2.5",
           "description": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1...",
-          "context_length": 196608,
+          "context_length": 204800,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -23171,7 +23171,7 @@
           "canonical_slug": "minimax/minimax-m2.7-20260318",
           "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
           "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
-          "context_length": 196608,
+          "context_length": 204800,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -23623,7 +23623,7 @@
           "canonical_slug": "mistralai/mistral-7b-instruct-v0.1",
           "hugging_face_id": "mistralai/Mistral-7B-Instruct-v0.1",
           "description": "A 7.3B parameter model that outperforms Llama 2 13B on all benchmarks, with optimizations for speed and context length.",
-          "context_length": 2824,
+          "context_length": 4096,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -24776,7 +24776,7 @@
           "canonical_slug": "moonshotai/kimi-k2.6-20260420",
           "hugging_face_id": "moonshotai/Kimi-K2.6",
           "description": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and...",
-          "context_length": 262142,
+          "context_length": 262144,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -25502,7 +25502,7 @@
           "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
           "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
           "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-          "context_length": 262144,
+          "context_length": 1000000,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -25565,7 +25565,7 @@
           "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
           "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
           "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-          "context_length": 262144,
+          "context_length": 1000000,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30072,7 +30072,7 @@
           "canonical_slug": "qwen/qwen-2.5-72b-instruct",
           "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
           "description": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...",
-          "context_length": 32768,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30125,7 +30125,7 @@
           "canonical_slug": "qwen/qwen-2.5-7b-instruct",
           "hugging_face_id": "Qwen/Qwen2.5-7B-Instruct",
           "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...",
-          "context_length": 32768,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30181,7 +30181,7 @@
           "canonical_slug": "qwen/qwen-2.5-coder-32b-instruct",
           "hugging_face_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
           "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5: - Significantly improvements in **code generation**, **code reasoning**...",
-          "context_length": 32768,
+          "context_length": 128000,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30381,7 +30381,7 @@
           "canonical_slug": "qwen/qwen2.5-vl-72b-instruct",
           "hugging_face_id": "Qwen/Qwen2.5-VL-72B-Instruct",
           "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-          "context_length": 32000,
+          "context_length": 131072,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -30432,7 +30432,7 @@
           "canonical_slug": "qwen/qwen3-14b-04-28",
           "hugging_face_id": "Qwen/Qwen3-14B",
           "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
-          "context_length": 40960,
+          "context_length": 131702,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30592,7 +30592,7 @@
           "canonical_slug": "qwen/qwen3-235b-a22b-thinking-2507",
           "hugging_face_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
           "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
-          "context_length": 131072,
+          "context_length": 262144,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30651,7 +30651,7 @@
           "canonical_slug": "qwen/qwen3-30b-a3b-04-28",
           "hugging_face_id": "Qwen/Qwen3-30B-A3B",
           "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
-          "context_length": 40960,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30821,7 +30821,7 @@
           "canonical_slug": "qwen/qwen3-32b-04-28",
           "hugging_face_id": "Qwen/Qwen3-32B",
           "description": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
-          "context_length": 40960,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30876,7 +30876,7 @@
           "canonical_slug": "qwen/qwen3-8b-04-28",
           "hugging_face_id": "Qwen/Qwen3-8B",
           "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
-          "context_length": 40960,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -30939,7 +30939,7 @@
           "canonical_slug": "qwen/qwen3-coder-480b-a35b-07-25",
           "hugging_face_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
           "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
-          "context_length": 262144,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -31206,7 +31206,7 @@
           "canonical_slug": "qwen/qwen3-coder-480b-a35b-07-25",
           "hugging_face_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
           "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
-          "context_length": 262000,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -31460,7 +31460,7 @@
           "canonical_slug": "qwen/qwen3-next-80b-a3b-thinking-2509",
           "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
           "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured “thinking” traces by default. It’s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
-          "context_length": 131072,
+          "context_length": 262144,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -31638,7 +31638,7 @@
           "canonical_slug": "qwen/qwen3-vl-30b-a3b-instruct",
           "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
           "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception...",
-          "context_length": 131072,
+          "context_length": 262144,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -31760,7 +31760,7 @@
           "canonical_slug": "qwen/qwen3-vl-32b-instruct",
           "hugging_face_id": "Qwen/Qwen3-VL-32B-Instruct",
           "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
-          "context_length": 131072,
+          "context_length": 262144,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -31814,7 +31814,7 @@
           "canonical_slug": "qwen/qwen3-vl-8b-instruct",
           "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
           "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...",
-          "context_length": 131072,
+          "context_length": 256000,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -31872,7 +31872,7 @@
           "canonical_slug": "qwen/qwen3-vl-8b-thinking",
           "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
           "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
-          "context_length": 131072,
+          "context_length": 256000,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [

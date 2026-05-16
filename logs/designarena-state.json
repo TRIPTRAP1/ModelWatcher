@@ -1,5 +1,5 @@
 {
-  "timestamp": 1778912790227,
+  "timestamp": 1778921488776,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -1527,14 +1527,9 @@
         ],
         "agents": [
           "agon_webapps",
-          "agon_html",
           "agon_slides"
         ]
-      },
-      "vision": true,
-      "inputModalities": [
-        "image"
-      ]
+      }
     },
     {
       "id": "ember",
@@ -2634,8 +2629,7 @@
       "vision": true,
       "inputModalities": [
         "text",
-        "image",
-        "file"
+        "image"
       ]
     },
     {
@@ -2658,9 +2652,8 @@
       },
       "vision": true,
       "inputModalities": [
-        "text",
         "image",
-        "file"
+        "text"
       ]
     },
     {
@@ -2709,8 +2702,7 @@
       "vision": true,
       "inputModalities": [
         "text",
-        "image",
-        "file"
+        "image"
       ]
     },
     {
@@ -2734,8 +2726,7 @@
       "vision": true,
       "inputModalities": [
         "text",
-        "image",
-        "file"
+        "image"
       ]
     },
     {
@@ -7006,6 +6997,23 @@
       }
     },
     {
+      "id": "glm-5.1",
+      "displayName": "GLM 5.1",
+      "provider": "zhipu",
+      "active": false,
+      "openSource": true,
+      "router": false,
+      "arenas": {
+        "agents": [
+          "agon_webapps",
+          "agon_slides",
+          "fullstack",
+          "mobileapps",
+          "nativeapps"
+        ]
+      }
+    },
+    {
       "id": "glm-5v-turbo",
       "displayName": "GLM 5V Turbo",
       "provider": "zhipu",
@@ -7317,26 +7325,6 @@
       ]
     },
     {
-      "id": "glm-5.1",
-      "displayName": "GLM 5.1",
-      "provider": "zhipu",
-      "active": false,
-      "openSource": true,
-      "router": false,
-      "arenas": {
-        "agents": [
-          "agon_webapps",
-          "agon_slides",
-          "fullstack",
-          "mobileapps",
-          "nativeapps"
-        ]
-      },
-      "inputModalities": [
-        "text"
-      ]
-    },
-    {
       "id": "marble-1.1",
       "displayName": "Marble 1.1",
       "provider": "worldlabs",
@@ -7540,8 +7528,7 @@
       "vision": true,
       "inputModalities": [
         "text",
-        "image",
-        "file"
+        "image"
       ]
     },
     {
@@ -7708,8 +7695,7 @@
       "vision": true,
       "inputModalities": [
         "text",
-        "image",
-        "file"
+        "image"
       ]
     },
     {
@@ -7910,11 +7896,7 @@
           "mobileapps"
         ]
       },
-      "vision": true,
-      "inputModalities": [
-        "text",
-        "image"
-      ]
+      "vision": true
     },
     {
       "id": "orange",
@@ -7955,77 +7937,6 @@
       "provider": "mistral",
       "active": true,
       "openSource": true,
-      "router": false,
-      "arenas": {
-        "models": [
-          "tts"
-        ]
-      }
-    },
-    {
-      "id": "recraftv4_1",
-      "displayName": "Recraft V4.1",
-      "provider": "recraft",
-      "active": true,
-      "openSource": false,
-      "router": false,
-      "arenas": {
-        "models": [
-          "image",
-          "logo",
-          "graphicdesign"
-        ]
-      }
-    },
-    {
-      "id": "recraftv4_1_pro_raster",
-      "displayName": "Recraft V4.1 Pro",
-      "provider": "recraft",
-      "active": true,
-      "openSource": false,
-      "router": false,
-      "arenas": {
-        "models": [
-          "image",
-          "logo",
-          "graphicdesign"
-        ]
-      }
-    },
-    {
-      "id": "recraftv4_1_utility_pro_raster",
-      "displayName": "Recraft V4.1 Utility Pro",
-      "provider": "recraft",
-      "active": true,
-      "openSource": false,
-      "router": false,
-      "arenas": {
-        "models": [
-          "image",
-          "logo",
-          "graphicdesign"
-        ]
-      }
-    },
-    {
-      "id": "recraftv4_1_pro_vector",
-      "displayName": "Recraft V4.1 Vector Pro",
-      "provider": "recraft",
-      "active": true,
-      "openSource": false,
-      "router": false,
-      "arenas": {
-        "models": [
-          "svg"
-        ]
-      }
-    },
-    {
-      "id": "mimo-v2.5-tts",
-      "displayName": "MiMo-V2.5 TTS",
-      "provider": "xiaomi",
-      "active": true,
-      "openSource": false,
       "router": false,
       "arenas": {
         "models": [
@@ -9178,8 +9089,8 @@
     {
       "id": "qwen3-coder-480b-a35b-instruct",
       "text": {
-        "input": 1.5,
-        "output": 7.5
+        "input": 0.861,
+        "output": 3.441
       }
     },
     {
@@ -9194,13 +9105,6 @@
       "text": {
         "input": 0.06,
         "output": 0.22
-      }
-    },
-    {
-      "id": "qwen3-30b-a3b-thinking-2507",
-      "text": {
-        "input": 0.08,
-        "output": 0.4
       }
     },
     {
@@ -9274,20 +9178,6 @@
       }
     },
     {
-      "id": "nova-pro-v1",
-      "text": {
-        "input": 0.8,
-        "output": 3.2
-      }
-    },
-    {
-      "id": "nova-premier-v1",
-      "text": {
-        "input": 2.5,
-        "output": 12.5
-      }
-    },
-    {
       "id": "claude-opus-4-1-20250805-thinking",
       "text": {
         "input": 15,
@@ -9326,13 +9216,6 @@
       "text": {
         "input": 3,
         "output": 15
-      }
-    },
-    {
-      "id": "claude-opus-4-5-20251101",
-      "text": {
-        "input": 5,
-        "output": 25
       }
     },
     {
@@ -9494,8 +9377,8 @@
     {
       "id": "deepseek-chat",
       "text": {
-        "input": 0.14,
-        "output": 0.28
+        "input": 0.28,
+        "output": 0.42
       }
     },
     {
@@ -9558,13 +9441,6 @@
       "text": {
         "input": 0.25,
         "output": 1.5
-      }
-    },
-    {
-      "id": "gemini-3-flash-preview",
-      "text": {
-        "input": 0.5,
-        "output": 3
       }
     },
     {
@@ -9717,13 +9593,6 @@
       }
     },
     {
-      "id": "gemini-3-pro-preview",
-      "text": {
-        "input": 2,
-        "output": 12
-      }
-    },
-    {
       "id": "riftrunner",
       "text": {
         "input": 2,
@@ -9817,13 +9686,6 @@
       }
     },
     {
-      "id": "claude-sonnet-4-5-20250929",
-      "text": {
-        "input": 3,
-        "output": 15
-      }
-    },
-    {
       "id": "kling-o1-edit",
       "video": {
         "perSecond": 0.168
@@ -9844,8 +9706,8 @@
     {
       "id": "mimo-v2-flash",
       "text": {
-        "input": 0.1,
-        "output": 0.3
+        "input": 0.09,
+        "output": 0.29
       }
     },
     {
@@ -9921,20 +9783,6 @@
       }
     },
     {
-      "id": "llama-4-maverick",
-      "text": {
-        "input": 0.15,
-        "output": 0.6
-      }
-    },
-    {
-      "id": "llama-4-scout",
-      "text": {
-        "input": 0.08,
-        "output": 0.3
-      }
-    },
-    {
       "id": "hailuo-2.3-standard",
       "video": {
         "perSecond": 0.082
@@ -9949,8 +9797,8 @@
     {
       "id": "minimax-m2-stable",
       "text": {
-        "input": 0.3,
-        "output": 1.2
+        "input": 0.255,
+        "output": 1
       }
     },
     {
@@ -9989,13 +9837,6 @@
       }
     },
     {
-      "id": "mistral-large-2411",
-      "text": {
-        "input": 2,
-        "output": 6
-      }
-    },
-    {
       "id": "devstral-medium-2507",
       "text": {
         "input": 0.4,
@@ -10003,17 +9844,10 @@
       }
     },
     {
-      "id": "devstral-small-2507",
-      "text": {
-        "input": 0.1,
-        "output": 0.3
-      }
-    },
-    {
       "id": "mistral-small-2506",
       "text": {
-        "input": 0.1,
-        "output": 0.3
+        "input": 0.075,
+        "output": 0.2
       }
     },
     {
@@ -10059,27 +9893,6 @@
       }
     },
     {
-      "id": "mistral-medium-latest",
-      "text": {
-        "input": 1.5,
-        "output": 7.5
-      }
-    },
-    {
-      "id": "mistral-large-latest",
-      "text": {
-        "input": 0.5,
-        "output": 1.5
-      }
-    },
-    {
-      "id": "devstral-2512",
-      "text": {
-        "input": 0.4,
-        "output": 2
-      }
-    },
-    {
       "id": "kimi-k2-0905-preview",
       "text": {
         "input": 0.6,
@@ -10094,21 +9907,7 @@
       }
     },
     {
-      "id": "kimi-k2-thinking",
-      "text": {
-        "input": 0.6,
-        "output": 2.5
-      }
-    },
-    {
       "id": "kimi-k2.5",
-      "text": {
-        "input": 0.6,
-        "output": 3
-      }
-    },
-    {
-      "id": "kimi-k2.5-thinking",
       "text": {
         "input": 0.6,
         "output": 3
@@ -10117,15 +9916,15 @@
     {
       "id": "kimi-k2-0711-preview",
       "text": {
-        "input": 0.6,
-        "output": 2.5
+        "input": 0.57,
+        "output": 2.3
       }
     },
     {
       "id": "kimi-k2-instruct-0905",
       "text": {
-        "input": 0.6,
-        "output": 2.5
+        "input": 0.4,
+        "output": 2
       }
     },
     {
@@ -10155,59 +9954,10 @@
       }
     },
     {
-      "id": "gpt-o4-mini",
-      "text": {
-        "input": 1.1,
-        "output": 4.4
-      }
-    },
-    {
-      "id": "gpt-4.1",
-      "text": {
-        "input": 2,
-        "output": 8
-      }
-    },
-    {
-      "id": "gpt-4.1-mini",
-      "text": {
-        "input": 0.4,
-        "output": 1.6
-      }
-    },
-    {
-      "id": "gpt-4.1-nano",
-      "text": {
-        "input": 0.1,
-        "output": 0.4
-      }
-    },
-    {
-      "id": "gpt-4o",
-      "text": {
-        "input": 2.5,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-oss-20b",
-      "text": {
-        "input": 0.03,
-        "output": 0.14
-      }
-    },
-    {
       "id": "gpt-oss-120b",
       "text": {
         "input": 0.15,
         "output": 0.6
-      }
-    },
-    {
-      "id": "gpt-o3",
-      "text": {
-        "input": 2,
-        "output": 8
       }
     },
     {
@@ -10219,41 +9969,6 @@
     },
     {
       "id": "gpt-5-high",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-high",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-medium",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-low",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-none",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-codex",
       "text": {
         "input": 1.25,
         "output": 10
@@ -10316,13 +10031,6 @@
       }
     },
     {
-      "id": "gpt-5-pro-2025-10-06",
-      "text": {
-        "input": 15,
-        "output": 120
-      }
-    },
-    {
       "id": "gpt-image-1",
       "text": {
         "input": 5,
@@ -10382,24 +10090,6 @@
       "id": "openai",
       "agents": {
         "perGeneration": 10
-      },
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5-codex",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-2025-11-13",
-      "text": {
-        "input": 1.25,
-        "output": 10
       }
     },
     {
@@ -10494,41 +10184,6 @@
       "text": {
         "input": 0.3,
         "output": 1.2
-      }
-    },
-    {
-      "id": "gpt-5.1-2025-11-13-low",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-2025-11-13-medium",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.1-2025-11-13-high",
-      "text": {
-        "input": 1.25,
-        "output": 10
-      }
-    },
-    {
-      "id": "gpt-5.2",
-      "text": {
-        "input": 1.75,
-        "output": 14
-      }
-    },
-    {
-      "id": "gpt-5.2-codex",
-      "text": {
-        "input": 1.75,
-        "output": 14
       }
     },
     {
@@ -10791,8 +10446,8 @@
     {
       "id": "qwen3.6-plus",
       "text": {
-        "input": 0.5,
-        "output": 3
+        "input": 0.325,
+        "output": 1.95
       }
     },
     {
@@ -10842,13 +10497,6 @@
       "text": {
         "input": 1.2,
         "output": 4
-      }
-    },
-    {
-      "id": "glm-5.1",
-      "text": {
-        "input": 1.4,
-        "output": 4.4
       }
     },
     {
@@ -11060,30 +10708,6 @@
       "id": "uni-1.1",
       "image": {
         "perImage": 0.0404
-      }
-    },
-    {
-      "id": "recraftv4_1",
-      "image": {
-        "perImage": 0.04
-      }
-    },
-    {
-      "id": "recraftv4_1_pro_raster",
-      "image": {
-        "perImage": 0.25
-      }
-    },
-    {
-      "id": "recraftv4_1_utility_pro_raster",
-      "image": {
-        "perImage": 0.25
-      }
-    },
-    {
-      "id": "recraftv4_1_pro_vector",
-      "image": {
-        "perImage": 0.3
       }
     }
   ]

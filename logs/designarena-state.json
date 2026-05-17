@@ -1,5 +1,5 @@
 {
-  "timestamp": 1779051651545,
+  "timestamp": 1779058666975,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -1512,7 +1512,10 @@
           "svg",
           "ascii"
         ]
-      }
+      },
+      "inputModalities": [
+        "text"
+      ]
     },
     {
       "id": "dune",
@@ -9671,19 +9674,19 @@
     {
       "id": "kling-v2.5-turbo-pro",
       "video": {
-        "perSecond": 0.06999999999999999
+        "perSecond": 0.07
       }
     },
     {
       "id": "kling-v2.6-pro",
       "video": {
-        "perSecond": 0.07
+        "perSecond": 0.14
       }
     },
     {
       "id": "kling-v3-pro",
       "video": {
-        "perSecond": 0.08
+        "perSecond": 0.168
       }
     },
     {
@@ -9900,6 +9903,13 @@
       }
     },
     {
+      "id": "mistral-large-2411",
+      "text": {
+        "input": 2,
+        "output": 6
+      }
+    },
+    {
       "id": "devstral-medium-2507",
       "text": {
         "input": 0.4,
@@ -9950,6 +9960,13 @@
     },
     {
       "id": "mistral-large-2512",
+      "text": {
+        "input": 0.5,
+        "output": 1.5
+      }
+    },
+    {
+      "id": "mistral-large-latest",
       "text": {
         "input": 0.5,
         "output": 1.5
@@ -10032,6 +10049,13 @@
     },
     {
       "id": "gpt-5-high",
+      "text": {
+        "input": 1.25,
+        "output": 10
+      }
+    },
+    {
+      "id": "gpt-5.1-codex",
       "text": {
         "input": 1.25,
         "output": 10
@@ -10151,8 +10175,26 @@
     },
     {
       "id": "openai",
+      "text": {
+        "input": 1.25,
+        "output": 10
+      },
       "agents": {
         "perGeneration": 10
+      }
+    },
+    {
+      "id": "gpt-5-codex",
+      "text": {
+        "input": 1.25,
+        "output": 10
+      }
+    },
+    {
+      "id": "gpt-5.1-2025-11-13",
+      "text": {
+        "input": 1.25,
+        "output": 10
       }
     },
     {
@@ -10424,7 +10466,7 @@
     {
       "id": "kling-o1-ref",
       "video": {
-        "perSecond": 0.168
+        "perSecond": 0.084
       }
     },
     {

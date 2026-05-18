@@ -256,12 +256,6 @@
           "object": "model"
         },
         {
-          "id": "gpt-4o-realtime-preview-2024-12-17",
-          "name": "gpt-4o-realtime-preview-2024-12-17",
-          "owned_by": "system",
-          "object": "model"
-        },
-        {
           "id": "gpt-4o-realtime-preview-2025-06-03",
           "name": "gpt-4o-realtime-preview-2025-06-03",
           "owned_by": "system",
@@ -21314,16 +21308,19 @@
           },
           "top_provider": {
             "context_length": 131000,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 131000,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"
@@ -22272,16 +22269,19 @@
           },
           "top_provider": {
             "context_length": 60000,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 60000,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"
@@ -22318,16 +22318,19 @@
           },
           "top_provider": {
             "context_length": 80000,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 80000,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"
@@ -22615,16 +22618,19 @@
           },
           "top_provider": {
             "context_length": 131072,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"
@@ -23701,16 +23707,19 @@
           },
           "top_provider": {
             "context_length": 2824,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 2824,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"
@@ -24357,16 +24366,19 @@
           },
           "top_provider": {
             "context_length": 128000,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 128000,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"
@@ -30257,16 +30269,19 @@
           },
           "top_provider": {
             "context_length": 32768,
-            "max_completion_tokens": null,
+            "max_completion_tokens": 32768,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
+            "logit_bias",
             "max_tokens",
+            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "seed",
+            "stop",
             "temperature",
             "top_k",
             "top_p"

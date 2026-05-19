@@ -6565,35 +6565,6 @@
           }
         },
         {
-          "id": "minimax/speech-2.8-turbo",
-          "name": "minimax/speech-2.8-turbo",
-          "object": "model",
-          "type": "audio",
-          "running": false,
-          "display_name": "Minimax Speech 2.8 Turbo",
-          "organization": "MiniMaxAI",
-          "context_length": 448,
-          "config": {
-            "chat_template": null,
-            "stop": [
-              "<|endoftext|>"
-            ],
-            "bos_token": "<|endoftext|>",
-            "eos_token": "<|endoftext|>"
-          },
-          "pricing": {
-            "hourly": 0,
-            "input": 0,
-            "output": 0,
-            "base": 0,
-            "finetune": 0,
-            "image_pixel": 0,
-            "transcribe": 0,
-            "image": 0,
-            "video": 0
-          }
-        },
-        {
           "id": "minimax/video-01-director",
           "name": "minimax/video-01-director",
           "uuid": "endpoint-d5929bff-e81e-4bab-8b20-17cb99936a68",
@@ -11589,7 +11560,8 @@
               "cache_read_tokens": 0.028000000000000004
             },
             "tags": [
-              "prompt_cache"
+              "prompt_cache",
+              "reasoning"
             ]
           }
         },

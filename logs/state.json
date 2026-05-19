@@ -6565,6 +6565,35 @@
           }
         },
         {
+          "id": "minimax/speech-2.8-turbo",
+          "name": "minimax/speech-2.8-turbo",
+          "object": "model",
+          "type": "audio",
+          "running": false,
+          "display_name": "Minimax Speech 2.8 Turbo",
+          "organization": "MiniMaxAI",
+          "context_length": 448,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<|endoftext|>"
+            ],
+            "bos_token": "<|endoftext|>",
+            "eos_token": "<|endoftext|>"
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
           "id": "minimax/video-01-director",
           "name": "minimax/video-01-director",
           "uuid": "endpoint-d5929bff-e81e-4bab-8b20-17cb99936a68",
@@ -10913,9 +10942,174 @@
       ]
     },
     "Fireworks AI": {
-      "success": false,
-      "models": [],
-      "error": "HTTP 412: Precondition Failed"
+      "success": true,
+      "models": [
+        {
+          "id": "accounts/fireworks/models/deepseek-v4-pro",
+          "name": "accounts/fireworks/models/deepseek-v4-pro",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "HF_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": false,
+          "supports_tools": true,
+          "context_length": 1048576
+        },
+        {
+          "id": "accounts/fireworks/models/flux-1-dev-fp8",
+          "name": "accounts/fireworks/models/flux-1-dev-fp8",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "FLUMINA_BASE_MODEL",
+          "supports_chat": false,
+          "supports_image_input": false,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/fireworks/models/flux-1-schnell-fp8",
+          "name": "accounts/fireworks/models/flux-1-schnell-fp8",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "FLUMINA_BASE_MODEL",
+          "supports_chat": false,
+          "supports_image_input": false,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/fireworks/models/flux-kontext-max",
+          "name": "accounts/fireworks/models/flux-kontext-max",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "FLUMINA_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/fireworks/models/flux-kontext-pro",
+          "name": "accounts/fireworks/models/flux-kontext-pro",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "FLUMINA_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/fireworks/models/glm-5p1",
+          "name": "accounts/fireworks/models/glm-5p1",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "HF_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": false,
+          "supports_tools": true,
+          "context_length": 202752
+        },
+        {
+          "id": "accounts/fireworks/models/gpt-oss-120b",
+          "name": "accounts/fireworks/models/gpt-oss-120b",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "HF_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": false,
+          "supports_tools": true,
+          "context_length": 131072
+        },
+        {
+          "id": "accounts/fireworks/models/kimi-k2p5",
+          "name": "accounts/fireworks/models/kimi-k2p5",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "HF_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": true,
+          "context_length": 262144
+        },
+        {
+          "id": "accounts/fireworks/models/kimi-k2p6",
+          "name": "accounts/fireworks/models/kimi-k2p6",
+          "owned_by": "fireworks",
+          "object": "model",
+          "kind": "HF_BASE_MODEL",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": true,
+          "context_length": 262144
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-3-3b-2512-canary-20260518-211925",
+          "name": "accounts/pyroworks/models/ministral-3-3b-2512-canary-20260518-211925",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-3-3b-2512-lora-e2e-20260518-170033",
+          "name": "accounts/pyroworks/models/ministral-3-3b-2512-lora-e2e-20260518-170033",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-3-3b-2512-lora-e2e-20260518-205100",
+          "name": "accounts/pyroworks/models/ministral-3-3b-2512-lora-e2e-20260518-205100",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": false,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-3-3b-2512-lora-smoke",
+          "name": "accounts/pyroworks/models/ministral-3-3b-2512-lora-smoke",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-canary-remap-20260518-214944",
+          "name": "accounts/pyroworks/models/ministral-canary-remap-20260518-214944",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": false,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-canary-v2-fixed-20260518-220617",
+          "name": "accounts/pyroworks/models/ministral-canary-v2-fixed-20260518-220617",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": false,
+          "supports_tools": false
+        },
+        {
+          "id": "accounts/pyroworks/models/ministral-canary-v3-20260519-054536",
+          "name": "accounts/pyroworks/models/ministral-canary-v3-20260519-054536",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        }
+      ]
     },
     "DeepInfra": {
       "success": true,
@@ -13318,7 +13512,6 @@
               "cache_read_tokens": 0.2
             },
             "tags": [
-              "vision",
               "prompt_cache",
               "reasoning"
             ]

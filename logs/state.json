@@ -11050,6 +11050,16 @@
           "supports_tools": false
         },
         {
+          "id": "accounts/pyroworks/models/ministral-3-3b-2512-canary-20260519-141009",
+          "name": "accounts/pyroworks/models/ministral-3-3b-2512-canary-20260519-141009",
+          "owned_by": "pyroworks",
+          "object": "model",
+          "kind": "HF_PEFT_ADDON",
+          "supports_chat": true,
+          "supports_image_input": true,
+          "supports_tools": false
+        },
+        {
           "id": "accounts/pyroworks/models/ministral-3-3b-2512-lora-e2e-20260518-170033",
           "name": "accounts/pyroworks/models/ministral-3-3b-2512-lora-e2e-20260518-170033",
           "owned_by": "pyroworks",
@@ -15034,7 +15044,7 @@
         },
         {
           "id": "mistral-vibe-cli-latest",
-          "name": "mistral-medium-3-5",
+          "name": "mistral-vibe-cli-latest",
           "owned_by": "mistralai",
           "object": "model",
           "capabilities": {
@@ -15052,7 +15062,7 @@
             "audio_transcription_realtime": false,
             "audio_speech": false
           },
-          "description": "Official mistral-medium-3-5 Mistral AI model",
+          "description": "Official mistral-vibe-cli-latest Mistral AI model",
           "max_context_length": 262144,
           "aliases": [],
           "deprecation": null,
@@ -35097,7 +35107,7 @@
           "canonical_slug": "z-ai/glm-5.1-20260406",
           "hugging_face_id": "zai-org/GLM-5.1",
           "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
-          "context_length": 202752,
+          "context_length": 202800,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -35110,13 +35120,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000098",
-            "completion": "0.00000308",
-            "input_cache_read": "0.000000182"
+            "prompt": "0",
+            "completion": "0"
           },
           "top_provider": {
-            "context_length": 202752,
-            "max_completion_tokens": null,
+            "context_length": 202800,
+            "max_completion_tokens": 202800,
             "is_moderated": false
           },
           "per_request_limits": null,

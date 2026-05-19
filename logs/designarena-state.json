@@ -1,5 +1,5 @@
 {
-  "timestamp": 1779225910657,
+  "timestamp": 1779232205013,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -8009,6 +8009,32 @@
           "svg"
         ]
       }
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "displayName": "Gemini 3.5 Flash",
+      "provider": "google",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "inputModalities": [
+        "text",
+        "image",
+        "file",
+        "audio",
+        "video"
+      ]
     }
   ],
   "providers": [
@@ -8207,7 +8233,7 @@
     {
       "id": "recraft",
       "displayName": "Recraft",
-      "logoName": "recraft-ai-logo-icon.jpeg"
+      "logoName": "recraft.png"
     },
     {
       "id": "wildflower",
@@ -10836,6 +10862,13 @@
       "id": "recraftv4_1_pro_vector",
       "image": {
         "perImage": 0.3
+      }
+    },
+    {
+      "id": "gemini-3.5-flash",
+      "text": {
+        "input": 1.5,
+        "output": 9
       }
     }
   ]

@@ -18653,49 +18653,6 @@
           }
         },
         {
-          "id": "baidu/cobuddy:free",
-          "name": "Baidu Qianfan: CoBuddy (free)",
-          "canonical_slug": "baidu/cobuddy-20260430",
-          "hugging_face_id": null,
-          "description": "CoBuddy is a code generation model from Baidu, optimized for coding tasks and AI Agent workflows. It features high inference throughput and low end-to-end latency, with native support for tool...",
-          "context_length": 131072,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0",
-            "completion": "0"
-          },
-          "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 65536,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "include_reasoning",
-            "max_tokens",
-            "reasoning",
-            "stop",
-            "tools"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": "2026-05-27",
-          "links": {
-            "details": "/api/v1/models/baidu/cobuddy-20260430/endpoints"
-          }
-        },
-        {
           "id": "baidu/ernie-4.5-21b-a3b",
           "name": "Baidu: ERNIE 4.5 21B A3B",
           "canonical_slug": "baidu/ernie-4.5-21b-a3b",
@@ -23046,7 +23003,6 @@
           "supported_parameters": [
             "frequency_penalty",
             "logit_bias",
-            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -23059,7 +23015,6 @@
             "tool_choice",
             "tools",
             "top_k",
-            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {},
@@ -31518,7 +31473,6 @@
           "supported_parameters": [
             "frequency_penalty",
             "logit_bias",
-            "logprobs",
             "max_tokens",
             "min_p",
             "presence_penalty",
@@ -31531,7 +31485,6 @@
             "tool_choice",
             "tools",
             "top_k",
-            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {},

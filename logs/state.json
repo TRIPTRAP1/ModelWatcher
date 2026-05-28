@@ -4209,6 +4209,38 @@
           }
         },
         {
+          "id": "deepseek-ai/DeepSeek-R1-0528",
+          "name": "deepseek-ai/DeepSeek-R1-0528",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "DeepSeek R1 0528 NVFP4",
+          "organization": "Deepseek",
+          "link": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-R1-0528",
+          "license": "mit",
+          "context_length": 163840,
+          "config": {
+            "chat_template": "{%- for message in messages -%}{%- if message.role == 'system' -%}{{- message.content -}}{%- endif -%}{%- if message.role == 'user' -%}{{- message.content -}}{%- endif -%}{%- if message.role == 'assistant' -%}{{- message.content -}}{%- endif -%}{%- if message.role == 'tool' -%}{{- message.content -}}{%- endif -%}{%- endfor -%}",
+            "stop": [
+              "<｜end▁of▁sentence｜>"
+            ],
+            "bos_token": "<｜begin▁of▁sentence｜>",
+            "eos_token": "<｜end▁of▁sentence｜>",
+            "max_output_length": 12288
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 3,
+            "output": 7,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
           "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
           "uuid": "endpoint-6bf6649d-fdfb-47e7-8f39-be4c7516c96c",
@@ -4330,6 +4362,39 @@
             "hourly": 0,
             "input": 0,
             "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.1",
+          "name": "deepseek-ai/DeepSeek-V3.1",
+          "uuid": "endpoint-3aeb420a-6f30-485f-a486-a854d1c87136",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "Deepseek V3.1 NVFP4",
+          "organization": "DeepSeek",
+          "link": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+          "license": "mit",
+          "context_length": 131072,
+          "config": {
+            "chat_template": null,
+            "stop": [
+              "<｜end▁of▁sentence｜>"
+            ],
+            "bos_token": "<｜begin▁of▁sentence｜>",
+            "eos_token": "<｜end▁of▁sentence｜>",
+            "max_output_length": 40000
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0.6,
+            "output": 1.7,
             "base": 0,
             "finetune": 0,
             "image_pixel": 0,
@@ -6778,6 +6843,33 @@
           }
         },
         {
+          "id": "MiniMaxAI/MiniMax-M2.5-FP4",
+          "name": "MiniMaxAI/MiniMax-M2.5-FP4",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "MiniMax M2.5 FP4",
+          "organization": "MiniMaxAI",
+          "context_length": 8192,
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
           "id": "MiniMaxAI/MiniMax-M2.7",
           "name": "MiniMaxAI/MiniMax-M2.7",
           "uuid": "endpoint-f657dadd-0b1a-4671-b00c-e7a14221433d",
@@ -7217,13 +7309,42 @@
           }
         },
         {
+          "id": "moonshotai/Kimi-K2.5-fp4",
+          "name": "moonshotai/Kimi-K2.5-fp4",
+          "uuid": "endpoint-0434e195-b471-4b82-92f8-37e352ff7591",
+          "object": "model",
+          "type": "chat",
+          "running": false,
+          "display_name": "Kimi K2.5 FP4",
+          "organization": "Togethercomputer",
+          "link": "https://huggingface.co/api/models/togethercomputer/Kimi-K2.5-fp4",
+          "context_length": 262144,
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0.5,
+            "output": 2.8,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": 0,
+            "video": 0
+          }
+        },
+        {
           "id": "moonshotai/Kimi-K2.6",
           "name": "moonshotai/Kimi-K2.6",
           "uuid": "endpoint-257f1462-b475-4dd5-b417-96fb54d0a513",
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Kimi K2.6 Fp4",
+          "display_name": "Kimi K2.6 FP4",
           "organization": "Moonshot AI",
           "link": "https://huggingface.co/api/models/togethercomputer/Kimi-K2.6-FP4",
           "context_length": 262144,
@@ -9687,7 +9808,7 @@
           "object": "model",
           "type": "chat",
           "running": false,
-          "display_name": "Qwen3.5 397B A17b",
+          "display_name": "Qwen3.5 397B A17b FP4",
           "organization": "Qwen",
           "link": "https://huggingface.co/api/models/Qwen/Qwen3.5-397B-A17B",
           "license": "apache-2.0",

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1779987523985,
+  "timestamp": 1779997331127,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -2351,7 +2351,7 @@
       "id": "gemini-3-pro-preview",
       "displayName": "Gemini 3 Pro Preview",
       "provider": "google",
-      "active": true,
+      "active": false,
       "openSource": false,
       "router": false,
       "arenas": {
@@ -8083,7 +8083,8 @@
           "agon_webapps",
           "agon_slides",
           "mobileapps",
-          "nativeapps"
+          "nativeapps",
+          "fullstack"
         ]
       },
       "inputModalities": [
@@ -8209,6 +8210,30 @@
           "graphicdesign"
         ]
       }
+    },
+    {
+      "id": "claude-opus-4-8",
+      "displayName": "Claude Opus 4.8",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "vision": true,
+      "inputModalities": [
+        "text",
+        "image"
+      ]
     }
   ],
   "providers": [
@@ -11107,6 +11132,13 @@
       "id": "krea-2-large",
       "image": {
         "perImage": 0.06
+      }
+    },
+    {
+      "id": "claude-opus-4-8",
+      "text": {
+        "input": 5,
+        "output": 25
       }
     }
   ]

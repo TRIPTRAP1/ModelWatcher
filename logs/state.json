@@ -20395,64 +20395,6 @@
           }
         },
         {
-          "id": "deepseek/deepseek-v3.2-speciale",
-          "name": "DeepSeek: DeepSeek V3.2 Speciale",
-          "canonical_slug": "deepseek/deepseek-v3.2-speciale-20251201",
-          "hugging_face_id": "deepseek-ai/DeepSeek-V3.2-Speciale",
-          "description": "DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 optimized for maximum reasoning and agentic performance. It builds on DeepSeek Sparse Attention (DSA) for efficient long-context processing, then scales post-training reinforcement learning...",
-          "context_length": 163840,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "DeepSeek",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.000000287",
-            "completion": "0.000000431",
-            "input_cache_read": "0.000000058"
-          },
-          "top_provider": {
-            "context_length": 163840,
-            "max_completion_tokens": 163840,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "include_reasoning",
-            "logit_bias",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "reasoning",
-            "repetition_penalty",
-            "response_format",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {
-            "temperature": 1,
-            "top_p": 0.95,
-            "frequency_penalty": null
-          },
-          "supported_voices": null,
-          "knowledge_cutoff": null,
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/deepseek/deepseek-v3.2-speciale-20251201/endpoints"
-          }
-        },
-        {
           "id": "deepseek/deepseek-v4-flash",
           "name": "DeepSeek: DeepSeek V4 Flash",
           "canonical_slug": "deepseek/deepseek-v4-flash-20260423",
@@ -34530,6 +34472,66 @@
           "expiration_date": null,
           "links": {
             "details": "/api/v1/models/stepfun/step-3.5-flash/endpoints"
+          }
+        },
+        {
+          "id": "stepfun/step-3.7-flash",
+          "name": "StepFun: Step 3.7 Flash",
+          "canonical_slug": "stepfun/step-3.7-flash-20260528",
+          "hugging_face_id": null,
+          "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters...",
+          "context_length": 256000,
+          "architecture": {
+            "modality": "text+image+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.0000002",
+            "completion": "0.00000115",
+            "input_cache_read": "0.00000004"
+          },
+          "top_provider": {
+            "context_length": 256000,
+            "max_completion_tokens": 256000,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "logprobs",
+            "max_tokens",
+            "reasoning",
+            "response_format",
+            "stop",
+            "structured_outputs",
+            "temperature",
+            "tools",
+            "top_logprobs",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/stepfun/step-3.7-flash-20260528/endpoints"
           }
         },
         {

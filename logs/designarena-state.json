@@ -1,5 +1,5 @@
 {
-  "timestamp": 1780347538223,
+  "timestamp": 1780355215822,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -1655,6 +1655,19 @@
       "id": "gamma",
       "displayName": "Gamma",
       "provider": "gamma",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
+      "id": "flower",
+      "displayName": "Flower",
+      "provider": "gamma_enhanced",
       "active": true,
       "openSource": false,
       "router": false,
@@ -6796,6 +6809,19 @@
       }
     },
     {
+      "id": "leaf",
+      "displayName": "Leaf",
+      "provider": "gamma_mcp",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "slides"
+        ]
+      }
+    },
+    {
       "id": "lemonade",
       "displayName": "Lemonade",
       "provider": "lemonade",
@@ -7408,7 +7434,7 @@
       "id": "seedance-2.0",
       "displayName": "Seedance 2.0",
       "provider": "bytedance",
-      "active": true,
+      "active": false,
       "openSource": false,
       "router": false,
       "arenas": {
@@ -7424,7 +7450,7 @@
       "id": "seedance-2.0-fast",
       "displayName": "Seedance 2.0 Fast",
       "provider": "bytedance",
-      "active": true,
+      "active": false,
       "openSource": false,
       "router": false,
       "arenas": {
@@ -8356,7 +8382,7 @@
       "id": "tomato",
       "displayName": "Tomato",
       "provider": "tomato",
-      "active": true,
+      "active": false,
       "openSource": false,
       "router": false,
       "arenas": {
@@ -8642,6 +8668,18 @@
       "id": "gamma",
       "displayName": "Gamma",
       "logoName": "gamma-logo.png",
+      "website": "https://gamma.app"
+    },
+    {
+      "id": "gamma_enhanced",
+      "displayName": "Gamma (Enhanced)",
+      "logoName": "private.png",
+      "website": "https://gamma.app"
+    },
+    {
+      "id": "gamma_mcp",
+      "displayName": "Gamma (MCP)",
+      "logoName": "private.png",
       "website": "https://gamma.app"
     },
     {

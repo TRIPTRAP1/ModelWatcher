@@ -1,5 +1,5 @@
 {
-  "timestamp": 1780444336931,
+  "timestamp": 1780462272582,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -8470,6 +8470,34 @@
           "uicomponent"
         ]
       }
+    },
+    {
+      "id": "mai-image-2.5",
+      "displayName": "MAI-Image-2.5",
+      "provider": "microsoft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "image",
+          "logo",
+          "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "mai-voice-2",
+      "displayName": "MAI-Voice-2",
+      "provider": "microsoft",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "tts"
+        ]
+      }
     }
   ],
   "providers": [
@@ -9685,6 +9713,12 @@
       "id": "storyteller",
       "displayName": "storyteller",
       "logoName": "private.png"
+    },
+    {
+      "id": "microsoft",
+      "displayName": "Microsoft",
+      "logoName": "microsoft.png",
+      "website": "https://microsoft.ai"
     }
   ],
   "pricing": [
@@ -11450,6 +11484,13 @@
       "text": {
         "input": 0.3,
         "output": 1.2
+      }
+    },
+    {
+      "id": "mai-image-2.5",
+      "text": {
+        "input": 5,
+        "output": 0
       }
     }
   ]

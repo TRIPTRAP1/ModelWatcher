@@ -12751,29 +12751,6 @@
           }
         },
         {
-          "id": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-          "name": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-          "owned_by": "deepinfra",
-          "root": "meta-llama/Meta-Llama-3.1-70B-Instruct",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Meta developed and released the Meta Llama 3.1 family of large language models (LLMs), a collection of pretrained and instruction tuned generative text models in 8B, 70B and 405B sizes",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 0.4,
-              "output_tokens": 0.4
-            },
-            "tags": [
-              "chat"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
           "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
           "name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
           "owned_by": "deepinfra",
@@ -13322,30 +13299,6 @@
               "vlm",
               "vision",
               "prompt_cache",
-              "reasoning"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
-          "id": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "name": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "owned_by": "deepinfra",
-          "root": "nvidia/NVIDIA-Nemotron-Nano-9B-v2",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model's reasoning capabilities can be controlled via a system prompt. If the user prefers the model to provide its final answer without intermediate reasoning traces, it can be configured to do so.",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 0.04,
-              "output_tokens": 0.16
-            },
-            "tags": [
-              "chat",
               "reasoning"
             ],
             "default_width": null,
@@ -13975,60 +13928,6 @@
           }
         },
         {
-          "id": "Qwen/Qwen3.5-0.8B",
-          "name": "Qwen/Qwen3.5-0.8B",
-          "owned_by": "deepinfra",
-          "root": "Qwen/Qwen3.5-0.8B",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Qwen3.5-0.8B is Alibaba's smallest model in the Qwen3.5 series, featuring a hybrid Gated Delta Networks and sparse Mixture-of-Experts architecture. Despite its compact size, it supports a 262K token context window, 201 languages, thinking/reasoning mode, and tool calling. Ideal for edge deployments, resource-constrained environments, and lightweight inference tasks.",
-            "context_length": 262144,
-            "max_tokens": 262144,
-            "pricing": {
-              "input_tokens": 0.01,
-              "output_tokens": 0.05
-            },
-            "tags": [
-              "chat",
-              "vlm",
-              "vision",
-              "reasoning_effort",
-              "reasoning"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
-          "id": "Qwen/Qwen3.5-122B-A10B",
-          "name": "Qwen/Qwen3.5-122B-A10B",
-          "owned_by": "deepinfra",
-          "root": "Qwen/Qwen3.5-122B-A10B",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Qwen3.5-122B-A10B is a large Mixture-of-Experts model from Alibaba's Qwen3.5 series with 122B total parameters and 10B activated per token. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Excels at complex reasoning, coding, multimodal understanding, and agentic tasks with the efficiency of sparse activation.",
-            "context_length": 262144,
-            "max_tokens": 262144,
-            "pricing": {
-              "input_tokens": 0.29,
-              "output_tokens": 2.4
-            },
-            "tags": [
-              "chat",
-              "vlm",
-              "vision",
-              "reasoning_effort",
-              "reasoning"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
           "id": "Qwen/Qwen3.5-27B",
           "name": "Qwen/Qwen3.5-27B",
           "owned_by": "deepinfra",
@@ -14042,33 +13941,6 @@
             "pricing": {
               "input_tokens": 0.26,
               "output_tokens": 2.5999999999999996
-            },
-            "tags": [
-              "chat",
-              "vlm",
-              "vision",
-              "reasoning_effort",
-              "reasoning"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
-          "id": "Qwen/Qwen3.5-2B",
-          "name": "Qwen/Qwen3.5-2B",
-          "owned_by": "deepinfra",
-          "root": "Qwen/Qwen3.5-2B",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Qwen3.5-2B is a compact yet capable model from Alibaba's Qwen3.5 series. It features a 262K token context window, support for 201 languages, thinking/reasoning mode, and tool calling for agentic workflows. A strong choice for prototyping, fine-tuning, and efficient multilingual deployments.",
-            "context_length": 262144,
-            "max_tokens": 262144,
-            "pricing": {
-              "input_tokens": 0.02,
-              "output_tokens": 0.1
             },
             "tags": [
               "chat",
@@ -14123,42 +13995,15 @@
             "context_length": 262144,
             "max_tokens": 262144,
             "pricing": {
-              "input_tokens": 0.49,
-              "output_tokens": 3.6,
-              "cache_read_tokens": 0.30000000099999996
+              "input_tokens": 0.45,
+              "output_tokens": 2.9999999999999996,
+              "cache_read_tokens": 0.22000000050000001
             },
             "tags": [
               "chat",
               "vlm",
               "vision",
               "prompt_cache",
-              "reasoning_effort",
-              "reasoning"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
-          "id": "Qwen/Qwen3.5-4B",
-          "name": "Qwen/Qwen3.5-4B",
-          "owned_by": "deepinfra",
-          "root": "Qwen/Qwen3.5-4B",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "Qwen3.5-4B is a mid-size model from Alibaba's Qwen3.5 series that delivers a strong balance of performance and efficiency. It features a 262K token context window (extensible to 1M with YaRN), thinking/reasoning mode, tool calling, and support for 201 languages. Well-suited for complex reasoning, code generation, and agentic applications.",
-            "context_length": 262144,
-            "max_tokens": 262144,
-            "pricing": {
-              "input_tokens": 0.030000000000000002,
-              "output_tokens": 0.15
-            },
-            "tags": [
-              "chat",
-              "vlm",
-              "vision",
               "reasoning_effort",
               "reasoning"
             ],
@@ -26586,7 +26431,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": "2025-03-31",
-          "expiration_date": null,
+          "expiration_date": "2026-06-11",
           "links": {
             "details": "/api/v1/models/nvidia/nemotron-nano-9b-v2/endpoints"
           }

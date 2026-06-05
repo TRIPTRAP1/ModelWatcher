@@ -11935,30 +11935,6 @@
           }
         },
         {
-          "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-          "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-          "owned_by": "deepinfra",
-          "root": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-          "parent": null,
-          "object": "model",
-          "metadata": {
-            "description": "DeepSeek-R1-Distill-Llama-70B is a highly efficient language model that leverages knowledge distillation to achieve state-of-the-art performance. This model distills the reasoning patterns of larger models into a smaller, more agile architecture, resulting in exceptional results on benchmarks like AIME 2024, MATH-500, and LiveCodeBench. With 70 billion parameters, DeepSeek-R1-Distill-Llama-70B offers a unique balance of accuracy and efficiency, making it an ideal choice for a wide range of natural language processing tasks.",
-            "context_length": 131072,
-            "max_tokens": 131072,
-            "pricing": {
-              "input_tokens": 0.7,
-              "output_tokens": 0.8
-            },
-            "tags": [
-              "chat",
-              "reasoning"
-            ],
-            "default_width": null,
-            "default_height": null,
-            "default_iterations": null
-          }
-        },
-        {
           "id": "deepseek-ai/DeepSeek-V3",
           "name": "deepseek-ai/DeepSeek-V3",
           "owned_by": "deepinfra",
@@ -19946,7 +19922,7 @@
           "default_parameters": {},
           "supported_voices": null,
           "knowledge_cutoff": "2024-07-31",
-          "expiration_date": null,
+          "expiration_date": "2026-06-11",
           "links": {
             "details": "/api/v1/models/deepseek/deepseek-r1-distill-llama-70b/endpoints"
           }
@@ -22844,10 +22820,10 @@
           },
           "pricing": {
             "prompt": "0.00000002",
-            "completion": "0.00000005"
+            "completion": "0.00000003"
           },
           "top_provider": {
-            "context_length": 16384,
+            "context_length": 131072,
             "max_completion_tokens": 16384,
             "is_moderated": false
           },

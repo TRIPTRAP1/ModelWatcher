@@ -1,5 +1,5 @@
 {
-  "timestamp": 1780863453585,
+  "timestamp": 1780870221127,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -8380,9 +8380,9 @@
     },
     {
       "id": "tomato",
-      "displayName": "Tomato",
-      "provider": "tomato",
-      "active": false,
+      "displayName": "Grok Imagine Video 1.5 Preview",
+      "provider": "xai",
+      "active": true,
       "openSource": false,
       "router": false,
       "arenas": {
@@ -8511,6 +8511,22 @@
           "image",
           "logo",
           "graphicdesign"
+        ]
+      }
+    },
+    {
+      "id": "uni-1.1-max",
+      "displayName": "UNI-1.1 Max",
+      "provider": "lumalabs",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "logo",
+          "image",
+          "graphicdesign",
+          "imagetoimage"
         ]
       }
     }
@@ -11501,6 +11517,12 @@
       }
     },
     {
+      "id": "tomato",
+      "video": {
+        "perSecond": 0.08
+      }
+    },
+    {
       "id": "minimax-m3",
       "text": {
         "input": 0.3,
@@ -11511,6 +11533,12 @@
       "id": "krea-2-turbo",
       "image": {
         "perImage": 0.015
+      }
+    },
+    {
+      "id": "uni-1.1-max",
+      "image": {
+        "perImage": 0.1
       }
     }
   ]

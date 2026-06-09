@@ -1,5 +1,5 @@
 {
-  "timestamp": 1781021268049,
+  "timestamp": 1781032850728,
   "models": [
     {
       "id": "qwen3-coder-480b-a35b-instruct",
@@ -7015,6 +7015,30 @@
           "graphicdesign"
         ]
       }
+    },
+    {
+      "id": "claude-fable-5",
+      "displayName": "Claude Fable 5",
+      "provider": "anthropic",
+      "active": true,
+      "openSource": false,
+      "router": false,
+      "arenas": {
+        "models": [
+          "website",
+          "3d",
+          "dataviz",
+          "gamedev",
+          "uicomponent",
+          "svg",
+          "ascii"
+        ]
+      },
+      "vision": true,
+      "inputModalities": [
+        "text",
+        "image"
+      ]
     }
   ],
   "providers": [
@@ -10050,6 +10074,13 @@
       "id": "krea-2-turbo",
       "image": {
         "perImage": 0.015
+      }
+    },
+    {
+      "id": "claude-fable-5",
+      "text": {
+        "input": 10,
+        "output": 50
       }
     }
   ]

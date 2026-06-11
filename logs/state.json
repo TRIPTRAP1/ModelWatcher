@@ -7945,6 +7945,36 @@
           }
         },
         {
+          "id": "openai/gpt-image-2",
+          "name": "openai/gpt-image-2",
+          "uuid": "endpoint-3a75d1cd-a76f-4277-b7f6-a6c62d05901b",
+          "object": "model",
+          "type": "image",
+          "running": false,
+          "display_name": "GPT Image 2",
+          "organization": "OpenAI",
+          "config": {
+            "chat_template": null,
+            "stop": [],
+            "bos_token": null,
+            "eos_token": null
+          },
+          "pricing": {
+            "hourly": 0,
+            "input": 0,
+            "output": 0,
+            "base": 0,
+            "finetune": 0,
+            "image_pixel": 0,
+            "transcribe": 0,
+            "image": {
+              "example_price": 0.053,
+              "example_description": "0.006 - 0.165 per image based on size and quality"
+            },
+            "video": 0
+          }
+        },
+        {
           "id": "openai/gpt-oss-120b",
           "name": "openai/gpt-oss-120b",
           "uuid": "endpoint-cf361a3e-47d0-4dfc-851a-97098881e6a2",
@@ -25150,13 +25180,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000004",
-            "completion": "0.0000019",
-            "input_cache_read": "0.00000009"
+            "prompt": "0.00000035",
+            "completion": "0.00000189"
           },
           "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 262144,
+            "context_length": 256000,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -34820,6 +34849,7 @@
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
+            "logprobs",
             "max_tokens",
             "presence_penalty",
             "reasoning",
@@ -34831,6 +34861,7 @@
             "tool_choice",
             "tools",
             "top_k",
+            "top_logprobs",
             "top_p"
           ],
           "default_parameters": {

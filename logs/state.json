@@ -3,7 +3,7 @@
     "HuggingFace": {
       "success": false,
       "models": [],
-      "error": "API key not found in env variable: HF_TOKEN"
+      "error": "getaddrinfo ENOTFOUND api-inference.huggingface.co"
     },
     "OpenRouter": {
       "success": true,
@@ -25579,9 +25579,255 @@
       ]
     },
     "Ollama": {
-      "success": false,
-      "models": [],
-      "error": "getaddrinfo ENOTFOUND api.ollama.ai"
+      "success": true,
+      "models": [
+        {
+          "id": "cogito-2.1:671b",
+          "name": "cogito-2.1:671b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "deepseek-v3.1:671b",
+          "name": "deepseek-v3.1:671b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "deepseek-v3.2",
+          "name": "deepseek-v3.2",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "deepseek-v4-flash",
+          "name": "deepseek-v4-flash",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "deepseek-v4-pro",
+          "name": "deepseek-v4-pro",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "devstral-2:123b",
+          "name": "devstral-2:123b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "devstral-small-2:24b",
+          "name": "devstral-small-2:24b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gemini-3-flash-preview",
+          "name": "gemini-3-flash-preview",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gemma3:12b",
+          "name": "gemma3:12b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gemma3:27b",
+          "name": "gemma3:27b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gemma3:4b",
+          "name": "gemma3:4b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gemma4:31b",
+          "name": "gemma4:31b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "glm-4.6",
+          "name": "glm-4.6",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "glm-4.7",
+          "name": "glm-4.7",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "glm-5.1",
+          "name": "glm-5.1",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gpt-oss:120b",
+          "name": "gpt-oss:120b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "gpt-oss:20b",
+          "name": "gpt-oss:20b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "kimi-k2-thinking",
+          "name": "kimi-k2-thinking",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "kimi-k2:1t",
+          "name": "kimi-k2:1t",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "kimi-k2.6",
+          "name": "kimi-k2.6",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "minimax-m2",
+          "name": "minimax-m2",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "minimax-m2.1",
+          "name": "minimax-m2.1",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "minimax-m2.5",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "minimax-m2.7",
+          "name": "minimax-m2.7",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "minimax-m3",
+          "name": "minimax-m3",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "ministral-3:14b",
+          "name": "ministral-3:14b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "ministral-3:3b",
+          "name": "ministral-3:3b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "ministral-3:8b",
+          "name": "ministral-3:8b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "mistral-large-3:675b",
+          "name": "mistral-large-3:675b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "nemotron-3-nano:30b",
+          "name": "nemotron-3-nano:30b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "nemotron-3-super",
+          "name": "nemotron-3-super",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "nemotron-3-ultra",
+          "name": "nemotron-3-ultra",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "qwen3-coder-next",
+          "name": "qwen3-coder-next",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "qwen3-coder:480b",
+          "name": "qwen3-coder:480b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "qwen3-next:80b",
+          "name": "qwen3-next:80b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "qwen3-vl:235b",
+          "name": "qwen3-vl:235b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "qwen3-vl:235b-instruct",
+          "name": "qwen3-vl:235b-instruct",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "qwen3.5:397b",
+          "name": "qwen3.5:397b",
+          "owned_by": "ollama",
+          "object": "model"
+        },
+        {
+          "id": "rnj-1:8b",
+          "name": "rnj-1:8b",
+          "owned_by": "ollama",
+          "object": "model"
+        }
+      ]
     }
   }
 }

@@ -11993,8 +11993,8 @@
           "object": "model",
           "metadata": {
             "description": "DeepSeek-V3-0324, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token, an improved iteration over DeepSeek-V3.",
-            "context_length": 163840,
-            "max_tokens": 163840,
+            "context_length": 32768,
+            "max_tokens": 32768,
             "pricing": {
               "input_tokens": 0.2,
               "output_tokens": 0.77,
@@ -20765,7 +20765,7 @@
           "canonical_slug": "deepseek/deepseek-chat-v3-0324",
           "hugging_face_id": "deepseek-ai/DeepSeek-V3-0324",
           "description": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs really well...",
-          "context_length": 163840,
+          "context_length": 131072,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -20783,7 +20783,7 @@
             "input_cache_read": "0.000000135"
           },
           "top_provider": {
-            "context_length": 163840,
+            "context_length": 32768,
             "max_completion_tokens": 16384,
             "is_moderated": false
           },
@@ -28459,12 +28459,13 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000035",
-            "completion": "0.00000189"
+            "prompt": "0.0000004",
+            "completion": "0.0000019",
+            "input_cache_read": "0.00000009"
           },
           "top_provider": {
-            "context_length": 256000,
-            "max_completion_tokens": null,
+            "context_length": 262144,
+            "max_completion_tokens": 262144,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -38598,12 +38599,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000289",
-            "completion": "0.0000024"
+            "prompt": "0.000000287",
+            "completion": "0.0000031"
           },
           "top_provider": {
-            "context_length": 131072,
-            "max_completion_tokens": 131072,
+            "context_length": 262140,
+            "max_completion_tokens": 262140,
             "is_moderated": false
           },
           "per_request_limits": null,

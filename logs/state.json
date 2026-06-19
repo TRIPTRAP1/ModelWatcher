@@ -239,8 +239,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 167.6,
-              "throughput": 64.56351167542857,
+              "first_token_latency_ms": 170,
+              "throughput": 65.24480456282485,
               "is_model_author": true
             }
           ]
@@ -265,8 +265,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 184.2,
-              "throughput": 42.66605204596503,
+              "first_token_latency_ms": 193,
+              "throughput": 41.49394711136064,
               "is_model_author": true
             }
           ]
@@ -841,8 +841,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1247.4,
-              "throughput": 32.339271473920164,
+              "first_token_latency_ms": 1202.4,
+              "throughput": 33.59383903107405,
               "is_model_author": false
             }
           ]
@@ -872,8 +872,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 956.6,
-              "throughput": 28.836011599389924,
+              "first_token_latency_ms": 855.8,
+              "throughput": 35.99424812935233,
               "is_model_author": false
             },
             {
@@ -909,8 +909,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1419.6,
-              "throughput": 25.35934256329027,
+              "first_token_latency_ms": 1597,
+              "throughput": 26.909502106486578,
               "is_model_author": false
             },
             {
@@ -946,8 +946,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1464.4,
-              "throughput": 29.20086875410525,
+              "first_token_latency_ms": 1602.4,
+              "throughput": 27.98729207229602,
               "is_model_author": false
             },
             {
@@ -983,8 +983,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1422.6,
-              "throughput": 27.176467580415,
+              "first_token_latency_ms": 1179.2,
+              "throughput": 34.685757904474194,
               "is_model_author": false
             },
             {
@@ -1030,8 +1030,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1049.4,
-              "throughput": 28.728777034272063,
+              "first_token_latency_ms": 1013,
+              "throughput": 26.898955757086963,
               "is_model_author": false
             }
           ]
@@ -1169,9 +1169,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 453.2,
-              "throughput": 48.522647100426184,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1331.4,
+              "throughput": 5.944463344543129,
               "is_model_author": false
             }
           ]
@@ -1266,9 +1266,9 @@
               "status": "live",
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 469,
-              "throughput": 47.638574118380404,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 580.8,
+              "throughput": 44.39880209763755,
               "is_model_author": false
             },
             {
@@ -1372,10 +1372,10 @@
                 "output": 0.4
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2053.6666666666665,
-              "throughput": 37.18170069084156,
+              "first_token_latency_ms": 2136.75,
+              "throughput": 38.026866942231706,
               "is_model_author": false
             },
             {
@@ -1572,8 +1572,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 499.8,
-              "throughput": 138.9091487709963,
+              "first_token_latency_ms": 545.8,
+              "throughput": 151.93885937890911,
               "is_model_author": false
             },
             {
@@ -1694,9 +1694,41 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 324.8,
-              "throughput": 36.297814336156556,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 437.4,
+              "throughput": 35.97234057092364,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.27,
+                "output": 0.85
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1024,
+              "throughput": 20.304108087156642,
               "is_model_author": false
             }
           ]
@@ -1727,8 +1759,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 318.4,
-              "throughput": 386.0843127681955,
+              "first_token_latency_ms": 263.8,
+              "throughput": 396.2178958657056,
               "is_model_author": false
             },
             {
@@ -1935,8 +1967,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1246.6,
-              "throughput": 78.28326720816321,
+              "first_token_latency_ms": 1135.6,
+              "throughput": 74.12906565967515,
               "is_model_author": false
             },
             {
@@ -2125,8 +2157,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1306.6,
-              "throughput": 34.709329362219435,
+              "first_token_latency_ms": 1310.8,
+              "throughput": 37.06793711275601,
               "is_model_author": false
             },
             {
@@ -2140,8 +2172,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 709,
-              "throughput": 33.56915758287025,
+              "first_token_latency_ms": 592.8,
+              "throughput": 71.96173206390276,
               "is_model_author": false
             },
             {
@@ -2187,8 +2219,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1749,
-              "throughput": 24.204004534358454,
+              "first_token_latency_ms": 1451.8,
+              "throughput": 28.899817875633534,
               "is_model_author": false
             },
             {
@@ -2224,8 +2256,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1304.8,
-              "throughput": 26.081614363294573,
+              "first_token_latency_ms": 1459.6,
+              "throughput": 29.137778902886993,
               "is_model_author": false
             },
             {
@@ -2261,8 +2293,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1044,
-              "throughput": 61.30268270653421,
+              "first_token_latency_ms": 1200.2,
+              "throughput": 43.72055338671462,
               "is_model_author": false
             },
             {
@@ -2299,8 +2331,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1245.2,
-              "throughput": 42.25428459659186,
+              "first_token_latency_ms": 695.6,
+              "throughput": 65.36997137389321,
               "is_model_author": false
             },
             {
@@ -2310,8 +2342,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 345.6,
-              "throughput": 58.465988246023514,
+              "first_token_latency_ms": 452.2,
+              "throughput": 63.84637671200729,
               "is_model_author": false
             },
             {
@@ -2358,8 +2390,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 833.2,
-              "throughput": 59.59703362333407,
+              "first_token_latency_ms": 839.8,
+              "throughput": 59.107658604798665,
               "is_model_author": false
             },
             {
@@ -2432,8 +2464,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1124.6,
-              "throughput": 45.198324982123786,
+              "first_token_latency_ms": 958.4,
+              "throughput": 61.04873340001277,
               "is_model_author": false
             },
             {
@@ -2447,8 +2479,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1788.2,
-              "throughput": 41.5791258356156,
+              "first_token_latency_ms": 518.4,
+              "throughput": 107.73340228424203,
               "is_model_author": false
             },
             {
@@ -2457,8 +2489,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 705.4,
-              "throughput": 113.44815306019966,
+              "first_token_latency_ms": 757.4,
+              "throughput": 132.82340059731195,
               "is_model_author": false
             },
             {
@@ -2473,8 +2505,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 883.8,
-              "throughput": 15.133449686619537,
+              "first_token_latency_ms": 636.2,
+              "throughput": 16.53122362645717,
               "is_model_author": false
             }
           ]
@@ -2499,8 +2531,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 821.4,
-              "throughput": 108.00933320438564,
+              "first_token_latency_ms": 957,
+              "throughput": 107.02220903607618,
               "is_model_author": false
             }
           ]
@@ -2540,8 +2572,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 442.2,
-              "throughput": 159.23201068633065,
+              "first_token_latency_ms": 440.4,
+              "throughput": 161.00628366083967,
               "is_model_author": false
             }
           ]
@@ -2571,8 +2603,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 289.8,
-              "throughput": 432.51773470607134,
+              "first_token_latency_ms": 267.2,
+              "throughput": 434.1648793356752,
               "is_model_author": false
             },
             {
@@ -2586,8 +2618,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 376,
-              "throughput": 166.00164253439843,
+              "first_token_latency_ms": 415.8,
+              "throughput": 115.08338823622526,
               "is_model_author": false
             },
             {
@@ -2602,6 +2634,21 @@
               "supports_structured_output": false,
               "first_token_latency_ms": 157.2,
               "throughput": 1123.0066144723494,
+              "is_model_author": false
+            },
+            {
+              "provider": "sambanova",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.22,
+                "output": 0.59
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1323,
+              "throughput": 430.02531420930046,
               "is_model_author": false
             },
             {
@@ -2676,8 +2723,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 321,
-              "throughput": 103.30086605225429,
+              "first_token_latency_ms": 318.2,
+              "throughput": 109.48446586355776,
               "is_model_author": false
             },
             {
@@ -2686,8 +2733,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 737.4,
-              "throughput": 43.04731815079652,
+              "first_token_latency_ms": 670.8,
+              "throughput": 56.93794786629344,
               "is_model_author": false
             }
           ]
@@ -2717,8 +2764,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 195.6,
-              "throughput": 669.5411235954252,
+              "first_token_latency_ms": 89.2,
+              "throughput": 869.0372417604791,
               "is_model_author": false
             },
             {
@@ -2762,8 +2809,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 263.6,
-              "throughput": 107.76700612854532,
+              "first_token_latency_ms": 303.4,
+              "throughput": 123.3977381701367,
               "is_model_author": false
             },
             {
@@ -2796,10 +2843,10 @@
                 "output": 0.18
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 1063.2,
-              "throughput": 29.009440907359725,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 733.5,
+              "throughput": 35.69813980021804,
               "is_model_author": false
             },
             {
@@ -2808,8 +2855,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1503,
-              "throughput": 91.88449125110387,
+              "first_token_latency_ms": 451.8,
+              "throughput": 98.95998351720397,
               "is_model_author": false
             }
           ]
@@ -2835,8 +2882,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 646.8,
-              "throughput": 584.9378122981801,
+              "first_token_latency_ms": 264,
+              "throughput": 728.0211643876002,
               "is_model_author": false
             },
             {
@@ -3106,8 +3153,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 639,
-              "throughput": 35.40518909055949,
+              "first_token_latency_ms": 620.6,
+              "throughput": 25.57644008544277,
               "is_model_author": false
             }
           ]
@@ -3226,8 +3273,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1299.2,
-              "throughput": 48.14482103955563,
+              "first_token_latency_ms": 1201.2,
+              "throughput": 45.30524644881259,
               "is_model_author": false
             },
             {
@@ -3334,8 +3381,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 390.4,
-              "throughput": 279.8897683148445,
+              "first_token_latency_ms": 925.2,
+              "throughput": 224.81346858275438,
               "is_model_author": false
             },
             {
@@ -3386,8 +3433,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 628.2,
-              "throughput": 147.11562706870978,
+              "first_token_latency_ms": 519,
+              "throughput": 137.44554210817395,
               "is_model_author": false
             },
             {
@@ -3423,45 +3470,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 664.8,
-              "throughput": 155.20319880308392,
-              "is_model_author": false
-            },
-            {
-              "provider": "featherless-ai",
-              "status": "live",
-              "is_free": false,
-              "is_model_author": false
-            }
-          ]
-        },
-        {
-          "id": "Qwen/Qwen3-8B",
-          "name": "Qwen/Qwen3-8B",
-          "owned_by": "Qwen",
-          "object": "model",
-          "architecture": {
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ]
-          },
-          "providers": [
-            {
-              "provider": "nscale",
-              "status": "live",
-              "context_length": 40960,
-              "pricing": {
-                "input": 0.07,
-                "output": 0.18
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 690.6,
-              "throughput": 129.37167393770838,
+              "first_token_latency_ms": 572,
+              "throughput": 130.93292792248099,
               "is_model_author": false
             },
             {
@@ -3498,8 +3508,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 306.6,
-              "throughput": 130.02816198124765,
+              "first_token_latency_ms": 395,
+              "throughput": 106.48599701743146,
               "is_model_author": false
             },
             {
@@ -3513,8 +3523,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 304.4,
-              "throughput": 66.27916905868668,
+              "first_token_latency_ms": 490.5,
+              "throughput": 28.08121379275383,
               "is_model_author": false
             }
           ]
@@ -3655,8 +3665,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 973.4,
-              "throughput": 156.66247955561963,
+              "first_token_latency_ms": 755.2,
+              "throughput": 90.73572108126382,
               "is_model_author": false
             }
           ]
@@ -3795,8 +3805,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1070.2,
-              "throughput": 102.80023909801773,
+              "first_token_latency_ms": 1033.8,
+              "throughput": 115.80025879326612,
               "is_model_author": false
             }
           ]
@@ -3826,9 +3836,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 670.6,
-              "throughput": 73.42990739398326,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 577.2,
+              "throughput": 77.50964904125765,
               "is_model_author": false
             },
             {
@@ -3912,8 +3922,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 826.4,
-              "throughput": 63.37434074746299,
+              "first_token_latency_ms": 996.4,
+              "throughput": 58.818593309741026,
               "is_model_author": false
             },
             {
@@ -4048,8 +4058,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 732.4,
-              "throughput": 116.20653615567105,
+              "first_token_latency_ms": 388.8,
+              "throughput": 118.80028144495914,
               "is_model_author": false
             },
             {
@@ -4095,8 +4105,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 268.6,
-              "throughput": 61.51905088494658,
+              "first_token_latency_ms": 353.2,
+              "throughput": 94.56395575220434,
               "is_model_author": false
             },
             {
@@ -4116,8 +4126,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 353.6,
-              "throughput": 40.556633501088385,
+              "first_token_latency_ms": 339.4,
+              "throughput": 41.67515058768814,
               "is_model_author": false
             },
             {
@@ -4159,8 +4169,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 767.2,
-              "throughput": 65.39408277041846,
+              "first_token_latency_ms": 413.5,
+              "throughput": 74.53247358589132,
               "is_model_author": false
             },
             {
@@ -4318,8 +4328,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 277.4,
-              "throughput": 39.64968166585116,
+              "first_token_latency_ms": 270.4,
+              "throughput": 47.76507057300631,
               "is_model_author": false
             }
           ]
@@ -4422,9 +4432,9 @@
               },
               "is_free": false,
               "supports_tools": false,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 733.8,
-              "throughput": 125.42425926153669,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3518.4,
+              "throughput": 80.96533529841902,
               "is_model_author": false
             }
           ]
@@ -4516,8 +4526,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1077.2,
-              "throughput": 43.19583965186589,
+              "first_token_latency_ms": 859.4,
+              "throughput": 45.5221982023621,
               "is_model_author": false
             }
           ]
@@ -4877,8 +4887,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 332.8,
-              "throughput": 356.6886756296557,
+              "first_token_latency_ms": 284.2,
+              "throughput": 267.03391418498563,
               "is_model_author": false
             },
             {
@@ -5079,14 +5089,29 @@
           },
           "providers": [
             {
+              "provider": "together",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1013.2,
+              "throughput": 89.19046029329357,
+              "is_model_author": false
+            },
+            {
               "provider": "fireworks-ai",
               "status": "live",
               "context_length": 202752,
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1144.8,
-              "throughput": 62.058186342013606,
+              "first_token_latency_ms": 1009.6,
+              "throughput": 56.68229489098659,
               "is_model_author": false
             },
             {
@@ -5099,10 +5124,10 @@
               "provider": "zai-org",
               "status": "live",
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 3722.6,
-              "throughput": 32.337697023617295,
+              "first_token_latency_ms": 3545.2,
+              "throughput": 36.3264235501142,
               "is_model_author": true
             },
             {
@@ -5143,8 +5168,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1464.6,
-              "throughput": 71.58537075468033,
+              "first_token_latency_ms": 1034.4,
+              "throughput": 67.02607260172098,
               "is_model_author": false
             },
             {
@@ -5194,8 +5219,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 499,
-              "throughput": 109.86351668040379,
+              "first_token_latency_ms": 930,
+              "throughput": 126.82069239589069,
               "is_model_author": false
             },
             {
@@ -5230,8 +5255,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 717.4,
-              "throughput": 30.14341045641651,
+              "first_token_latency_ms": 729,
+              "throughput": 36.15724623712249,
               "is_model_author": false
             }
           ]

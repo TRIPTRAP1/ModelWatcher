@@ -33,8 +33,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1055,
-              "throughput": 53.83000484470043,
+              "first_token_latency_ms": 1483.6,
+              "throughput": 50.1558324773152,
               "is_model_author": false
             }
           ]
@@ -68,9 +68,37 @@
               },
               "is_free": false,
               "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1240.6,
+              "throughput": 47.45193698521505,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "allenai/Olmo-3-7B-Instruct",
+          "name": "allenai/Olmo-3-7B-Instruct",
+          "owned_by": "allenai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1769.5,
-              "throughput": 43.98020062021922,
               "is_model_author": false
             }
           ]
@@ -100,8 +128,40 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 715.8,
-              "throughput": 22.63805111622882,
+              "first_token_latency_ms": 935.8,
+              "throughput": 11.97121456795286,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+          "name": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+          "owned_by": "baidu",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 123000,
+              "pricing": {
+                "input": 0.42,
+                "output": 1.25
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 947.8,
+              "throughput": 45.96013583257221,
               "is_model_author": false
             }
           ]
@@ -153,8 +213,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 207.6,
-              "throughput": 42.16514768348641,
+              "first_token_latency_ms": 350.2,
+              "throughput": 41.955433109651096,
               "is_model_author": true
             }
           ]
@@ -177,10 +237,10 @@
               "provider": "cohere",
               "status": "live",
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 269,
-              "throughput": 47.4305219362017,
+              "first_token_latency_ms": 288.2,
+              "throughput": 40.936803048888905,
               "is_model_author": true
             }
           ]
@@ -231,8 +291,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 545,
-              "throughput": 85.76436067489172,
+              "first_token_latency_ms": 184.8,
+              "throughput": 74.49524195261414,
               "is_model_author": true
             }
           ]
@@ -255,7 +315,7 @@
               "provider": "cohere",
               "status": "live",
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 348.8,
               "throughput": 104.862738861774,
@@ -281,7 +341,7 @@
               "provider": "cohere",
               "status": "live",
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 694.8,
               "throughput": 59.871735302236516,
@@ -362,8 +422,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 203.4,
-              "throughput": 132.27860301528582,
+              "first_token_latency_ms": 274.8,
+              "throughput": 131.43314171768196,
               "is_model_author": true
             }
           ]
@@ -388,8 +448,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 373.6,
-              "throughput": 131.4031533744998,
+              "first_token_latency_ms": 282,
+              "throughput": 130.8635470856062,
               "is_model_author": true
             }
           ]
@@ -414,9 +474,71 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 235.6,
-              "throughput": 132.05727837548878,
+              "first_token_latency_ms": 301.8,
+              "throughput": 130.83816455740566,
               "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "deepcogito/cogito-671b-v2.1",
+          "name": "deepcogito/cogito-671b-v2.1",
+          "owned_by": "deepcogito",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 1.25,
+                "output": 1.25
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 298.8,
+              "throughput": 74.51882368371392,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepcogito/cogito-671b-v2.1-FP8",
+          "name": "deepcogito/cogito-671b-v2.1-FP8",
+          "owned_by": "deepcogito",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 1.25,
+                "output": 1.25
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 234.6,
+              "throughput": 72.37998141561067,
+              "is_model_author": false
             }
           ]
         },
@@ -445,8 +567,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 255.8,
-              "throughput": 146.13648242616057,
+              "first_token_latency_ms": 385.8,
+              "throughput": 148.77152623745135,
               "is_model_author": false
             }
           ]
@@ -476,8 +598,39 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 251.8,
-              "throughput": 151.93176036303157,
+              "first_token_latency_ms": 361.8,
+              "throughput": 147.27543184606677,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "name": "deepseek-ai/DeepSeek-R1",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 64000,
+              "pricing": {
+                "input": 0.7,
+                "output": 2.5
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 876,
+              "throughput": 25.2926235559326,
               "is_model_author": false
             }
           ]
@@ -505,10 +658,10 @@
                 "output": 2.5
               },
               "is_free": false,
-              "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 1043.4,
-              "throughput": 30.341484298771057,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 727,
+              "throughput": 31.1745827829961,
               "is_model_author": false
             },
             {
@@ -559,14 +712,24 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 822.8,
-              "throughput": 25.770695357262856,
+              "first_token_latency_ms": 722.4,
+              "throughput": 27.501467375807483,
               "is_model_author": false
             },
             {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 436.2,
+              "throughput": 74.2805393281607,
               "is_model_author": false
             }
           ]
@@ -596,8 +759,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 880.6,
-              "throughput": 143.10658207142424,
+              "first_token_latency_ms": 711.2,
+              "throughput": 143.06336506015447,
               "is_model_author": false
             },
             {
@@ -660,6 +823,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 64000,
+              "pricing": {
+                "input": 0.4,
+                "output": 1.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1131.2,
+              "throughput": 31.609265777093988,
+              "is_model_author": false
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 163840,
@@ -669,7 +847,7 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_structured_output": false,
               "first_token_latency_ms": 733,
               "throughput": 24.63279478277869,
               "is_model_author": false
@@ -691,6 +869,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.27,
+                "output": 1.12
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1396.8,
+              "throughput": 31.720147748234574,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -706,7 +899,7 @@
               },
               "is_free": false,
               "supports_tools": false,
-              "supports_structured_output": true,
+              "supports_structured_output": false,
               "first_token_latency_ms": 795.6,
               "throughput": 15.412353619803586,
               "is_model_author": false
@@ -728,6 +921,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.27,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1960.8,
+              "throughput": 23.748271150572883,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -744,8 +952,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 817.6,
-              "throughput": 5.502951736239831,
+              "first_token_latency_ms": 864.4,
+              "throughput": 8.209381574288267,
               "is_model_author": false
             }
           ]
@@ -764,6 +972,21 @@
             ]
           },
           "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.27,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1615,
+              "throughput": 22.935400556272665,
+              "is_model_author": false
+            },
             {
               "provider": "featherless-ai",
               "status": "live",
@@ -802,6 +1025,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.269,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1172.2,
+              "throughput": 30.268493658635077,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -816,10 +1054,41 @@
                 "output": 0.38
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_tools": false,
+              "supports_structured_output": false,
               "first_token_latency_ms": 1031.6,
               "throughput": 15.688034311707193,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "name": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.27,
+                "output": 0.41
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1394.6,
+              "throughput": 23.01544550809382,
               "is_model_author": false
             }
           ]
@@ -839,6 +1108,36 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.14,
+                "output": 0.28
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1368.4,
+              "throughput": 65.49943082892008,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.14,
+                "output": 0.28
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 678,
+              "throughput": 94.83308605241149,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -854,9 +1153,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 389.8,
-              "throughput": 22.144965392166654,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2276,
+              "throughput": 19.206630670837402,
               "is_model_author": false
             }
           ]
@@ -916,8 +1215,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1324,
-              "throughput": 51.07866890656382,
+              "first_token_latency_ms": 1540.8,
+              "throughput": 35.922009570480796,
               "is_model_author": false
             },
             {
@@ -969,8 +1268,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 410.6,
-              "throughput": 16.368449472211072,
+              "first_token_latency_ms": 2791,
+              "throughput": 27.25166916473634,
               "is_model_author": false
             }
           ]
@@ -994,6 +1293,16 @@
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1237.6,
+              "throughput": 28.134768662697745,
               "is_model_author": false
             },
             {
@@ -1077,8 +1386,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1684.4,
-              "throughput": 49.683497685974935,
+              "first_token_latency_ms": 243.4,
+              "throughput": 45.853067810189216,
               "is_model_author": false
             }
           ]
@@ -1099,6 +1408,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.13,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 420.5,
+              "throughput": 22.105877686081897,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -1114,7 +1438,7 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_structured_output": false,
               "first_token_latency_ms": 395.2,
               "throughput": 22.346546312593798,
               "is_model_author": false
@@ -1147,8 +1471,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 892,
-              "throughput": 20.860218225792636,
+              "first_token_latency_ms": 1382,
+              "throughput": 10.226033858384286,
               "is_model_author": false
             },
             {
@@ -1161,9 +1485,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 359.8,
-              "throughput": 77.18675873457907,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 259.4,
+              "throughput": 19.016462615864775,
               "is_model_author": false
             },
             {
@@ -1181,10 +1505,41 @@
                 "output": 0.38
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_tools": false,
+              "supports_structured_output": false,
               "first_token_latency_ms": 804.6,
               "throughput": 21.794830546784986,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "inclusionAI/Ling-2.6-1T",
+          "name": "inclusionAI/Ling-2.6-1T",
+          "owned_by": "inclusionAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.3,
+                "output": 2.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1120.2,
+              "throughput": 83.7802862762346,
               "is_model_author": false
             }
           ]
@@ -1215,8 +1570,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 422.2,
-              "throughput": 81.59951520881172,
+              "first_token_latency_ms": 424.6,
+              "throughput": 75.29272427703235,
               "is_model_author": false
             }
           ]
@@ -1261,8 +1616,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 720.2,
-              "throughput": 145.43948187885132,
+              "first_token_latency_ms": 609.8,
+              "throughput": 132.38570408915967,
               "is_model_author": false
             },
             {
@@ -1277,8 +1632,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 438.8,
-              "throughput": 92.7579187193754,
+              "first_token_latency_ms": 386.6,
+              "throughput": 144.2002009650497,
               "is_model_author": false
             },
             {
@@ -1292,8 +1647,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 434.6,
-              "throughput": 46.742447812542615,
+              "first_token_latency_ms": 3249.25,
+              "throughput": 15.871629660982183,
               "is_model_author": false
             }
           ]
@@ -1338,8 +1693,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 444.6,
-              "throughput": 43.95113252775942,
+              "first_token_latency_ms": 686.4,
+              "throughput": 29.474642132044266,
               "is_model_author": false
             },
             {
@@ -1353,8 +1708,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1035.6,
-              "throughput": 51.44886048762997,
+              "first_token_latency_ms": 551.8,
+              "throughput": 79.46930991277114,
               "is_model_author": false
             },
             {
@@ -1368,9 +1723,24 @@
               "status": "live",
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 443.4,
-              "throughput": 72.10889296789946,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 515.4,
+              "throughput": 76.65053407582545,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.74,
+                "output": 0.74
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 482.4,
+              "throughput": 29.15463621679833,
               "is_model_author": false
             }
           ]
@@ -1401,8 +1771,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 465.2,
-              "throughput": 35.758526916939815,
+              "first_token_latency_ms": 473.5,
+              "throughput": 36.5460839695827,
               "is_model_author": false
             }
           ]
@@ -1433,8 +1803,38 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 306.8,
-              "throughput": 384.3020720024275,
+              "first_token_latency_ms": 665.4,
+              "throughput": 348.04439319377445,
+              "is_model_author": false
+            },
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.18,
+                "output": 0.59
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 588.4,
+              "throughput": 43.979137638482776,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 890000,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.29
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 609,
+              "throughput": 72.60326853883346,
               "is_model_author": false
             },
             {
@@ -1447,7 +1847,7 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_structured_output": false,
               "first_token_latency_ms": 300,
               "throughput": 52.28587374773424,
               "is_model_author": false
@@ -1470,6 +1870,21 @@
           },
           "providers": [
             {
+              "provider": "together",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 154,
+              "throughput": 13.649901855352123,
+              "is_model_author": false
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 163840,
@@ -1482,6 +1897,43 @@
               "supports_structured_output": false,
               "first_token_latency_ms": 339.8,
               "throughput": 8.04803984159343,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Meta-Llama-3-8B-Instruct",
+          "name": "meta-llama/Meta-Llama-3-8B-Instruct",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 8192,
+              "pricing": {
+                "input": 0.13999999999999999,
+                "output": 0.13999999999999999
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 517.8,
+              "throughput": 159.26876454731354,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
               "is_model_author": false
             }
           ]
@@ -1517,8 +1969,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 308.4,
-              "throughput": 69.57172422034937,
+              "first_token_latency_ms": 420,
+              "throughput": 78.98596270689293,
               "is_model_author": false
             }
           ]
@@ -1548,8 +2000,82 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1214.4,
-              "throughput": 55.41041350693124,
+              "first_token_latency_ms": 1100.4,
+              "throughput": 59.36398679094867,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2",
+          "name": "MiniMaxAI/MiniMax-M2",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 921.6,
+              "throughput": 66.56733247659595,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2.1",
+          "name": "MiniMaxAI/MiniMax-M2.1",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1461.2,
+              "throughput": 58.13669893214543,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
               "is_model_author": false
             }
           ]
@@ -1569,6 +2095,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1102.6,
+              "throughput": 67.40698044515129,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -1585,8 +2126,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 681,
-              "throughput": 94.19397692779721,
+              "first_token_latency_ms": 555.4,
+              "throughput": 129.10253440996115,
               "is_model_author": false
             }
           ]
@@ -1616,8 +2157,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2079,
-              "throughput": 33.76523547736334,
+              "first_token_latency_ms": 1335.2,
+              "throughput": 35.31847858725712,
               "is_model_author": false
             },
             {
@@ -1631,8 +2172,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 432.6,
-              "throughput": 91.8279907237995,
+              "first_token_latency_ms": 446.2,
+              "throughput": 62.99956616865664,
               "is_model_author": false
             },
             {
@@ -1646,8 +2187,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1209.8,
-              "throughput": 160.9954052052705,
+              "first_token_latency_ms": 559.4,
+              "throughput": 141.66802918909247,
               "is_model_author": false
             },
             {
@@ -1665,7 +2206,7 @@
                 "output": 1
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 647.5,
               "throughput": 28.238121520457156,
@@ -1689,6 +2230,36 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1000000,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 741,
+              "throughput": 53.29619783246277,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 644.2,
+              "throughput": 41.11543292320463,
+              "is_model_author": false
+            },
+            {
               "provider": "fireworks-ai",
               "status": "live",
               "context_length": 512000,
@@ -1697,10 +2268,10 @@
                 "output": 1.2
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 982.8,
-              "throughput": 75.016967699405,
+              "first_token_latency_ms": 840.5,
+              "throughput": 64.0555107513212,
               "is_model_author": false
             },
             {
@@ -1736,8 +2307,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1425,
-              "throughput": 33.696712563626825,
+              "first_token_latency_ms": 937.4,
+              "throughput": 36.20470962425132,
               "is_model_author": false
             },
             {
@@ -1773,8 +2344,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1073.4,
-              "throughput": 35.80185534493721,
+              "first_token_latency_ms": 1197.2,
+              "throughput": 34.68559807785395,
               "is_model_author": false
             },
             {
@@ -1801,6 +2372,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6,
+                "output": 3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1398.8,
+              "throughput": 33.560452260108676,
+              "is_model_author": false
+            },
+            {
               "provider": "fireworks-ai",
               "status": "live",
               "context_length": 262144,
@@ -1809,10 +2395,10 @@
                 "output": 3
               },
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 294.8,
-              "throughput": 102.44657877950135,
+              "first_token_latency_ms": 341.4,
+              "throughput": 100.39073695017159,
               "is_model_author": false
             },
             {
@@ -1854,6 +2440,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.8,
+                "output": 3.4
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1181,
+              "throughput": 43.75303208975855,
+              "is_model_author": false
+            },
+            {
               "provider": "together",
               "status": "live",
               "context_length": 262144,
@@ -1864,8 +2465,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 486.6,
-              "throughput": 161.55132602776445,
+              "first_token_latency_ms": 596.4,
+              "throughput": 64.82895759000824,
               "is_model_author": false
             },
             {
@@ -1879,8 +2480,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 333.8,
-              "throughput": 95.96283718041765,
+              "first_token_latency_ms": 353,
+              "throughput": 72.71741524686749,
               "is_model_author": false
             },
             {
@@ -1922,6 +2523,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1134.8,
+              "throughput": 36.106112623702266,
+              "is_model_author": false
+            },
+            {
               "provider": "together",
               "status": "live",
               "context_length": 262144,
@@ -1932,8 +2548,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 470.4,
-              "throughput": 187.0460876090046,
+              "first_token_latency_ms": 454.4,
+              "throughput": 84.66158064765324,
               "is_model_author": false
             },
             {
@@ -2020,6 +2636,21 @@
           },
           "providers": [
             {
+              "provider": "together",
+              "status": "live",
+              "context_length": 512288,
+              "pricing": {
+                "input": 0.6,
+                "output": 3.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 439.8,
+              "throughput": 55.6905791462318,
+              "is_model_author": false
+            },
+            {
               "provider": "fireworks-ai",
               "status": "live",
               "context_length": 262144,
@@ -2028,10 +2659,10 @@
                 "output": 2.4
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 808.8,
-              "throughput": 8.16957252356541,
+              "first_token_latency_ms": 1145.2,
+              "throughput": 71.63765451961945,
               "is_model_author": false
             }
           ]
@@ -2088,7 +2719,7 @@
                 "output": 0.69
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 209.2,
               "throughput": 1055.9186738333708,
@@ -2103,10 +2734,10 @@
                 "output": 0.4
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 575.8,
-              "throughput": 110.53821317108566,
+              "first_token_latency_ms": 1637,
+              "throughput": 42.2125222449358,
               "is_model_author": false
             },
             {
@@ -2120,8 +2751,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 330.6,
-              "throughput": 108.79457646705694,
+              "first_token_latency_ms": 254,
+              "throughput": 58.26453752094411,
               "is_model_author": false
             },
             {
@@ -2135,8 +2766,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 388,
-              "throughput": 177.57868806814943,
+              "first_token_latency_ms": 342.4,
+              "throughput": 157.48997643181312,
               "is_model_author": false
             },
             {
@@ -2156,6 +2787,21 @@
               "is_model_author": false
             },
             {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.47
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 600,
+              "throughput": 44.875008416626706,
+              "is_model_author": false
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 131072,
@@ -2166,8 +2812,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 578,
-              "throughput": 47.37315836846843,
+              "first_token_latency_ms": 453.2,
+              "throughput": 51.92030334187549,
               "is_model_author": false
             }
           ]
@@ -2202,6 +2848,21 @@
               "is_model_author": false
             },
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.04,
+                "output": 0.15
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 607.8,
+              "throughput": 144.60259656183683,
+              "is_model_author": false
+            },
+            {
               "provider": "nscale",
               "status": "live",
               "context_length": 131072,
@@ -2212,14 +2873,59 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 604.4,
-              "throughput": 150.03979892817605,
+              "first_token_latency_ms": 568.2,
+              "throughput": 160.3439603546725,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 236.2,
+              "throughput": 127.02768999978328,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.3
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1773.75,
+              "throughput": 43.470117915435,
               "is_model_author": false
             },
             {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 361.4,
+              "throughput": 78.52249847758945,
               "is_model_author": false
             },
             {
@@ -2260,8 +2966,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 358.2,
-              "throughput": 751.6573080939306,
+              "first_token_latency_ms": 451,
+              "throughput": 649.0497083403297,
               "is_model_author": false
             },
             {
@@ -2298,8 +3004,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2497.2,
-              "throughput": 16.75610360338503,
+              "first_token_latency_ms": 260.2,
+              "throughput": 19.08246143583868,
               "is_model_author": false
             }
           ]
@@ -2318,6 +3024,21 @@
             ]
           },
           "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 32000,
+              "pricing": {
+                "input": 0.38,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 556.8,
+              "throughput": 31.84289412362626,
+              "is_model_author": false
+            },
             {
               "provider": "featherless-ai",
               "status": "live",
@@ -2351,8 +3072,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 255.4,
-              "throughput": 105.89541998457146,
+              "first_token_latency_ms": 194.6,
+              "throughput": 105.0914191196091,
               "is_model_author": false
             },
             {
@@ -2378,6 +3099,21 @@
           },
           "providers": [
             {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.06,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 565.4,
+              "throughput": 47.83798342725448,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -2389,8 +3125,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 343,
-              "throughput": 131.93387601719283,
+              "first_token_latency_ms": 451.2,
+              "throughput": 102.40325675848962,
               "is_model_author": false
             }
           ]
@@ -2501,8 +3237,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 580.8,
-              "throughput": 28.927294858230276,
+              "first_token_latency_ms": 434.6,
+              "throughput": 26.32526644262767,
               "is_model_author": false
             }
           ]
@@ -2522,6 +3258,21 @@
           },
           "providers": [
             {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 562,
+              "throughput": 95.04100076827038,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -2536,7 +3287,7 @@
                 "output": 0.24000000000000002
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 361.2,
               "throughput": 75.51667830313713,
@@ -2569,8 +3320,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 543,
-              "throughput": 25.238698434876248,
+              "first_token_latency_ms": 1243.4,
+              "throughput": 15.898066334211308,
               "is_model_author": false
             },
             {
@@ -2583,9 +3334,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 795,
-              "throughput": 15.880203765564833,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 795.6,
+              "throughput": 14.9059493415352,
               "is_model_author": false
             },
             {
@@ -2611,6 +3362,36 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.58
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1187.4,
+              "throughput": 46.05413788562747,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 651.4,
+              "throughput": 13.633693924511174,
+              "is_model_author": false
+            },
+            {
               "provider": "together",
               "status": "live",
               "context_length": 262144,
@@ -2621,8 +3402,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 419.6,
-              "throughput": 45.135530051131795,
+              "first_token_latency_ms": 632,
+              "throughput": 25.961815889548006,
               "is_model_author": false
             },
             {
@@ -2644,8 +3425,8 @@
                 "output": 0.1
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_tools": false,
+              "supports_structured_output": false,
               "first_token_latency_ms": 513.2,
               "throughput": 16.5561470074026,
               "is_model_author": false
@@ -2667,6 +3448,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.3,
+                "output": 3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 975,
+              "throughput": 33.83877554017147,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -2681,7 +3477,7 @@
                 "output": 2.3
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 309.2,
               "throughput": 42.0994290409993,
@@ -2714,8 +3510,23 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2464,
-              "throughput": 183.71162739111602,
+              "first_token_latency_ms": 1243.6,
+              "throughput": 199.32616494907614,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.08,
+                "output": 0.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 762.8,
+              "throughput": 45.641062007418824,
               "is_model_author": false
             },
             {
@@ -2766,8 +3577,166 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 683.4,
-              "throughput": 111.74547532483098,
+              "first_token_latency_ms": 610.4,
+              "throughput": 111.88996512702224,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-4B-Thinking-2507",
+          "name": "Qwen/Qwen3-4B-Thinking-2507",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.01,
+                "output": 0.03
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 714.2,
+              "throughput": 157.14248052180534,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-8B",
+          "name": "Qwen/Qwen3-8B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 670.4,
+              "throughput": 115.41483792964618,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 409,
+              "throughput": 83.91606071438835,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.26
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 530.2,
+              "throughput": 42.954317472374335,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+          "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.38,
+                "output": 1.55
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1317.4,
+              "throughput": 51.02244147571891,
               "is_model_author": false
             },
             {
@@ -2803,8 +3772,254 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1024.6,
-              "throughput": 114.72808185738022,
+              "first_token_latency_ms": 1287,
+              "throughput": 111.35930961160821,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+          "name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 1.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 750.4,
+              "throughput": 117.11290605087586,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+          "name": "Qwen/Qwen3-Next-80B-A3B-Thinking",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 1.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 997.4,
+              "throughput": 171.2273672461073,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+          "name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 736.8,
+              "throughput": 49.83859280217378,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.98,
+                "output": 3.95
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1146,
+              "throughput": 55.98636444245333,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+          "name": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.7
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 604.8,
+              "throughput": 102.43165344285921,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+          "name": "Qwen/Qwen3-VL-30B-A3B-Thinking",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.2,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 881.6,
+              "throughput": 110.02775193324646,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-8B-Instruct",
+          "name": "Qwen/Qwen3-VL-8B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.08,
+                "output": 0.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1016,
+              "throughput": 58.743766310995284,
               "is_model_author": false
             },
             {
@@ -2831,6 +4046,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.4,
+                "output": 3.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 980.6,
+              "throughput": 93.96761516183567,
+              "is_model_author": false
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 16384,
@@ -2841,8 +4071,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 419.8,
-              "throughput": 104.08050384064737,
+              "first_token_latency_ms": 549.2,
+              "throughput": 104.61312164103688,
               "is_model_author": false
             }
           ]
@@ -2863,6 +4093,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.3,
+                "output": 2.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1113.5,
+              "throughput": 59.68255041735707,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -2879,8 +4124,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 316.4,
-              "throughput": 60.562496962251636,
+              "first_token_latency_ms": 327.4,
+              "throughput": 74.87729402104044,
               "is_model_author": false
             }
           ]
@@ -2911,8 +4156,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 708.3333333333334,
-              "throughput": 105.19211715547509,
+              "first_token_latency_ms": 748.8,
+              "throughput": 91.36266361575834,
               "is_model_author": false
             },
             {
@@ -2925,7 +4170,7 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_structured_output": false,
               "first_token_latency_ms": 273.2,
               "throughput": 104.0188815686037,
               "is_model_author": false
@@ -2958,8 +4203,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1259.6,
-              "throughput": 48.3453797299379,
+              "first_token_latency_ms": 966,
+              "throughput": 34.364142960338484,
               "is_model_author": false
             },
             {
@@ -2974,8 +4219,23 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 468.8,
-              "throughput": 97.07985934886968,
+              "first_token_latency_ms": 2772.4,
+              "throughput": 28.480863010920494,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.71,
+                "output": 4.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 464.6,
+              "throughput": 115.18367523643556,
               "is_model_author": false
             },
             {
@@ -2989,8 +4249,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 390.4,
-              "throughput": 26.763336641574238,
+              "first_token_latency_ms": 409.4,
+              "throughput": 37.97950425503479,
               "is_model_author": false
             }
           ]
@@ -3011,9 +4271,39 @@
           },
           "providers": [
             {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.17,
+                "output": 0.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 273.4,
+              "throughput": 49.6599933089787,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.12,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 583.6,
+              "throughput": 39.33172320388098,
               "is_model_author": false
             },
             {
@@ -3055,6 +4345,21 @@
               "is_model_author": false
             },
             {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.47,
+                "output": 3.19
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 409.6,
+              "throughput": 72.31864169557522,
+              "is_model_author": false
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 262144,
@@ -3065,8 +4370,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 281.2,
-              "throughput": 72.09598984865211,
+              "first_token_latency_ms": 408.6,
+              "throughput": 50.80268883356919,
               "is_model_author": false
             }
           ]
@@ -3105,6 +4410,80 @@
               "supports_structured_output": false,
               "first_token_latency_ms": 267.6,
               "throughput": 120.037968312676,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Sao10K/L3-8B-Lunaris-v1",
+          "name": "Sao10K/L3-8B-Lunaris-v1",
+          "owned_by": "Sao10K",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 8192,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 621.6,
+              "throughput": 68.08872726964948,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Sao10K/L3-8B-Stheno-v3.2",
+          "name": "Sao10K/L3-8B-Stheno-v3.2",
+          "owned_by": "Sao10K",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 8192,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 752.4,
+              "throughput": 86.53233500169276,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
               "is_model_author": false
             }
           ]
@@ -3214,8 +4593,74 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 872.4,
-              "throughput": 60.19601819032092,
+              "first_token_latency_ms": 651.2,
+              "throughput": 33.28923334096882,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "swiss-ai/Apertus-8B-Instruct-2509",
+          "name": "swiss-ai/Apertus-8B-Instruct-2509",
+          "owned_by": "swiss-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1088,
+              "throughput": 48.05543535354833,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "utter-project/EuroLLM-22B-Instruct-2512",
+          "name": "utter-project/EuroLLM-22B-Instruct-2512",
+          "owned_by": "utter-project",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2310.75,
+              "throughput": 2.83904062741991,
               "is_model_author": false
             }
           ]
@@ -3243,8 +4688,8 @@
                 "output": 2.9999999999999996
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_tools": false,
+              "supports_structured_output": false,
               "first_token_latency_ms": 238.8,
               "throughput": 83.73017235706422,
               "is_model_author": false
@@ -3277,8 +4722,45 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 716.6,
-              "throughput": 66.73862673313508,
+              "first_token_latency_ms": 1256.8,
+              "throughput": 78.87792554185174,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4-32B-0414",
+          "name": "zai-org/GLM-4-32B-0414",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 32000,
+              "pricing": {
+                "input": 0.55,
+                "output": 1.66
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1266,
+              "throughput": 34.00844523650314,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
               "is_model_author": false
             }
           ]
@@ -3303,8 +4785,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2405,
-              "throughput": 46.813297979798016,
+              "first_token_latency_ms": 1859.25,
+              "throughput": 58.83077413361336,
               "is_model_author": true
             }
           ]
@@ -3334,9 +4816,19 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 643.4,
-              "throughput": 41.38821426945408,
+              "first_token_latency_ms": 753,
+              "throughput": 75.31233397553369,
               "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2348,
+              "throughput": 61.42386477761663,
+              "is_model_author": true
             }
           ]
         },
@@ -3356,13 +4848,55 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 65536,
+              "pricing": {
+                "input": 0.6,
+                "output": 1.8
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1189.6,
+              "throughput": 48.85269473226813,
+              "is_model_author": false
+            },
+            {
               "provider": "zai-org",
               "status": "live",
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2999.3333333333335,
-              "throughput": 47.041220073821385,
+              "first_token_latency_ms": 3414,
+              "throughput": 51.74088594283844,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5V-FP8",
+          "name": "zai-org/GLM-4.5V-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1851.5,
+              "throughput": 45.93865599233668,
               "is_model_author": true
             }
           ]
@@ -3392,8 +4926,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1905.4,
-              "throughput": 24.74900415664585,
+              "first_token_latency_ms": 1631.6,
+              "throughput": 39.81038892741189,
               "is_model_author": false
             },
             {
@@ -3411,11 +4945,37 @@
                 "output": 1.74
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
+              "supports_tools": false,
+              "supports_structured_output": false,
               "first_token_latency_ms": 675.8,
               "throughput": 42.00338472207215,
               "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.6-FP8",
+          "name": "zai-org/GLM-4.6-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3463,
+              "throughput": 15.084548896565249,
+              "is_model_author": true
             }
           ]
         },
@@ -3438,10 +4998,10 @@
               "provider": "zai-org",
               "status": "live",
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2992,
-              "throughput": 38.648965725812914,
+              "first_token_latency_ms": 3143.5,
+              "throughput": 44.16295413187851,
               "is_model_author": true
             }
           ]
@@ -3472,9 +5032,19 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1448.6,
-              "throughput": 36.95336617586379,
+              "first_token_latency_ms": 1522,
+              "throughput": 39.57087701456042,
               "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 813,
+              "throughput": 69.68155529231413,
+              "is_model_author": true
             }
           ]
         },
@@ -3497,10 +5067,10 @@
               "provider": "zai-org",
               "status": "live",
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2642.2,
-              "throughput": 46.22442454331815,
+              "first_token_latency_ms": 2450.8,
+              "throughput": 50.61901555109458,
               "is_model_author": true
             }
           ]
@@ -3530,8 +5100,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2036.6,
-              "throughput": 24.793326930037757,
+              "first_token_latency_ms": 1484.6,
+              "throughput": 36.882618484776984,
               "is_model_author": false
             },
             {
@@ -3551,6 +5121,16 @@
               "is_model_author": false
             },
             {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2213,
+              "throughput": 20.731403930674187,
+              "is_model_author": true
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 202752,
@@ -3559,7 +5139,7 @@
                 "output": 1.75
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
               "first_token_latency_ms": 519.8,
               "throughput": 29.93472758787854,
@@ -3592,8 +5172,60 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 628,
-              "throughput": 86.61763503089495,
+              "first_token_latency_ms": 1332.6666666666667,
+              "throughput": 67.50919118093091,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 0.060000000000000005,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 435.5,
+              "throughput": 46.35125024169541,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-5",
+          "name": "zai-org/GLM-5",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 202800,
+              "pricing": {
+                "input": 1,
+                "output": 3.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2937,
+              "throughput": 26.960531704301747,
               "is_model_author": false
             },
             {
@@ -3608,8 +5240,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2274.5,
-              "throughput": 55.84226560923564,
+              "first_token_latency_ms": 3528,
+              "throughput": 34.45900894541359,
               "is_model_author": true
             },
             {
@@ -3617,14 +5249,14 @@
               "status": "live",
               "context_length": 202752,
               "pricing": {
-                "input": 0.060000000000000005,
-                "output": 0.4
+                "input": 0.6,
+                "output": 2.08
               },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 435.5,
-              "throughput": 46.35125024169541,
+              "first_token_latency_ms": 767.2,
+              "throughput": 56.421266738198426,
               "is_model_author": false
             }
           ]
@@ -3654,8 +5286,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 675.4,
-              "throughput": 60.0238359407385,
+              "first_token_latency_ms": 684.4,
+              "throughput": 63.557785304037466,
               "is_model_author": false
             },
             {
@@ -3678,6 +5310,16 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3913.8,
+              "throughput": 29.167902699199562,
+              "is_model_author": true
             },
             {
               "provider": "deepinfra",
@@ -3711,13 +5353,28 @@
           },
           "providers": [
             {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1438.8,
+              "throughput": 46.15436690565761,
+              "is_model_author": false
+            },
+            {
               "provider": "zai-org",
               "status": "live",
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 4240.666666666667,
-              "throughput": 30.217985200433912,
+              "first_token_latency_ms": 4068.75,
+              "throughput": 27.778253112089228,
               "is_model_author": true
             }
           ]
@@ -3737,6 +5394,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 918.25,
+              "throughput": 41.86589250511253,
+              "is_model_author": false
+            },
+            {
               "provider": "together",
               "status": "live",
               "context_length": 262144,
@@ -3747,8 +5419,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 501.6,
-              "throughput": 73.82786721380049,
+              "first_token_latency_ms": 1260,
+              "throughput": 9.44820200696217,
               "is_model_author": false
             },
             {
@@ -3762,8 +5434,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 996.2,
-              "throughput": 42.94359401675947,
+              "first_token_latency_ms": 1554,
+              "throughput": 35.76606188753426,
               "is_model_author": false
             },
             {
@@ -3778,8 +5450,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 4334.25,
-              "throughput": 30.007015524690715,
+              "first_token_latency_ms": 3905,
+              "throughput": 34.61523452273078,
               "is_model_author": true
             },
             {
@@ -5215,7 +6887,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1259,
+                "elo": 1261,
                 "win_rate": 60.6,
                 "rank": 1
               },
@@ -5369,7 +7041,7 @@
                 "category": "asciiart",
                 "elo": 1187,
                 "win_rate": 49.3,
-                "rank": 29
+                "rank": 30
               },
               {
                 "arena": "models",
@@ -5508,7 +7180,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1237,
+                "elo": 1238,
                 "win_rate": 59.9,
                 "rank": 36
               },
@@ -5529,7 +7201,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1208,
+                "elo": 1209,
                 "win_rate": 54.6,
                 "rank": 51
               }
@@ -5605,7 +7277,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1229,
+                "elo": 1228,
                 "win_rate": 52,
                 "rank": 35
               },
@@ -5744,21 +7416,21 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1293,
-                "win_rate": 60.1,
+                "elo": 1292,
+                "win_rate": 60,
                 "rank": 17
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1286,
-                "win_rate": 59.1,
+                "win_rate": 59,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1296,
+                "elo": 1297,
                 "win_rate": 59.5,
                 "rank": 18
               },
@@ -5772,9 +7444,9 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1295,
+                "elo": 1296,
                 "win_rate": 59.3,
-                "rank": 16
+                "rank": 15
               },
               {
                 "arena": "models",
@@ -5802,7 +7474,7 @@
                 "category": "mobileapps",
                 "elo": 1240,
                 "win_rate": 57.5,
-                "rank": 5
+                "rank": 6
               },
               {
                 "arena": "agents",
@@ -5914,14 +7586,14 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1352,
-                "win_rate": 65.2,
+                "win_rate": 65.3,
                 "rank": 4
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1305,
-                "win_rate": 64.5,
+                "elo": 1307,
+                "win_rate": 63.5,
                 "rank": 6
               },
               {
@@ -5941,15 +7613,15 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1345,
-                "win_rate": 63.2,
+                "elo": 1346,
+                "win_rate": 63.3,
                 "rank": 4
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1288,
-                "win_rate": 62.6,
+                "win_rate": 62.7,
                 "rank": 4
               },
               {
@@ -6100,7 +7772,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1238,
+                "elo": 1240,
                 "win_rate": 57.5,
                 "rank": 3
               },
@@ -6142,9 +7814,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1311,
+                "elo": 1312,
                 "win_rate": 64.6,
-                "rank": 5
+                "rank": 4
               },
               {
                 "arena": "models",
@@ -6157,7 +7829,7 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1327,
-                "win_rate": 62.1,
+                "win_rate": 62,
                 "rank": 3
               },
               {
@@ -6184,7 +7856,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1337,
+                "elo": 1336,
                 "win_rate": 60.5,
                 "rank": 4
               }
@@ -6377,29 +8049,29 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1343,
-                "win_rate": 68.7,
+                "elo": 1339,
+                "win_rate": 68.2,
                 "rank": 1
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1330,
-                "win_rate": 66.6,
+                "elo": 1331,
+                "win_rate": 66.7,
                 "rank": 2
               },
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1224,
-                "win_rate": 55.6,
+                "elo": 1225,
+                "win_rate": 55.7,
                 "rank": 4
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1280,
-                "win_rate": 58.7,
+                "elo": 1281,
+                "win_rate": 58.8,
                 "rank": 1
               },
               {
@@ -6419,7 +8091,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1294,
+                "elo": 1293,
                 "win_rate": 55.8,
                 "rank": 2
               },
@@ -6441,35 +8113,35 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1283,
-                "win_rate": 54.9,
+                "win_rate": 54.8,
                 "rank": 21
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1276,
+                "elo": 1275,
                 "win_rate": 54.9,
                 "rank": 17
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1303,
-                "win_rate": 54.9,
+                "elo": 1302,
+                "win_rate": 54.8,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1235,
-                "win_rate": 54,
+                "elo": 1236,
+                "win_rate": 54.1,
                 "rank": 17
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1285,
-                "win_rate": 55.3,
+                "win_rate": 55.2,
                 "rank": 22
               },
               {
@@ -6771,15 +8443,15 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1233,
-                "win_rate": 53.1,
+                "win_rate": 53,
                 "rank": 34
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1211,
+                "elo": 1212,
                 "win_rate": 49.3,
-                "rank": 42
+                "rank": 41
               },
               {
                 "arena": "models",
@@ -6799,14 +8471,14 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1235,
-                "win_rate": 52.5,
+                "win_rate": 52.6,
                 "rank": 35
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1233,
-                "win_rate": 53.5,
+                "win_rate": 53.4,
                 "rank": 38
               },
               {
@@ -6913,7 +8585,7 @@
                 "category": "androidnative",
                 "elo": 1238,
                 "win_rate": 61.9,
-                "rank": 8
+                "rank": 9
               },
               {
                 "arena": "agents",
@@ -6961,14 +8633,14 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1327,
-                "win_rate": 61.6,
+                "win_rate": 61.5,
                 "rank": 6
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1319,
-                "win_rate": 61,
+                "win_rate": 61.1,
                 "rank": 6
               },
               {
@@ -8760,14 +10432,14 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1204,
-                "win_rate": 47.5,
+                "win_rate": 47.4,
                 "rank": 47
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1218,
-                "win_rate": 50.7,
+                "win_rate": 50.6,
                 "rank": 46
               }
             ]
@@ -8877,9 +10549,9 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1221,
+                "elo": 1222,
                 "win_rate": 53.3,
-                "rank": 40
+                "rank": 39
               },
               {
                 "arena": "models",
@@ -8965,7 +10637,7 @@
                 "category": "3d",
                 "elo": 1271,
                 "win_rate": 50.1,
-                "rank": 25
+                "rank": 24
               },
               {
                 "arena": "models",
@@ -8984,8 +10656,8 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1170,
-                "win_rate": 42,
+                "elo": 1169,
+                "win_rate": 41.9,
                 "rank": 59
               },
               {
@@ -9123,7 +10795,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1330,
-                "win_rate": 61.3,
+                "win_rate": 61.2,
                 "rank": 7
               },
               {
@@ -9143,9 +10815,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1218,
-                "win_rate": 48.5,
-                "rank": 38
+                "elo": 1219,
+                "win_rate": 48.6,
+                "rank": 37
               },
               {
                 "arena": "models",
@@ -9157,8 +10829,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1194,
-                "win_rate": 47,
+                "elo": 1193,
+                "win_rate": 46.9,
                 "rank": 33
               },
               {
@@ -9656,7 +11328,7 @@
                 "category": "dataviz",
                 "elo": 1290,
                 "win_rate": 71.8,
-                "rank": 11
+                "rank": 12
               },
               {
                 "arena": "models",
@@ -9668,9 +11340,9 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1199,
+                "elo": 1200,
                 "win_rate": 60.5,
-                "rank": 49
+                "rank": 48
               },
               {
                 "arena": "models",
@@ -10261,7 +11933,7 @@
                 "arena": "models",
                 "category": "logo",
                 "elo": 1283,
-                "win_rate": 63.3,
+                "win_rate": 63.2,
                 "rank": 2
               }
             ]
@@ -10423,7 +12095,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1127,
+                "elo": 1126,
                 "win_rate": 38.8,
                 "rank": 72
               },
@@ -10432,7 +12104,7 @@
                 "category": "asciiart",
                 "elo": 1214,
                 "win_rate": 50.7,
-                "rank": 17
+                "rank": 16
               },
               {
                 "arena": "models",
@@ -10451,7 +12123,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1098,
+                "elo": 1099,
                 "win_rate": 34,
                 "rank": 79
               },
@@ -10600,15 +12272,15 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1059,
+                "elo": 1060,
                 "win_rate": 39.2,
                 "rank": 25
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1140,
-                "win_rate": 45.1,
+                "elo": 1139,
+                "win_rate": 45,
                 "rank": 16
               },
               {
@@ -10621,9 +12293,9 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1209,
-                "win_rate": 52.8,
-                "rank": 6
+                "elo": 1211,
+                "win_rate": 52.9,
+                "rank": 5
               },
               {
                 "arena": "agents",
@@ -10657,15 +12329,15 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1305,
-                "win_rate": 61.4,
+                "win_rate": 61.5,
                 "rank": 17
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1313,
-                "win_rate": 63.3,
-                "rank": 4
+                "elo": 1312,
+                "win_rate": 63.2,
+                "rank": 5
               },
               {
                 "arena": "models",
@@ -10679,7 +12351,7 @@
                 "category": "dataviz",
                 "elo": 1270,
                 "win_rate": 60.6,
-                "rank": 22
+                "rank": 21
               },
               {
                 "arena": "models",
@@ -10916,15 +12588,15 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1183,
+                "elo": 1185,
                 "win_rate": 49,
                 "rank": 9
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1262,
-                "win_rate": 56.9,
+                "elo": 1263,
+                "win_rate": 57.1,
                 "rank": 2
               },
               {
@@ -10945,20 +12617,20 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1262,
-                "win_rate": 54.3,
+                "win_rate": 54.2,
                 "rank": 5
               },
               {
                 "arena": "models",
                 "category": "3d",
                 "elo": 1313,
-                "win_rate": 60.5,
+                "win_rate": 60.4,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1316,
+                "elo": 1317,
                 "win_rate": 62.8,
                 "rank": 2
               },
@@ -10973,28 +12645,28 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1268,
-                "win_rate": 55.2,
-                "rank": 24
+                "win_rate": 55.3,
+                "rank": 23
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1332,
-                "win_rate": 59.4,
+                "elo": 1333,
+                "win_rate": 59.5,
                 "rank": 8
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1311,
-                "win_rate": 63.5,
+                "win_rate": 63.4,
                 "rank": 3
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1316,
-                "win_rate": 60,
+                "elo": 1315,
+                "win_rate": 59.9,
                 "rank": 11
               },
               {
@@ -11942,8 +13614,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1057,
-                "win_rate": 24.9,
+                "elo": 1060,
+                "win_rate": 25.1,
                 "rank": 84
               },
               {
@@ -11957,27 +13629,27 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 997,
-                "win_rate": 19.6,
+                "win_rate": 19.5,
                 "rank": 89
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1046,
+                "elo": 1045,
                 "win_rate": 21.4,
                 "rank": 88
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1027,
-                "win_rate": 21,
+                "elo": 1029,
+                "win_rate": 21.2,
                 "rank": 85
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1040,
+                "elo": 1039,
                 "win_rate": 21.7,
                 "rank": 95
               }
@@ -13768,7 +15440,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1244,
+                "elo": 1243,
                 "win_rate": 57.5,
                 "rank": 32
               },
@@ -13913,7 +15585,7 @@
                 "category": "gamedev",
                 "elo": 1243,
                 "win_rate": 55.5,
-                "rank": 34
+                "rank": 33
               },
               {
                 "arena": "models",
@@ -14010,22 +15682,22 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1271,
+                "elo": 1270,
                 "win_rate": 51.2,
-                "rank": 24
+                "rank": 25
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1187,
-                "win_rate": 48.1,
-                "rank": 30
+                "elo": 1188,
+                "win_rate": 48.3,
+                "rank": 28
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1282,
-                "win_rate": 53.4,
+                "win_rate": 53.3,
                 "rank": 22
               },
               {
@@ -14033,13 +15705,13 @@
                 "category": "dataviz",
                 "elo": 1271,
                 "win_rate": 53.2,
-                "rank": 20
+                "rank": 19
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1274,
-                "win_rate": 53.4,
+                "win_rate": 53.3,
                 "rank": 22
               },
               {
@@ -14060,7 +15732,7 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1287,
-                "win_rate": 54.3,
+                "win_rate": 54.2,
                 "rank": 20
               }
             ],
@@ -14145,22 +15817,22 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 983,
-                "win_rate": 20,
+                "elo": 985,
+                "win_rate": 20.1,
                 "rank": 27
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1309,
-                "win_rate": 57,
+                "elo": 1308,
+                "win_rate": 56.9,
                 "rank": 16
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1224,
-                "win_rate": 50.8,
+                "elo": 1219,
+                "win_rate": 49.8,
                 "rank": 15
               },
               {
@@ -14173,15 +15845,15 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1290,
-                "win_rate": 56.5,
-                "rank": 12
+                "elo": 1292,
+                "win_rate": 56.8,
+                "rank": 11
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1288,
-                "win_rate": 51.4,
+                "elo": 1287,
+                "win_rate": 51.3,
                 "rank": 20
               },
               {
@@ -14644,9 +16316,9 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1057,
+                "elo": 1058,
                 "win_rate": 38.7,
-                "rank": 86
+                "rank": 85
               },
               {
                 "arena": "models",
@@ -15124,14 +16796,14 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1161,
+                "elo": 1160,
                 "win_rate": 44.7,
                 "rank": 58
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1044,
+                "elo": 1045,
                 "win_rate": 30.8,
                 "rank": 47
               },
@@ -15550,9 +17222,9 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 955,
+                "elo": 956,
                 "win_rate": 39.4,
-                "rank": 101
+                "rank": 100
               },
               {
                 "arena": "models",
@@ -16026,15 +17698,15 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1288,
-                "win_rate": 54,
+                "win_rate": 54.1,
                 "rank": 21
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1216,
-                "win_rate": 47.3,
-                "rank": 16
+                "elo": 1214,
+                "win_rate": 47,
+                "rank": 18
               },
               {
                 "arena": "models",
@@ -16048,13 +17720,13 @@
                 "category": "dataviz",
                 "elo": 1271,
                 "win_rate": 52.9,
-                "rank": 21
+                "rank": 20
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1273,
-                "win_rate": 53.6,
+                "win_rate": 53.7,
                 "rank": 23
               },
               {
@@ -16191,7 +17863,7 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1210,
+                "elo": 1211,
                 "win_rate": 50.5,
                 "rank": 12
               },
@@ -16212,15 +17884,15 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1250,
-                "win_rate": 58.9,
+                "elo": 1252,
+                "win_rate": 59,
                 "rank": 2
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1226,
-                "win_rate": 53,
+                "elo": 1228,
+                "win_rate": 53.3,
                 "rank": 8
               },
               {
@@ -16247,7 +17919,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1357,
+                "elo": 1356,
                 "win_rate": 62.9,
                 "rank": 3
               },
@@ -16255,7 +17927,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1327,
-                "win_rate": 58,
+                "win_rate": 58.1,
                 "rank": 7
               },
               {
@@ -16275,22 +17947,22 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1235,
-                "win_rate": 52.5,
+                "elo": 1234,
+                "win_rate": 52.4,
                 "rank": 18
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1321,
-                "win_rate": 57.2,
+                "win_rate": 57.3,
                 "rank": 9
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1318,
-                "win_rate": 56.2,
+                "win_rate": 56.3,
                 "rank": 8
               }
             ],
@@ -16377,30 +18049,30 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1224,
-                "win_rate": 53.1,
+                "elo": 1223,
+                "win_rate": 52.8,
                 "rank": 10
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
                 "elo": 1231,
-                "win_rate": 53.4,
+                "win_rate": 53.5,
                 "rank": 8
               },
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1210,
+                "elo": 1209,
                 "win_rate": 52.9,
-                "rank": 5
+                "rank": 6
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1219,
-                "win_rate": 49.4,
-                "rank": 12
+                "elo": 1215,
+                "win_rate": 48.6,
+                "rank": 13
               },
               {
                 "arena": "agents",
@@ -16426,9 +18098,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1273,
-                "win_rate": 53.9,
-                "rank": 19
+                "elo": 1266,
+                "win_rate": 52.9,
+                "rank": 24
               },
               {
                 "arena": "models",
@@ -16442,14 +18114,14 @@
                 "category": "uicomponent",
                 "elo": 1296,
                 "win_rate": 54.3,
-                "rank": 15
+                "rank": 16
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1319,
+                "elo": 1320,
                 "win_rate": 57.3,
-                "rank": 7
+                "rank": 6
               }
             ],
             "artificial_analysis": {
@@ -16639,28 +18311,28 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1271,
-                "win_rate": 48.7,
+                "win_rate": 48.8,
                 "rank": 25
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1275,
-                "win_rate": 56.3,
+                "win_rate": 56.2,
                 "rank": 9
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1252,
-                "win_rate": 46.5,
+                "win_rate": 46.7,
                 "rank": 29
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1257,
-                "win_rate": 47.9,
+                "elo": 1256,
+                "win_rate": 47.7,
                 "rank": 29
               }
             ]
@@ -17398,29 +19070,29 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1214,
-                "win_rate": 43.7,
+                "elo": 1216,
+                "win_rate": 43.9,
                 "rank": 40
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1088,
+                "elo": 1087,
                 "win_rate": 34.9,
                 "rank": 44
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1175,
-                "win_rate": 37,
+                "elo": 1176,
+                "win_rate": 37.1,
                 "rank": 60
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1167,
-                "win_rate": 38.7,
+                "win_rate": 38.8,
                 "rank": 63
               },
               {
@@ -17434,15 +19106,15 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1139,
-                "win_rate": 38.5,
+                "win_rate": 38.4,
                 "rank": 45
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1179,
-                "win_rate": 38.5,
-                "rank": 55
+                "elo": 1181,
+                "win_rate": 38.8,
+                "rank": 54
               },
               {
                 "arena": "models",
@@ -17526,29 +19198,29 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1214,
-                "win_rate": 43.7,
+                "elo": 1216,
+                "win_rate": 43.9,
                 "rank": 40
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1088,
+                "elo": 1087,
                 "win_rate": 34.9,
                 "rank": 44
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1175,
-                "win_rate": 37,
+                "elo": 1176,
+                "win_rate": 37.1,
                 "rank": 60
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1167,
-                "win_rate": 38.7,
+                "win_rate": 38.8,
                 "rank": 63
               },
               {
@@ -17562,15 +19234,15 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1139,
-                "win_rate": 38.5,
+                "win_rate": 38.4,
                 "rank": 45
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1179,
-                "win_rate": 38.5,
-                "rank": 55
+                "elo": 1181,
+                "win_rate": 38.8,
+                "rank": 54
               },
               {
                 "arena": "models",
@@ -18221,7 +19893,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1147,
+                "elo": 1148,
                 "win_rate": 59.5,
                 "rank": 65
               },
@@ -18422,7 +20094,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1037,
+                "elo": 1038,
                 "win_rate": 49.6,
                 "rank": 90
               },
@@ -19005,7 +20677,7 @@
                 "category": "asciiart",
                 "elo": 1188,
                 "win_rate": 49,
-                "rank": 28
+                "rank": 29
               },
               {
                 "arena": "models",
@@ -19254,8 +20926,8 @@
               {
                 "arena": "models",
                 "category": "logo",
-                "elo": 1224,
-                "win_rate": 54.4,
+                "elo": 1223,
+                "win_rate": 54.3,
                 "rank": 6
               }
             ]
@@ -19343,7 +21015,7 @@
               {
                 "arena": "models",
                 "category": "logo",
-                "elo": 1230,
+                "elo": 1229,
                 "win_rate": 52.8,
                 "rank": 5
               }
@@ -19436,9 +21108,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1168,
-                "win_rate": 43.5,
-                "rank": 61
+                "elo": 1167,
+                "win_rate": 43.4,
+                "rank": 62
               },
               {
                 "arena": "models",
@@ -19717,9 +21389,9 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1126,
+                "elo": 1127,
                 "win_rate": 43.8,
-                "rank": 30
+                "rank": 29
               },
               {
                 "arena": "models",
@@ -19768,7 +21440,7 @@
                 "category": "uicomponent",
                 "elo": 1222,
                 "win_rate": 53,
-                "rank": 39
+                "rank": 40
               },
               {
                 "arena": "models",
@@ -20261,7 +21933,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1157,
-                "win_rate": 42.1,
+                "win_rate": 42,
                 "rank": 60
               },
               {
@@ -20288,8 +21960,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1244,
-                "win_rate": 52,
+                "elo": 1243,
+                "win_rate": 51.8,
                 "rank": 32
               },
               {
@@ -20459,7 +22131,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1126,
+                "elo": 1125,
                 "win_rate": 40.4,
                 "rank": 22
               }
@@ -20821,7 +22493,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1182,
-                "win_rate": 43.3,
+                "win_rate": 43.2,
                 "rank": 50
               },
               {
@@ -20834,22 +22506,22 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1263,
+                "elo": 1264,
                 "win_rate": 53.3,
                 "rank": 28
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1276,
+                "elo": 1275,
                 "win_rate": 56.7,
                 "rank": 18
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1307,
-                "win_rate": 58,
+                "elo": 1306,
+                "win_rate": 57.9,
                 "rank": 13
               },
               {
@@ -20862,21 +22534,21 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1298,
-                "win_rate": 58.5,
+                "elo": 1297,
+                "win_rate": 58.4,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1265,
+                "elo": 1266,
                 "win_rate": 53.4,
                 "rank": 27
               },
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1043,
+                "elo": 1042,
                 "win_rate": 47.5,
                 "rank": 26
               },
@@ -20905,7 +22577,7 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1138,
-                "win_rate": 41.8,
+                "win_rate": 41.7,
                 "rank": 20
               }
             ],
@@ -21321,7 +22993,7 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1265,
+                "elo": 1264,
                 "win_rate": 55.8,
                 "rank": 4
               },
@@ -21342,15 +23014,15 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1083,
-                "win_rate": 34.2,
+                "elo": 1085,
+                "win_rate": 34.3,
                 "rank": 11
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1224,
-                "win_rate": 51.2,
+                "elo": 1226,
+                "win_rate": 51.4,
                 "rank": 9
               },
               {
@@ -21398,8 +23070,8 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1304,
-                "win_rate": 58.8,
+                "elo": 1303,
+                "win_rate": 58.7,
                 "rank": 8
               },
               {
@@ -21412,14 +23084,14 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1285,
-                "win_rate": 60.1,
+                "elo": 1284,
+                "win_rate": 60,
                 "rank": 6
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1301,
+                "elo": 1303,
                 "win_rate": 57.8,
                 "rank": 13
               },
@@ -22686,7 +24358,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 932,
+                "elo": 931,
                 "win_rate": 34,
                 "rank": 94
               },
@@ -24386,7 +26058,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1024,
+                "elo": 1025,
                 "win_rate": 34.3,
                 "rank": 93
               },
@@ -26290,14 +27962,14 @@
                 "category": "dataviz",
                 "elo": 1219,
                 "win_rate": 53.2,
-                "rank": 37
+                "rank": 38
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1207,
                 "win_rate": 50.1,
-                "rank": 44
+                "rank": 43
               },
               {
                 "arena": "models",
@@ -26550,7 +28222,7 @@
                 "category": "dataviz",
                 "elo": 1179,
                 "win_rate": 44.8,
-                "rank": 56
+                "rank": 57
               },
               {
                 "arena": "models",
@@ -26664,8 +28336,8 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000002596",
-            "completion": "0.000002385"
+            "prompt": "0.000000285",
+            "completion": "0.0000024"
           },
           "top_provider": {
             "context_length": 262140,
@@ -26996,7 +28668,7 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1260,
-                "win_rate": 50.5,
+                "win_rate": 50.4,
                 "rank": 25
               },
               {
@@ -27102,23 +28774,23 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1177,
-                "win_rate": 45.5,
+                "elo": 1181,
+                "win_rate": 46,
                 "rank": 14
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1222,
-                "win_rate": 47.9,
+                "elo": 1221,
+                "win_rate": 47.8,
                 "rank": 11
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1217,
-                "win_rate": 47.8,
-                "rank": 13
+                "elo": 1216,
+                "win_rate": 47.5,
+                "rank": 12
               },
               {
                 "arena": "agents",
@@ -27131,14 +28803,14 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1327,
-                "win_rate": 60.1,
+                "win_rate": 60,
                 "rank": 8
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1261,
-                "win_rate": 54.1,
+                "elo": 1262,
+                "win_rate": 54.3,
                 "rank": 9
               },
               {
@@ -27158,14 +28830,14 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1324,
-                "win_rate": 58.7,
+                "elo": 1325,
+                "win_rate": 58.8,
                 "rank": 10
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1278,
+                "elo": 1277,
                 "win_rate": 60.4,
                 "rank": 8
               },
@@ -27877,14 +29549,14 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1197,
-                "win_rate": 42.9,
+                "win_rate": 43,
                 "rank": 47
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1234,
-                "win_rate": 53,
+                "elo": 1229,
+                "win_rate": 52.1,
                 "rank": 13
               },
               {
@@ -27897,16 +29569,16 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1214,
-                "win_rate": 47.1,
-                "rank": 41
+                "elo": 1212,
+                "win_rate": 46.9,
+                "rank": 42
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1208,
-                "win_rate": 41.6,
-                "rank": 43
+                "elo": 1207,
+                "win_rate": 41.4,
+                "rank": 44
               },
               {
                 "arena": "models",
@@ -27918,8 +29590,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1212,
-                "win_rate": 44.6,
+                "elo": 1213,
+                "win_rate": 44.9,
                 "rank": 44
               },
               {
@@ -28729,15 +30401,15 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1073,
-                "win_rate": 28.4,
+                "elo": 1074,
+                "win_rate": 28.5,
                 "rank": 23
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1073,
-                "win_rate": 31.5,
+                "elo": 1072,
+                "win_rate": 31.4,
                 "rank": 26
               },
               {
@@ -28750,7 +30422,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1066,
+                "elo": 1068,
                 "win_rate": 31.8,
                 "rank": 12
               },
@@ -28758,7 +30430,7 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1146,
-                "win_rate": 39.3,
+                "win_rate": 39.1,
                 "rank": 26
               },
               {
@@ -28771,8 +30443,8 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1072,
-                "win_rate": 30.8,
+                "elo": 1073,
+                "win_rate": 31,
                 "rank": 10
               },
               {
@@ -28813,15 +30485,15 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1244,
-                "win_rate": 49.7,
-                "rank": 33
+                "elo": 1243,
+                "win_rate": 49.6,
+                "rank": 34
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1141,
-                "win_rate": 42,
+                "elo": 1140,
+                "win_rate": 41.9,
                 "rank": 44
               },
               {
@@ -28994,13 +30666,13 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1301,
-                "win_rate": 54.2,
+                "win_rate": 54.3,
                 "rank": 18
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1195,
+                "elo": 1194,
                 "win_rate": 48.3,
                 "rank": 25
               },
@@ -29021,15 +30693,15 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1301,
-                "win_rate": 55.9,
+                "elo": 1300,
+                "win_rate": 55.8,
                 "rank": 16
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1218,
-                "win_rate": 52.3,
+                "win_rate": 52.2,
                 "rank": 22
               },
               {
@@ -29122,7 +30794,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1325,
-                "win_rate": 59.6,
+                "win_rate": 59.4,
                 "rank": 10
               },
               {
@@ -29142,29 +30814,29 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1294,
+                "elo": 1295,
                 "win_rate": 58.5,
                 "rank": 10
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1337,
-                "win_rate": 60.8,
+                "elo": 1338,
+                "win_rate": 60.9,
                 "rank": 7
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1241,
-                "win_rate": 56,
+                "win_rate": 56.1,
                 "rank": 15
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1293,
-                "win_rate": 55.3,
+                "win_rate": 55.2,
                 "rank": 17
               },
               {
@@ -29278,7 +30950,7 @@
                 "category": "uicomponent",
                 "elo": 1200,
                 "win_rate": 55.1,
-                "rank": 48
+                "rank": 49
               },
               {
                 "arena": "models",
@@ -29390,7 +31062,7 @@
                 "category": "uicomponent",
                 "elo": 1179,
                 "win_rate": 54.6,
-                "rank": 54
+                "rank": 55
               },
               {
                 "arena": "models",
@@ -29556,7 +31228,7 @@
                 "category": "mobileapps",
                 "elo": 1186,
                 "win_rate": 49.3,
-                "rank": 19
+                "rank": 18
               },
               {
                 "arena": "models",
@@ -29748,7 +31420,7 @@
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1118,
+                "elo": 1117,
                 "win_rate": 44.9,
                 "rank": 20
               },
@@ -29769,7 +31441,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1271,
+                "elo": 1270,
                 "win_rate": 54.5,
                 "rank": 26
               },
@@ -29778,7 +31450,7 @@
                 "category": "asciiart",
                 "elo": 1214,
                 "win_rate": 48.4,
-                "rank": 18
+                "rank": 17
               },
               {
                 "arena": "models",
@@ -29911,7 +31583,7 @@
                 "category": "dataviz",
                 "elo": 1167,
                 "win_rate": 45.3,
-                "rank": 62
+                "rank": 61
               },
               {
                 "arena": "models",
@@ -30036,7 +31708,7 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1222,
-                "win_rate": 53.2,
+                "win_rate": 53.1,
                 "rank": 10
               },
               {
@@ -30057,7 +31729,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1296,
-                "win_rate": 55.6,
+                "win_rate": 55.7,
                 "rank": 16
               },
               {
@@ -30065,7 +31737,7 @@
                 "category": "dataviz",
                 "elo": 1270,
                 "win_rate": 52.9,
-                "rank": 23
+                "rank": 22
               },
               {
                 "arena": "models",
@@ -30092,7 +31764,7 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1291,
-                "win_rate": 55,
+                "win_rate": 55.1,
                 "rank": 18
               }
             ]
@@ -30168,8 +31840,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1334,
-                "win_rate": 60.7,
+                "elo": 1333,
+                "win_rate": 60.6,
                 "rank": 6
               },
               {
@@ -30196,8 +31868,8 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1327,
-                "win_rate": 59.8,
+                "elo": 1326,
+                "win_rate": 59.6,
                 "rank": 9
               },
               {
@@ -30211,7 +31883,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1320,
-                "win_rate": 57.9,
+                "win_rate": 57.8,
                 "rank": 10
               },
               {
@@ -30298,8 +31970,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1344,
-                "win_rate": 63.8,
+                "elo": 1345,
+                "win_rate": 63.9,
                 "rank": 5
               },
               {
@@ -30326,7 +31998,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1340,
+                "elo": 1339,
                 "win_rate": 62,
                 "rank": 6
               },
@@ -30334,7 +32006,7 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1286,
-                "win_rate": 62.2,
+                "win_rate": 62.3,
                 "rank": 5
               },
               {
@@ -30349,7 +32021,7 @@
                 "category": "website",
                 "elo": 1319,
                 "win_rate": 57.2,
-                "rank": 6
+                "rank": 7
               },
               {
                 "arena": "agents",
@@ -30389,8 +32061,8 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1242,
-                "win_rate": 53.5,
+                "elo": 1241,
+                "win_rate": 53.4,
                 "rank": 7
               },
               {
@@ -30410,15 +32082,15 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1206,
-                "win_rate": 52.7,
-                "rank": 8
+                "elo": 1208,
+                "win_rate": 52.8,
+                "rank": 7
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1236,
-                "win_rate": 55.4,
+                "win_rate": 55.3,
                 "rank": 7
               },
               {
@@ -30525,71 +32197,71 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1238,
-                "win_rate": 55.4,
-                "rank": 9
+                "elo": 1240,
+                "win_rate": 55.5,
+                "rank": 8
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
                 "elo": 1297,
-                "win_rate": 64,
+                "win_rate": 63.9,
                 "rank": 3
               },
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1207,
-                "win_rate": 52.8,
-                "rank": 7
+                "elo": 1206,
+                "win_rate": 52.6,
+                "rank": 8
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1240,
-                "win_rate": 53.6,
-                "rank": 6
+                "elo": 1243,
+                "win_rate": 54,
+                "rank": 5
               },
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1216,
-                "win_rate": 49.4,
+                "elo": 1219,
+                "win_rate": 49.7,
                 "rank": 5
               },
               {
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1283,
-                "win_rate": 57.6,
+                "win_rate": 57.5,
                 "rank": 3
               },
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1375,
-                "win_rate": 63.9,
+                "elo": 1376,
+                "win_rate": 64,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1362,
-                "win_rate": 62.1,
+                "elo": 1361,
+                "win_rate": 62,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1326,
-                "win_rate": 59.9,
+                "elo": 1327,
+                "win_rate": 60.1,
                 "rank": 4
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1361,
-                "win_rate": 61.6,
+                "elo": 1357,
+                "win_rate": 61.1,
                 "rank": 2
               },
               {
@@ -30740,15 +32412,15 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1135,
-                "win_rate": 41.8,
+                "elo": 1137,
+                "win_rate": 41.7,
                 "rank": 10
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1220,
-                "win_rate": 52.3,
+                "win_rate": 52.2,
                 "rank": 11
               },
               {
@@ -30761,8 +32433,8 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1173,
-                "win_rate": 52.4,
+                "elo": 1175,
+                "win_rate": 52.6,
                 "rank": 7
               },
               {
@@ -30796,7 +32468,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1246,
+                "elo": 1247,
                 "win_rate": 49.6,
                 "rank": 30
               },
@@ -30804,21 +32476,21 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1289,
-                "win_rate": 54.8,
+                "win_rate": 54.7,
                 "rank": 19
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1205,
-                "win_rate": 51.2,
+                "win_rate": 51.1,
                 "rank": 28
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1271,
-                "win_rate": 52.1,
+                "win_rate": 52.2,
                 "rank": 25
               },
               {

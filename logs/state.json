@@ -1391,9 +1391,9 @@
               "status": "live",
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 332.2,
-              "throughput": 166.06280456436795,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 819.4,
+              "throughput": 22.04508941680856,
               "is_model_author": false
             },
             {
@@ -1439,18 +1439,23 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 391.6666666666667,
-              "throughput": 25.297205559798442,
+              "first_token_latency_ms": 1894.4,
+              "throughput": 15.598902214634,
               "is_model_author": false
             },
             {
-              "provider": "cerebras",
+              "provider": "together",
               "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.39,
+                "output": 0.9700000000000001
+              },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 231.6,
-              "throughput": 528.1736269343276,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1639.8,
+              "throughput": 9.694636313494788,
               "is_model_author": false
             },
             {
@@ -1532,8 +1537,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 473.8,
-              "throughput": 190.76741964038828,
+              "first_token_latency_ms": 441,
+              "throughput": 171.62566723153282,
               "is_model_author": false
             },
             {
@@ -1614,8 +1619,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 429.6,
-              "throughput": 42.58695548695347,
+              "first_token_latency_ms": 535.6,
+              "throughput": 23.664320001328534,
               "is_model_author": false
             },
             {
@@ -2599,8 +2604,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 222.2,
-              "throughput": 1055.1256494944896,
+              "first_token_latency_ms": 311.2,
+              "throughput": 864.6642856981038,
               "is_model_author": false
             },
             {
@@ -2965,8 +2970,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 258,
-              "throughput": 123.75816807877386,
+              "first_token_latency_ms": 272.2,
+              "throughput": 101.30374208425663,
               "is_model_author": false
             }
           ]
@@ -3805,6 +3810,21 @@
               "first_token_latency_ms": 925.6,
               "throughput": 75.39997462083295,
               "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.29,
+                "output": 2.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 601.6,
+              "throughput": 54.605248540256866,
+              "is_model_author": false
             }
           ]
         },
@@ -3887,8 +3907,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 790,
-              "throughput": 110.6733673330539,
+              "first_token_latency_ms": 826.2,
+              "throughput": 102.25888262253272,
               "is_model_author": false
             },
             {
@@ -4149,8 +4169,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 567,
-              "throughput": 44.54862760606992,
+              "first_token_latency_ms": 824.8,
+              "throughput": 45.84655137752165,
               "is_model_author": false
             }
           ]
@@ -4735,6 +4755,32 @@
           ]
         },
         {
+          "id": "zai-org/GLM-4.6-FP8",
+          "name": "zai-org/GLM-4.6-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2967.8,
+              "throughput": 43.59495400327179,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
           "id": "zai-org/GLM-4.6V",
           "name": "zai-org/GLM-4.6V",
           "owned_by": "zai-org",
@@ -5004,6 +5050,16 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3294,
+              "throughput": 37.64068204915873,
+              "is_model_author": true
             },
             {
               "provider": "deepinfra",
@@ -30179,56 +30235,6 @@
           }
         },
         {
-          "id": "sao10k/l3.1-70b-hanami-x1",
-          "name": "Sao10K: Llama 3.1 70B Hanami x1",
-          "canonical_slug": "sao10k/l3.1-70b-hanami-x1",
-          "hugging_face_id": "Sao10K/L3.1-70B-Hanami-x1",
-          "description": "This is [Sao10K](/sao10k)'s experiment over [Euryale v2.2](/sao10k/l3.1-euryale-70b).",
-          "context_length": 16000,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Llama3",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.000003",
-            "completion": "0.000003"
-          },
-          "top_provider": {
-            "context_length": 16000,
-            "max_completion_tokens": null,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "logit_bias",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "repetition_penalty",
-            "seed",
-            "stop",
-            "structured_outputs",
-            "temperature",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": "2023-12-31",
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/sao10k/l3.1-70b-hanami-x1/endpoints"
-          }
-        },
-        {
           "id": "sao10k/l3.1-euryale-70b",
           "name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
           "canonical_slug": "sao10k/l3.1-euryale-70b",
@@ -30969,7 +30975,6 @@
             "logit_bias",
             "logprobs",
             "max_tokens",
-            "min_p",
             "presence_penalty",
             "repetition_penalty",
             "response_format",
@@ -33572,9 +33577,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000009254",
-            "completion": "0.0000029084",
-            "input_cache_read": "0.00000017186"
+            "prompt": "0.000000924",
+            "completion": "0.000002904",
+            "input_cache_read": "0.0000001716"
           },
           "top_provider": {
             "context_length": 1024000,

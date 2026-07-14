@@ -1500,21 +1500,6 @@
           },
           "providers": [
             {
-              "provider": "novita",
-              "status": "live",
-              "context_length": 16384,
-              "pricing": {
-                "input": 0.02,
-                "output": 0.05
-              },
-              "is_free": false,
-              "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 473.8,
-              "throughput": 190.76741964038828,
-              "is_model_author": false
-            },
-            {
               "provider": "nscale",
               "status": "live",
               "context_length": 131072,
@@ -3755,53 +3740,6 @@
           ]
         },
         {
-          "id": "Qwen/Qwen3.5-122B-A10B",
-          "name": "Qwen/Qwen3.5-122B-A10B",
-          "owned_by": "Qwen",
-          "object": "model",
-          "architecture": {
-            "input_modalities": [
-              "text",
-              "image"
-            ],
-            "output_modalities": [
-              "text"
-            ]
-          },
-          "providers": [
-            {
-              "provider": "novita",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.4,
-                "output": 3.2
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 657.6,
-              "throughput": 115.26251954062772,
-              "is_model_author": false
-            },
-            {
-              "provider": "deepinfra",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.29,
-                "output": 2.4
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 601.6,
-              "throughput": 54.605248540256866,
-              "is_model_author": false
-            }
-          ]
-        },
-        {
           "id": "Qwen/Qwen3.5-27B",
           "name": "Qwen/Qwen3.5-27B",
           "owned_by": "Qwen",
@@ -5165,21 +5103,6 @@
               "supports_structured_output": true,
               "first_token_latency_ms": 2161.25,
               "throughput": 31.52798937102272,
-              "is_model_author": false
-            },
-            {
-              "provider": "together",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 1.4,
-                "output": 4.4
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 492.8,
-              "throughput": 96.51374807504021,
               "is_model_author": false
             },
             {
@@ -13390,13 +13313,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000012",
-            "completion": "0.00000035",
-            "input_cache_read": "0.00000009"
+            "prompt": "0.00000006",
+            "completion": "0.00000035"
           },
           "top_provider": {
             "context_length": 262144,
-            "max_completion_tokens": 262144,
+            "max_completion_tokens": 8192,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -13417,6 +13339,7 @@
             "temperature",
             "tool_choice",
             "tools",
+            "top_a",
             "top_k",
             "top_logprobs",
             "top_p"
@@ -33078,8 +33001,8 @@
             "input_cache_read": "0.00000012"
           },
           "top_provider": {
-            "context_length": 202752,
-            "max_completion_tokens": null,
+            "context_length": 198000,
+            "max_completion_tokens": 128000,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -33590,8 +33513,8 @@
             "input_cache_read": "0.00000017238"
           },
           "top_provider": {
-            "context_length": 1048576,
-            "max_completion_tokens": 131072,
+            "context_length": 1024000,
+            "max_completion_tokens": 128000,
             "is_moderated": false
           },
           "per_request_limits": null,

@@ -324,6 +324,87 @@
           ]
         },
         {
+          "id": "CohereLabs/command-a-plus-05-2026-bf16",
+          "name": "CohereLabs/command-a-plus-05-2026-bf16",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 149.4,
+              "throughput": 105.39677445460582,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/command-a-plus-05-2026-fp8",
+          "name": "CohereLabs/command-a-plus-05-2026-fp8",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 159.2,
+              "throughput": 103.49367427918057,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/command-a-plus-05-2026-w4a4",
+          "name": "CohereLabs/command-a-plus-05-2026-w4a4",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 186,
+              "throughput": 90.68746827093821,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
           "id": "CohereLabs/command-a-reasoning-08-2025",
           "name": "CohereLabs/command-a-reasoning-08-2025",
           "owned_by": "CohereLabs",
@@ -1256,6 +1337,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.285,
+                "output": 0.57
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
@@ -1389,11 +1474,15 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.285,
+                "output": 0.57
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 819.4,
-              "throughput": 22.04508941680856,
+              "first_token_latency_ms": 365.8,
+              "throughput": 182.1974332432629,
               "is_model_author": false
             },
             {
@@ -1464,8 +1553,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1639.8,
-              "throughput": 9.694636313494788,
+              "first_token_latency_ms": 312,
+              "throughput": 7.805730967676468,
               "is_model_author": false
             },
             {
@@ -1657,6 +1746,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 1.026,
+                "output": 1.026
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
@@ -1706,9 +1799,9 @@
               },
               "is_free": false,
               "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 561,
-              "throughput": 25.256860449993496,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 490.2,
+              "throughput": 26.771653602326005,
               "is_model_author": false
             }
           ]
@@ -2311,8 +2404,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 710.4,
-              "throughput": 99.37274088925315,
+              "first_token_latency_ms": 1092,
+              "throughput": 27.72337822160812,
               "is_model_author": false
             }
           ]
@@ -2614,8 +2707,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 311.2,
-              "throughput": 864.6642856981038,
+              "first_token_latency_ms": 368,
+              "throughput": 704.0092883202543,
               "is_model_author": false
             },
             {
@@ -2672,6 +2765,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.171,
+                "output": 0.684
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
@@ -2980,8 +3077,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 272.2,
-              "throughput": 101.30374208425663,
+              "first_token_latency_ms": 224.4,
+              "throughput": 139.04306116209068,
               "is_model_author": false
             },
             {
@@ -3292,6 +3389,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.855,
+                "output": 2.565
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
@@ -3569,6 +3670,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.228,
+                "output": 0.912
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
@@ -3838,8 +3943,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 601.6,
-              "throughput": 54.605248540256866,
+              "first_token_latency_ms": 769.6,
+              "throughput": 11.734825133837678,
               "is_model_author": false
             }
           ]
@@ -3923,8 +4028,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 826.2,
-              "throughput": 102.25888262253272,
+              "first_token_latency_ms": 719,
+              "throughput": 124.3567982797091,
               "is_model_author": false
             },
             {
@@ -3983,6 +4088,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.684,
+                "output": 4.104
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
@@ -4167,11 +4276,30 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 0.285,
+                "output": 1.71
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
               "first_token_latency_ms": 277.2,
               "throughput": 175.35998634661306,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.15,
+                "output": 0.95
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 412.8,
+              "throughput": 36.89514616950896,
               "is_model_author": false
             }
           ]
@@ -4775,8 +4903,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2967.8,
-              "throughput": 43.59495400327179,
+              "first_token_latency_ms": 2533.6666666666665,
+              "throughput": 34.39809782595366,
               "is_model_author": true
             }
           ]
@@ -5012,6 +5140,32 @@
           ]
         },
         {
+          "id": "zai-org/GLM-4.7-FP8",
+          "name": "zai-org/GLM-4.7-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1634,
+              "throughput": 101.67768174885612,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
           "id": "zai-org/GLM-5",
           "name": "zai-org/GLM-5",
           "owned_by": "zai-org",
@@ -5206,21 +5360,6 @@
               "is_model_author": false
             },
             {
-              "provider": "together",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 1.4,
-                "output": 4.4
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 655.4,
-              "throughput": 66.34553535274685,
-              "is_model_author": false
-            },
-            {
               "provider": "fireworks-ai",
               "status": "live",
               "context_length": 1048576,
@@ -5254,6 +5393,10 @@
             {
               "provider": "scaleway",
               "status": "live",
+              "pricing": {
+                "input": 2.052,
+                "output": 6.27
+              },
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,

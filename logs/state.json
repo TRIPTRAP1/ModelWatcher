@@ -344,8 +344,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 185.4,
-              "throughput": 108.56757321340828,
+              "first_token_latency_ms": 267.25,
+              "throughput": 85.96449046146152,
               "is_model_author": true
             }
           ]
@@ -371,8 +371,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 200.75,
-              "throughput": 108.86993857782313,
+              "first_token_latency_ms": 294,
+              "throughput": 88.16769419879263,
               "is_model_author": true
             }
           ]
@@ -398,8 +398,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 274.4,
-              "throughput": 114.41845934936131,
+              "first_token_latency_ms": 226.8,
+              "throughput": 81.88111127499508,
               "is_model_author": true
             }
           ]
@@ -927,21 +927,6 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
-            },
-            {
-              "provider": "deepinfra",
-              "status": "live",
-              "context_length": 163840,
-              "pricing": {
-                "input": 0.24000000000000002,
-                "output": 0.9
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 813.6,
-              "throughput": 92.77602095403725,
-              "is_model_author": false
             }
           ]
         },
@@ -1397,8 +1382,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 394.6,
-              "throughput": 39.73219275080079,
+              "first_token_latency_ms": 582.2,
+              "throughput": 17.426866284648145,
               "is_model_author": false
             }
           ]
@@ -1481,8 +1466,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 379,
-              "throughput": 136.58509445822202,
+              "first_token_latency_ms": 504,
+              "throughput": 79.65235809150472,
               "is_model_author": false
             },
             {
@@ -1636,8 +1621,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 544.8,
-              "throughput": 159.97833613152073,
+              "first_token_latency_ms": 518.2,
+              "throughput": 166.64902521923955,
               "is_model_author": false
             },
             {
@@ -1785,8 +1770,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 609.75,
-              "throughput": 25.0395861855193,
+              "first_token_latency_ms": 715.2,
+              "throughput": 19.23230562079067,
               "is_model_author": false
             }
           ]
@@ -2343,6 +2328,39 @@
           ]
         },
         {
+          "id": "moonshotai/Kimi-K2-Thinking",
+          "name": "moonshotai/Kimi-K2-Thinking",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6,
+                "output": 2.5
+              },
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
           "id": "moonshotai/Kimi-K2.5",
           "name": "moonshotai/Kimi-K2.5",
           "owned_by": "moonshotai",
@@ -2388,9 +2406,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 1017.8,
-              "throughput": 17.27315068375932,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 728.4,
+              "throughput": 108.62265623828485,
               "is_model_author": false
             }
           ]
@@ -2436,8 +2454,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 423.4,
-              "throughput": 179.4189802354644,
+              "first_token_latency_ms": 3173.2,
+              "throughput": 21.495550042456564,
               "is_model_author": false
             },
             {
@@ -2692,8 +2710,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 207.2,
-              "throughput": 1065.2860936787743,
+              "first_token_latency_ms": 246.8,
+              "throughput": 900.5340524799842,
               "is_model_author": false
             },
             {
@@ -3063,8 +3081,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 224.4,
-              "throughput": 116.3491203697816,
+              "first_token_latency_ms": 241,
+              "throughput": 144.45984732800608,
               "is_model_author": false
             },
             {
@@ -3891,8 +3909,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 904.8,
-              "throughput": 27.67323537165546,
+              "first_token_latency_ms": 609,
+              "throughput": 80.80565221145693,
               "is_model_author": false
             }
           ]
@@ -3976,8 +3994,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 952.4,
-              "throughput": 94.49593810702162,
+              "first_token_latency_ms": 791.6,
+              "throughput": 112.24678454501513,
               "is_model_author": false
             },
             {
@@ -4201,8 +4219,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 277,
-              "throughput": 55.10951266119588,
+              "first_token_latency_ms": 538.2,
+              "throughput": 24.87255879881796,
               "is_model_author": false
             }
           ]
@@ -5132,6 +5150,21 @@
               "first_token_latency_ms": 3626.6,
               "throughput": 37.73588119804864,
               "is_model_author": true
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 1.05,
+                "output": 3.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 956.6,
+              "throughput": 60.60196810301882,
+              "is_model_author": false
             }
           ]
         },
@@ -5216,8 +5249,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 634.6,
-              "throughput": 37.898290391361606,
+              "first_token_latency_ms": 521.6,
+              "throughput": 88.5606035154124,
               "is_model_author": false
             },
             {
@@ -8884,54 +8917,6 @@
               "low"
             ],
             "default_effort": "medium"
-          }
-        },
-        {
-          "id": "arcee-ai/coder-large",
-          "name": "Arcee AI: Coder Large",
-          "canonical_slug": "arcee-ai/coder-large",
-          "hugging_face_id": "",
-          "description": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora. It supports a 32k context window, enabling multi‑file...",
-          "context_length": 32768,
-          "architecture": {
-            "modality": "text->text",
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ],
-            "tokenizer": "Other",
-            "instruct_type": null
-          },
-          "pricing": {
-            "prompt": "0.0000005",
-            "completion": "0.0000008"
-          },
-          "top_provider": {
-            "context_length": 32768,
-            "max_completion_tokens": null,
-            "is_moderated": false
-          },
-          "per_request_limits": null,
-          "supported_parameters": [
-            "frequency_penalty",
-            "logit_bias",
-            "max_tokens",
-            "min_p",
-            "presence_penalty",
-            "repetition_penalty",
-            "stop",
-            "temperature",
-            "top_k",
-            "top_p"
-          ],
-          "default_parameters": {},
-          "supported_voices": null,
-          "knowledge_cutoff": "2025-03-31",
-          "expiration_date": null,
-          "links": {
-            "details": "/api/v1/models/arcee-ai/coder-large/endpoints"
           }
         },
         {
@@ -14732,12 +14717,12 @@
             "instruct_type": "llama3"
           },
           "pricing": {
-            "prompt": "0.0000000509",
-            "completion": "0.000000335"
+            "prompt": "0.00000005",
+            "completion": "0.00000033"
           },
           "top_provider": {
-            "context_length": 80000,
-            "max_completion_tokens": 80000,
+            "context_length": 131072,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -33632,9 +33617,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000875",
-            "completion": "0.00000275",
-            "input_cache_read": "0.0000001625"
+            "prompt": "0.0000008652",
+            "completion": "0.0000027192",
+            "input_cache_read": "0.00000016068"
           },
           "top_provider": {
             "context_length": 1048576,

@@ -1402,21 +1402,6 @@
           },
           "providers": [
             {
-              "provider": "novita",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.13,
-                "output": 0.4
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 1958.6,
-              "throughput": 35.2470696433728,
-              "is_model_author": false
-            },
-            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -1935,43 +1920,6 @@
           ]
         },
         {
-          "id": "MiniMaxAI/MiniMax-M2",
-          "name": "MiniMaxAI/MiniMax-M2",
-          "owned_by": "MiniMaxAI",
-          "object": "model",
-          "architecture": {
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ]
-          },
-          "providers": [
-            {
-              "provider": "novita",
-              "status": "live",
-              "context_length": 204800,
-              "pricing": {
-                "input": 0.3,
-                "output": 1.2
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 1908.8,
-              "throughput": 51.908461481437826,
-              "is_model_author": false
-            },
-            {
-              "provider": "featherless-ai",
-              "status": "live",
-              "is_free": false,
-              "is_model_author": false
-            }
-          ]
-        },
-        {
           "id": "MiniMaxAI/MiniMax-M2.1",
           "name": "MiniMaxAI/MiniMax-M2.1",
           "owned_by": "MiniMaxAI",
@@ -2054,8 +2002,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 869.8,
-              "throughput": 101.77641178310905,
+              "first_token_latency_ms": 544.2,
+              "throughput": 92.89851483495504,
               "is_model_author": false
             }
           ]
@@ -2385,10 +2333,10 @@
                 "output": 4.5
               },
               "is_free": false,
-              "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 281,
-              "throughput": 188.28845791752966,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 436.6666666666667,
+              "throughput": 51.34106093763946,
               "is_model_author": false
             },
             {
@@ -3029,10 +2977,10 @@
                 "output": 0.3
               },
               "is_free": false,
-              "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 2499.5,
-              "throughput": 70.20198581076993,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 294.8,
+              "throughput": 98.89690222058957,
               "is_model_author": false
             },
             {
@@ -4157,21 +4105,6 @@
               "first_token_latency_ms": 851.4,
               "throughput": 29.964827505133705,
               "is_model_author": false
-            },
-            {
-              "provider": "deepinfra",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.15,
-                "output": 0.95
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 446.2,
-              "throughput": 49.737564223586816,
-              "is_model_author": false
             }
           ]
         },
@@ -4547,6 +4480,32 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5",
+          "name": "zai-org/GLM-4.5",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2414,
+              "throughput": 53.36206923483535,
+              "is_model_author": true
             }
           ]
         },
@@ -5038,6 +4997,16 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3294,
+              "throughput": 37.64068204915873,
+              "is_model_author": true
             },
             {
               "provider": "deepinfra",
@@ -5753,7 +5722,7 @@
           "canonical_slug": "~moonshotai/kimi-latest",
           "hugging_face_id": null,
           "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
-          "context_length": 262144,
+          "context_length": 1048576,
           "architecture": {
             "modality": "text+image->text",
             "input_modalities": [
@@ -5767,37 +5736,28 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000066",
-            "completion": "0.00000341",
-            "input_cache_read": "0.00000015"
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003"
           },
           "top_provider": {
-            "context_length": 262144,
-            "max_completion_tokens": 262144,
+            "context_length": 1048576,
+            "max_completion_tokens": null,
             "is_moderated": false
           },
           "per_request_limits": null,
           "supported_parameters": [
             "frequency_penalty",
             "include_reasoning",
-            "logit_bias",
-            "logprobs",
             "max_tokens",
-            "min_p",
-            "parallel_tool_calls",
             "presence_penalty",
             "reasoning",
-            "repetition_penalty",
+            "reasoning_effort",
             "response_format",
-            "seed",
             "stop",
             "structured_outputs",
-            "temperature",
             "tool_choice",
-            "tools",
-            "top_k",
-            "top_logprobs",
-            "top_p"
+            "tools"
           ],
           "default_parameters": {
             "temperature": null,
@@ -5814,8 +5774,11 @@
             "details": "/api/v1/models/~moonshotai/kimi-latest/endpoints"
           },
           "reasoning": {
-            "mandatory": false,
-            "default_enabled": true
+            "mandatory": true,
+            "default_enabled": true,
+            "supported_efforts": [
+              "max"
+            ]
           }
         },
         {
@@ -15134,6 +15097,80 @@
           }
         },
         {
+          "id": "meta/muse-spark-1.1",
+          "name": "Meta: Muse Spark 1.1",
+          "canonical_slug": "meta/muse-spark-1.1-20260709",
+          "hugging_face_id": null,
+          "description": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context...",
+          "context_length": 1048576,
+          "architecture": {
+            "modality": "text+image+file+audio+video->text",
+            "input_modalities": [
+              "text",
+              "image",
+              "video",
+              "file",
+              "audio"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.00000125",
+            "completion": "0.00000425",
+            "web_search": "0.0025",
+            "input_cache_read": "0.00000015"
+          },
+          "top_provider": {
+            "context_length": 1048576,
+            "max_completion_tokens": null,
+            "is_moderated": true
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "include_reasoning",
+            "max_tokens",
+            "reasoning",
+            "reasoning_effort",
+            "repetition_penalty",
+            "response_format",
+            "structured_outputs",
+            "temperature",
+            "tool_choice",
+            "tools",
+            "top_k",
+            "top_p"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/meta/muse-spark-1.1-20260709/endpoints"
+          },
+          "reasoning": {
+            "mandatory": true,
+            "supported_efforts": [
+              "xhigh",
+              "high",
+              "medium",
+              "low",
+              "minimal"
+            ],
+            "default_effort": "medium"
+          }
+        },
+        {
           "id": "microsoft/phi-4",
           "name": "Microsoft: Phi 4",
           "canonical_slug": "microsoft/phi-4",
@@ -18147,9 +18184,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000719",
-            "completion": "0.00000349",
-            "input_cache_read": "0.000000149"
+            "prompt": "0.00000075",
+            "completion": "0.0000035",
+            "input_cache_read": "0.00000016"
           },
           "top_provider": {
             "context_length": 262144,
@@ -18310,6 +18347,71 @@
           "reasoning": {
             "mandatory": true,
             "default_enabled": true
+          }
+        },
+        {
+          "id": "moonshotai/kimi-k3",
+          "name": "MoonshotAI: Kimi K3",
+          "canonical_slug": "moonshotai/kimi-k3-20260715",
+          "hugging_face_id": null,
+          "description": "Kimi K3 is an ultra-large-scale, open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at navigating...",
+          "context_length": 1048576,
+          "architecture": {
+            "modality": "text+image->text",
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ],
+            "tokenizer": "Other",
+            "instruct_type": null
+          },
+          "pricing": {
+            "prompt": "0.000003",
+            "completion": "0.000015",
+            "input_cache_read": "0.0000003"
+          },
+          "top_provider": {
+            "context_length": 1048576,
+            "max_completion_tokens": null,
+            "is_moderated": false
+          },
+          "per_request_limits": null,
+          "supported_parameters": [
+            "frequency_penalty",
+            "include_reasoning",
+            "max_tokens",
+            "presence_penalty",
+            "reasoning",
+            "reasoning_effort",
+            "response_format",
+            "stop",
+            "structured_outputs",
+            "tool_choice",
+            "tools"
+          ],
+          "default_parameters": {
+            "temperature": null,
+            "top_p": null,
+            "top_k": null,
+            "frequency_penalty": null,
+            "presence_penalty": null,
+            "repetition_penalty": null
+          },
+          "supported_voices": null,
+          "knowledge_cutoff": null,
+          "expiration_date": null,
+          "links": {
+            "details": "/api/v1/models/moonshotai/kimi-k3-20260715/endpoints"
+          },
+          "reasoning": {
+            "mandatory": true,
+            "default_enabled": true,
+            "supported_efforts": [
+              "max"
+            ]
           }
         },
         {
@@ -25902,7 +26004,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-07-28",
           "links": {
             "details": "/api/v1/models/poolside/laguna-m.1-20260312/endpoints"
           },
@@ -25957,7 +26059,7 @@
           },
           "supported_voices": null,
           "knowledge_cutoff": null,
-          "expiration_date": null,
+          "expiration_date": "2026-07-28",
           "links": {
             "details": "/api/v1/models/poolside/laguna-m.1-20260312/endpoints"
           },
@@ -32967,7 +33069,7 @@
           "canonical_slug": "z-ai/glm-4.7-flash-20260119",
           "hugging_face_id": "zai-org/GLM-4.7-Flash",
           "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,...",
-          "context_length": 202752,
+          "context_length": 200000,
           "architecture": {
             "modality": "text->text",
             "input_modalities": [
@@ -32980,13 +33082,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000006",
-            "completion": "0.0000004",
-            "input_cache_read": "0.00000001"
+            "prompt": "0.0000000605",
+            "completion": "0.0000004"
           },
           "top_provider": {
-            "context_length": 202752,
-            "max_completion_tokens": 16384,
+            "context_length": 131072,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -33604,9 +33705,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000009436",
-            "completion": "0.0000029656",
-            "input_cache_read": "0.00000017524"
+            "prompt": "0.0000009338",
+            "completion": "0.0000029348",
+            "input_cache_read": "0.00000017342"
           },
           "top_provider": {
             "context_length": 1048576,

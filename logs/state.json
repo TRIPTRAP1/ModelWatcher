@@ -788,6 +788,43 @@
           ]
         },
         {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 580.8,
+              "throughput": 93.35121514367323,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
           "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
           "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
           "owned_by": "deepseek-ai",
@@ -1374,8 +1411,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 384.6,
-              "throughput": 21.747009774033007,
+              "first_token_latency_ms": 561,
+              "throughput": 27.384132018045,
               "is_model_author": false
             }
           ]
@@ -1505,8 +1542,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1968.8,
-              "throughput": 14.144989124346306,
+              "first_token_latency_ms": 937.2,
+              "throughput": 18.198860731173838,
               "is_model_author": false
             },
             {
@@ -1551,8 +1588,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 438.2,
-              "throughput": 18.443938902360507,
+              "first_token_latency_ms": 928.6,
+              "throughput": 10.96855216927687,
               "is_model_author": false
             }
           ]
@@ -1680,8 +1717,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 482.8,
-              "throughput": 286.225896902872,
+              "first_token_latency_ms": 432.4,
+              "throughput": 309.4543784192607,
               "is_model_author": false
             },
             {
@@ -1730,8 +1767,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 455.6,
-              "throughput": 75.33860620866615,
+              "first_token_latency_ms": 468.8,
+              "throughput": 81.68161675773756,
               "is_model_author": false
             },
             {
@@ -1809,8 +1846,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 662.2,
-              "throughput": 331.72018859534927,
+              "first_token_latency_ms": 441.2,
+              "throughput": 354.6707524960361,
               "is_model_author": false
             },
             {
@@ -2422,8 +2459,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 360,
-              "throughput": 94.0623417513851,
+              "first_token_latency_ms": 465.2,
+              "throughput": 182.77336981011348,
               "is_model_author": false
             },
             {
@@ -2437,8 +2474,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 564.2,
-              "throughput": 64.8433275454397,
+              "first_token_latency_ms": 1442,
+              "throughput": 46.078932038936955,
               "is_model_author": false
             },
             {
@@ -2664,8 +2701,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 393,
-              "throughput": 106.09508255035378,
+              "first_token_latency_ms": 491.4,
+              "throughput": 90.0580407278327,
               "is_model_author": false
             },
             {
@@ -2678,8 +2715,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 253.2,
-              "throughput": 833.4528009413707,
+              "first_token_latency_ms": 195.6,
+              "throughput": 946.9254992218823,
               "is_model_author": false
             },
             {
@@ -2771,7 +2808,7 @@
                 "output": 0.16999999999999998
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": true,
               "first_token_latency_ms": 302.2,
               "throughput": 55.569959891031814,
@@ -3057,16 +3094,31 @@
                 "output": 0.4
               },
               "is_free": false,
-              "supports_tools": true,
+              "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 450.4,
-              "throughput": 19.487449260948175,
+              "first_token_latency_ms": 485.4,
+              "throughput": 43.79909067185261,
               "is_model_author": false
             },
             {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.36,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 334,
+              "throughput": 32.08169951839341,
               "is_model_author": false
             }
           ]
@@ -3096,8 +3148,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 224.8,
-              "throughput": 106.75764234433612,
+              "first_token_latency_ms": 282.8,
+              "throughput": 93.4905888875954,
               "is_model_author": false
             },
             {
@@ -3133,8 +3185,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 616,
-              "throughput": 39.83749192016148,
+              "first_token_latency_ms": 588.2,
+              "throughput": 47.89856711203119,
               "is_model_author": false
             },
             {
@@ -3950,21 +4002,6 @@
               "first_token_latency_ms": 1009.4,
               "throughput": 107.10727718582159,
               "is_model_author": false
-            },
-            {
-              "provider": "deepinfra",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.29,
-                "output": 2.4
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 538,
-              "throughput": 85.79720562738194,
-              "is_model_author": false
             }
           ]
         },
@@ -4003,6 +4040,21 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.26,
+                "output": 2.5999999999999996
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 728.5,
+              "throughput": 11.369048616670591,
+              "is_model_author": false
             }
           ]
         },
@@ -4032,8 +4084,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 774.2,
-              "throughput": 106.06036554322127,
+              "first_token_latency_ms": 821.6,
+              "throughput": 125.38966875378746,
               "is_model_author": false
             },
             {
@@ -5400,8 +5452,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 531.5,
-              "throughput": 51.46952977215562,
+              "first_token_latency_ms": 576,
+              "throughput": 65.37764593643294,
               "is_model_author": false
             },
             {
@@ -25688,7 +25740,7 @@
           "name": "Auto Router (Beta)",
           "canonical_slug": "openrouter/auto-beta",
           "hugging_face_id": null,
-          "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it to one of the most popular models for that task based on community spend,...",
+          "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your...",
           "context_length": 2000000,
           "architecture": {
             "modality": "text+image+file+audio+video->text+image",
@@ -34014,9 +34066,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000009212",
-            "completion": "0.0000028952",
-            "input_cache_read": "0.00000017108"
+            "prompt": "0.000000917",
+            "completion": "0.000002882",
+            "input_cache_read": "0.0000001703"
           },
           "top_provider": {
             "context_length": 1048576,

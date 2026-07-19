@@ -369,8 +369,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 267.8,
-              "throughput": 70.73236779420131,
+              "first_token_latency_ms": 236.2,
+              "throughput": 68.50237456014311,
               "is_model_author": true
             }
           ]
@@ -1465,6 +1465,21 @@
           },
           "providers": [
             {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.13,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 888,
+              "throughput": 15.118395369983055,
+              "is_model_author": false
+            },
+            {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
@@ -1552,8 +1567,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 208.2,
-              "throughput": 65.99300899307148,
+              "first_token_latency_ms": 610.8,
+              "throughput": 31.136211779079826,
               "is_model_author": false
             },
             {
@@ -1767,8 +1782,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 356.2,
-              "throughput": 31.864949603815198,
+              "first_token_latency_ms": 326.8,
+              "throughput": 35.477943772917214,
               "is_model_author": false
             }
           ]
@@ -2414,8 +2429,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1029.6,
-              "throughput": 40.35570822596789,
+              "first_token_latency_ms": 1057.8,
+              "throughput": 45.083560189195126,
               "is_model_author": false
             },
             {
@@ -2623,10 +2638,10 @@
                 "output": 2.4
               },
               "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 1073.4,
-              "throughput": 48.56475748708495,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1682.6,
+              "throughput": 52.047586675756975,
               "is_model_author": false
             }
           ]
@@ -2765,8 +2780,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 466.6,
-              "throughput": 140.1546287992212,
+              "first_token_latency_ms": 252.2,
+              "throughput": 85.080198466363,
               "is_model_author": false
             },
             {
@@ -2892,8 +2907,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 387.8,
-              "throughput": 73.90426142677633,
+              "first_token_latency_ms": 319.2,
+              "throughput": 81.12337420003784,
               "is_model_author": false
             },
             {
@@ -3600,43 +3615,6 @@
           ]
         },
         {
-          "id": "Qwen/Qwen3-4B-Thinking-2507",
-          "name": "Qwen/Qwen3-4B-Thinking-2507",
-          "owned_by": "Qwen",
-          "object": "model",
-          "architecture": {
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ]
-          },
-          "providers": [
-            {
-              "provider": "nscale",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.01,
-                "output": 0.03
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 618.8,
-              "throughput": 157.03525613475094,
-              "is_model_author": false
-            },
-            {
-              "provider": "featherless-ai",
-              "status": "live",
-              "is_free": false,
-              "is_model_author": false
-            }
-          ]
-        },
-        {
           "id": "Qwen/Qwen3-8B",
           "name": "Qwen/Qwen3-8B",
           "owned_by": "Qwen",
@@ -4136,8 +4114,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 470.8,
-              "throughput": 118.17034114100787,
+              "first_token_latency_ms": 294.8,
+              "throughput": 143.98756762711514,
               "is_model_author": false
             },
             {
@@ -4203,9 +4181,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 569.6,
-              "throughput": 39.60850012678161,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 380.6,
+              "throughput": 40.2412835733436,
               "is_model_author": false
             },
             {
@@ -4272,8 +4250,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1801.6,
-              "throughput": 64.5257943648612,
+              "first_token_latency_ms": 351.8,
+              "throughput": 61.59654367577146,
               "is_model_author": false
             }
           ]
@@ -4595,8 +4573,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 169,
-              "throughput": 92.21896388010836,
+              "first_token_latency_ms": 1579.4,
+              "throughput": 88.74045040937884,
               "is_model_author": false
             }
           ]
@@ -4764,10 +4742,10 @@
               "provider": "zai-org",
               "status": "live",
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2267.25,
-              "throughput": 46.01693058125841,
+              "first_token_latency_ms": 2369.8,
+              "throughput": 47.255688614277034,
               "is_model_author": true
             }
           ]
@@ -5138,8 +5116,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1700,
-              "throughput": 93.46268545265163,
+              "first_token_latency_ms": 1389.6666666666667,
+              "throughput": 108.36363980386098,
               "is_model_author": true
             },
             {
@@ -5153,8 +5131,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 389.4,
-              "throughput": 58.79253558139014,
+              "first_token_latency_ms": 545.5,
+              "throughput": 34.74304146357395,
               "is_model_author": false
             }
           ]
@@ -13529,13 +13507,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000022",
-            "completion": "0.00000055",
-            "input_cache_read": "0.00000012"
+            "prompt": "0.00000012",
+            "completion": "0.00000037"
           },
           "top_provider": {
             "context_length": 262144,
-            "max_completion_tokens": 262144,
+            "max_completion_tokens": 16384,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -33823,9 +33800,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000002408",
-            "completion": "0.0000007568",
-            "input_cache_read": "0.00000004472"
+            "prompt": "0.0000002366",
+            "completion": "0.0000007436",
+            "input_cache_read": "0.00000004394"
           },
           "top_provider": {
             "context_length": 1048576,

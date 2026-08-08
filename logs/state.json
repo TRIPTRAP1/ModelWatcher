@@ -1,9 +1,5916 @@
 {
   "endpoints": {
     "HuggingFace": {
-      "success": false,
-      "models": [],
-      "error": "HTTP 429: Too Many Requests"
+      "success": true,
+      "models": [
+        {
+          "id": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+          "name": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+          "owned_by": "aisingapore",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.2,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1656.4,
+              "throughput": 50.9907792263124,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+          "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
+          "owned_by": "aisingapore",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.25,
+                "output": 0.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1384.2,
+              "throughput": 47.599692681440885,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "allenai/Olmo-3-7B-Instruct",
+          "name": "allenai/Olmo-3-7B-Instruct",
+          "owned_by": "allenai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "alpindale/WizardLM-2-8x22B",
+          "name": "alpindale/WizardLM-2-8x22B",
+          "owned_by": "alpindale",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 65535,
+              "pricing": {
+                "input": 0.62,
+                "output": 0.62
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 715.6,
+              "throughput": 43.92099260118155,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+          "name": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
+          "owned_by": "baidu",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 123000,
+              "pricing": {
+                "input": 0.42,
+                "output": 1.25
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1190.4,
+              "throughput": 40.726812453141484,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/aya-expanse-32b",
+          "name": "CohereLabs/aya-expanse-32b",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 232.6,
+              "throughput": 41.72513860871564,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/aya-vision-32b",
+          "name": "CohereLabs/aya-vision-32b",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 205.2,
+              "throughput": 42.18416142052858,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/c4ai-command-a-03-2025",
+          "name": "CohereLabs/c4ai-command-a-03-2025",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 241.8,
+              "throughput": 45.150143694558494,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/c4ai-command-r-08-2024",
+          "name": "CohereLabs/c4ai-command-r-08-2024",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 289.6,
+              "throughput": 28.24503064281592,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/c4ai-command-r7b-12-2024",
+          "name": "CohereLabs/c4ai-command-r7b-12-2024",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 215.6,
+              "throughput": 85.67454270119723,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/c4ai-command-r7b-arabic-02-2025",
+          "name": "CohereLabs/c4ai-command-r7b-arabic-02-2025",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 294,
+              "throughput": 40.38426624713044,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/command-a-reasoning-08-2025",
+          "name": "CohereLabs/command-a-reasoning-08-2025",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 167.4,
+              "throughput": 104.95407875972512,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/command-a-translate-08-2025",
+          "name": "CohereLabs/command-a-translate-08-2025",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 225,
+              "throughput": 71.84958194983976,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/tiny-aya-earth",
+          "name": "CohereLabs/tiny-aya-earth",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 279.2,
+              "throughput": 130.95551753185367,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/tiny-aya-fire",
+          "name": "CohereLabs/tiny-aya-fire",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 241,
+              "throughput": 131.6656619531256,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/tiny-aya-global",
+          "name": "CohereLabs/tiny-aya-global",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 180.8,
+              "throughput": 134.14391520460458,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "CohereLabs/tiny-aya-water",
+          "name": "CohereLabs/tiny-aya-water",
+          "owned_by": "CohereLabs",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "cohere",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 284.4,
+              "throughput": 129.7160771067616,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "deepcogito/cogito-671b-v2.1",
+          "name": "deepcogito/cogito-671b-v2.1",
+          "owned_by": "deepcogito",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 1.25,
+                "output": 1.25
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 290.4,
+              "throughput": 73.92779347669239,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepcogito/cogito-671b-v2.1-FP8",
+          "name": "deepcogito/cogito-671b-v2.1-FP8",
+          "owned_by": "deepcogito",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 1.25,
+                "output": 1.25
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 237,
+              "throughput": 72.65025969767032,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1",
+          "name": "deepseek-ai/DeepSeek-R1",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 64000,
+              "pricing": {
+                "input": 0.7,
+                "output": 2.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 849.6,
+              "throughput": 24.698723939718565,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-0528",
+          "name": "deepseek-ai/DeepSeek-R1-0528",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.7,
+                "output": 2.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1347.6,
+              "throughput": 19.086707019154368,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.5,
+                "output": 2.15
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 763,
+              "throughput": 20.4932914850662,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 8192,
+              "pricing": {
+                "input": 0.8,
+                "output": 0.8
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 716.6,
+              "throughput": 30.00473274339634,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "name": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 597.4,
+              "throughput": 146.03378713996352,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 637.8,
+              "throughput": 92.58427756521927,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "name": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 0.15
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 638.2,
+              "throughput": 166.39991647981046,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3",
+          "name": "deepseek-ai/DeepSeek-V3",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 64000,
+              "pricing": {
+                "input": 0.4,
+                "output": 1.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1945.6,
+              "throughput": 30.80240787506826,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.32,
+                "output": 0.8899999999999999
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 406.6,
+              "throughput": 35.24946285301887,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3-0324",
+          "name": "deepseek-ai/DeepSeek-V3-0324",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.27,
+                "output": 1.12
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1371.8,
+              "throughput": 32.206173743358804,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.24000000000000002,
+                "output": 0.9
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 817.4,
+              "throughput": 19.003170952179985,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.1",
+          "name": "deepseek-ai/DeepSeek-V3.1",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.27,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1855.4,
+              "throughput": 26.152379296109395,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.25,
+                "output": 0.95
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 608.4,
+              "throughput": 11.846801083176086,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "name": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.27,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1430.4,
+              "throughput": 26.08366791649407,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.27,
+                "output": 0.95
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 637.8,
+              "throughput": 57.92358051551603,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2",
+          "name": "deepseek-ai/DeepSeek-V3.2",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.269,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1321.8,
+              "throughput": 34.57859479951007,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.26,
+                "output": 0.38
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 690.4,
+              "throughput": 31.8049220853979,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "name": "deepseek-ai/DeepSeek-V3.2-Exp",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.27,
+                "output": 0.41
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1408.6,
+              "throughput": 25.64786915166721,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash",
+          "name": "deepseek-ai/DeepSeek-V4-Flash",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.14,
+                "output": 0.28
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 978.8,
+              "throughput": 67.04384508936607,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1093.8,
+              "throughput": 44.04037015542448,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "name": "deepseek-ai/DeepSeek-V4-Flash-0731",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.14,
+                "output": 0.28
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 752.6,
+              "throughput": 62.51590968384643,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.13999999999999999,
+                "output": 0.27999999999999997
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 678.2,
+              "throughput": 77.64468049932857,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 1048576,
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 576.6,
+              "throughput": 85.02014723472482,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.13,
+                "output": 0.26
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 544.8,
+              "throughput": 72.1387053359975,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 777.2,
+              "throughput": 72.52760587536224,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "deepseek-ai/DeepSeek-V4-Pro",
+          "name": "deepseek-ai/DeepSeek-V4-Pro",
+          "owned_by": "deepseek-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.6,
+                "output": 3.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 495.4,
+              "throughput": 45.758296805532545,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 512000,
+              "pricing": {
+                "input": 1.74,
+                "output": 3.48
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 534,
+              "throughput": 73.7945402278507,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.74,
+                "output": 3.48
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1496.8,
+              "throughput": 52.83026706038883,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.2999999999999998,
+                "output": 2.5999999999999996
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 668.5,
+              "throughput": 37.32014131982649,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "google/gemma-3-12b-it",
+          "name": "google/gemma-3-12b-it",
+          "owned_by": "google",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.15
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 705,
+              "throughput": 48.35434395691514,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "google/gemma-3-27b-it",
+          "name": "google/gemma-3-27b-it",
+          "owned_by": "google",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.08,
+                "output": 0.16
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 239.4,
+              "throughput": 25.10789980834976,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "google/gemma-3-4b-it",
+          "name": "google/gemma-3-4b-it",
+          "owned_by": "google",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 356.2,
+              "throughput": 44.512872827235014,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "google/gemma-3n-E4B-it",
+          "name": "google/gemma-3n-E4B-it",
+          "owned_by": "google",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.060000000000000005,
+                "output": 0.12000000000000001
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 308.6,
+              "throughput": 37.56677737143876,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "google/gemma-4-26B-A4B-it",
+          "name": "google/gemma-4-26B-A4B-it",
+          "owned_by": "google",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.13,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 835.6666666666666,
+              "throughput": 31.55277861802739,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 0.285,
+                "output": 0.57
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 444.4,
+              "throughput": 168.37861296450689,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.33999999999999997
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 329.6,
+              "throughput": 32.814652482802614,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "google/gemma-4-31B-it",
+          "name": "google/gemma-4-31B-it",
+          "owned_by": "google",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.14,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1192.2,
+              "throughput": 16.856912293992014,
+              "is_model_author": false
+            },
+            {
+              "provider": "cerebras",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.99,
+                "output": 1.49
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 219,
+              "throughput": 690.9815699354747,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.39,
+                "output": 0.9700000000000001
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 409.8,
+              "throughput": 28.42898791703982,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.13,
+                "output": 0.38
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1245.6,
+              "throughput": 1.138338220173893,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "inclusionAI/Ling-2.6-1T",
+          "name": "inclusionAI/Ling-2.6-1T",
+          "owned_by": "inclusionAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.3,
+                "output": 2.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 810.4,
+              "throughput": 85.8439623093001,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.1-8B-Instruct",
+          "name": "meta-llama/Llama-3.1-8B-Instruct",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 16384,
+              "pricing": {
+                "input": 0.02,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 526.6,
+              "throughput": 184.30101350988664,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.06,
+                "output": 0.06
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 648.8,
+              "throughput": 147.31380587288427,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.02,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 754.4,
+              "throughput": 20.572649424228764,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-3.3-70B-Instruct",
+          "name": "meta-llama/Llama-3.3-70B-Instruct",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "groq",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.59,
+                "output": 0.79
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 263,
+              "throughput": 290.6926632366146,
+              "is_model_author": false
+            },
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 12288,
+              "pricing": {
+                "input": 0.135,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 493.4,
+              "throughput": 45.3900252677952,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 1.0399999999999998,
+                "output": 1.0399999999999998
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 407.8,
+              "throughput": 124.55340682162425,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 1.026,
+                "output": 1.026
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 445.2,
+              "throughput": 83.3888767973202,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.74,
+                "output": 0.74
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 414.2,
+              "throughput": 30.27462323069749,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.27,
+                "output": 0.85
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 532.4,
+              "throughput": 78.02730004221146,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "name": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.18,
+                "output": 0.59
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 391.6,
+              "throughput": 83.52477820289499,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 890000,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.29
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 567.8,
+              "throughput": 61.22156854916974,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 327680,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 220,
+              "throughput": 35.93335038896694,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "meta-llama/Llama-Guard-4-12B",
+          "name": "meta-llama/Llama-Guard-4-12B",
+          "owned_by": "meta-llama",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 120.4,
+              "throughput": 15.939737936641958,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 163840,
+              "pricing": {
+                "input": 0.18,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 382.6,
+              "throughput": 6.294548742846307,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "microsoft/phi-4",
+          "name": "microsoft/phi-4",
+          "owned_by": "microsoft",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 16384,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.14
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 276,
+              "throughput": 75.9051530184236,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M1-80k",
+          "name": "MiniMaxAI/MiniMax-M1-80k",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1000000,
+              "pricing": {
+                "input": 0.55,
+                "output": 2.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1131.2,
+              "throughput": 53.53893535901716,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2",
+          "name": "MiniMaxAI/MiniMax-M2",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1374,
+              "throughput": 60.36314573189943,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2.1",
+          "name": "MiniMaxAI/MiniMax-M2.1",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1683.4,
+              "throughput": 61.41832637911873,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2.5",
+          "name": "MiniMaxAI/MiniMax-M2.5",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 976.2,
+              "throughput": 57.482126638202445,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M2.7",
+          "name": "MiniMaxAI/MiniMax-M2.7",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1627.4,
+              "throughput": 34.84417454398733,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 196608,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 646.6,
+              "throughput": 175.95454808051937,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 196608,
+              "pricing": {
+                "input": 0.25,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2246.4,
+              "throughput": 50.67396357952475,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "MiniMaxAI/MiniMax-M3",
+          "name": "MiniMaxAI/MiniMax-M3",
+          "owned_by": "MiniMaxAI",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1000000,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 552.8,
+              "throughput": 88.6891556168961,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 490.6,
+              "throughput": 59.30796834660828,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 512000,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1614.8,
+              "throughput": 92.36072715734393,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 0.28,
+                "output": 1.1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3685.6,
+              "throughput": 17.346622533457126,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Instruct",
+          "name": "moonshotai/Kimi-K2-Instruct",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.57,
+                "output": 2.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 788,
+              "throughput": 33.95721774835888,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2-Instruct-0905",
+          "name": "moonshotai/Kimi-K2-Instruct-0905",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6,
+                "output": 2.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 684.8,
+              "throughput": 35.539202751066924,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2.5",
+          "name": "moonshotai/Kimi-K2.5",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6,
+                "output": 3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1019,
+              "throughput": 37.26340771840418,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.45,
+                "output": 2.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 872,
+              "throughput": 66.98210240071234,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2.6",
+          "name": "moonshotai/Kimi-K2.6",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.8,
+                "output": 3.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1241.6,
+              "throughput": 62.99322130433556,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 1.2,
+                "output": 4.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1388.6666666666667,
+              "throughput": 9.368481359685463,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 487.6,
+              "throughput": 48.58369339033218,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 262000,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 490.4,
+              "throughput": 83.90105138656338,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.7499999999999999,
+                "output": 3.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1296.4,
+              "throughput": 8.329613733212694,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K2.7-Code",
+          "name": "moonshotai/Kimi-K2.7-Code",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1483.6,
+              "throughput": 32.96942228838684,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 360.6,
+              "throughput": 211.0604107230036,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 667.2,
+              "throughput": 43.48425607124597,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 262000,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1269.4,
+              "throughput": 53.33975763100615,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6799999999999999,
+                "output": 3.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 748,
+              "throughput": 82.62113198214944,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "moonshotai/Kimi-K3",
+          "name": "moonshotai/Kimi-K3",
+          "owned_by": "moonshotai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 1000000,
+              "pricing": {
+                "input": 3,
+                "output": 15
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 4616,
+              "throughput": 60.3536725209729,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 3,
+                "output": 15
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 746,
+              "throughput": 57.2854737466186,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 3,
+                "output": 15
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1377,
+              "throughput": 72.34609553495805,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "NousResearch/Hermes-3-Llama-3.1-70B",
+          "name": "NousResearch/Hermes-3-Llama-3.1-70B",
+          "owned_by": "NousResearch",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.7,
+                "output": 0.7
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 392,
+              "throughput": 36.960534453361376,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "owned_by": "nvidia",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 1,
+                "output": 5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 623.2,
+              "throughput": 45.210949732134175,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "name": "nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "owned_by": "nvidia",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 512288,
+              "pricing": {
+                "input": 0.6,
+                "output": 3.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 218.8,
+              "throughput": 78.8495195111495,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6,
+                "output": 2.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 781,
+              "throughput": 83.00561071731576,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-120b",
+          "name": "openai/gpt-oss-120b",
+          "owned_by": "openai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "groq",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 0.75
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 133.8,
+              "throughput": 447.99485366881635,
+              "is_model_author": false
+            },
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 574.4,
+              "throughput": 62.98203949363178,
+              "is_model_author": false
+            },
+            {
+              "provider": "cerebras",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.35,
+                "output": 0.75
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 329,
+              "throughput": 1084.8213146502274,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 659.6,
+              "throughput": 107.25388080925745,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 0.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 267,
+              "throughput": 172.8636761456607,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 0.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 372.2,
+              "throughput": 158.30526274525405,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 0.171,
+                "output": 0.684
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1765.6,
+              "throughput": 124.6129971436109,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 128072,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 199.6,
+              "throughput": 212.58615965074128,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.47
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 373,
+              "throughput": 104.82714618433893,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.037,
+                "output": 0.16999999999999998
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 391.8,
+              "throughput": 43.08895846350542,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "name": "openai/gpt-oss-20b",
+          "owned_by": "openai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "groq",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 185,
+              "throughput": 761.7460930367275,
+              "is_model_author": false
+            },
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.04,
+                "output": 0.15
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 553.6,
+              "throughput": 48.98206473750338,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 557.2,
+              "throughput": 165.81545947562427,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 220,
+              "throughput": 106.71855860457913,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 260,
+              "throughput": 185.45994065281897,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 285.8,
+              "throughput": 85.38623547592341,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.030000000000000002,
+                "output": 0.14
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 402.4,
+              "throughput": 105.25066628912734,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "openai/gpt-oss-safeguard-20b",
+          "name": "openai/gpt-oss-safeguard-20b",
+          "owned_by": "openai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "groq",
+              "status": "live",
+              "context_length": 131072,
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 162.6,
+              "throughput": 792.5459310552144,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "pearl-ai/Gemma-4-31B-it-pearl",
+          "name": "pearl-ai/Gemma-4-31B-it-pearl",
+          "owned_by": "pearl-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.27999999999999997,
+                "output": 0.86
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 198.2,
+              "throughput": 57.92451134446092,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "prism-ml/Ternary-Bonsai-27B-AWQ-4bit",
+          "name": "prism-ml/Ternary-Bonsai-27B-AWQ-4bit",
+          "owned_by": "prism-ml",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0,
+                "output": 0
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 385.4,
+              "throughput": 39.31889703739177,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "prism-ml/Ternary-Bonsai-27B-gguf",
+          "name": "prism-ml/Ternary-Bonsai-27B-gguf",
+          "owned_by": "prism-ml",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0,
+                "output": 0
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 506.8,
+              "throughput": 42.91265103188563,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-72B-Instruct",
+          "name": "Qwen/Qwen2.5-72B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 32000,
+              "pricing": {
+                "input": 0.38,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 445.8,
+              "throughput": 28.685521871582967,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.36,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 361.8,
+              "throughput": 29.200715302227763,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-7B-Instruct",
+          "name": "Qwen/Qwen2.5-7B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.3,
+                "output": 0.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 187,
+              "throughput": 111.14195368273617,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "name": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.06,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 683.2,
+              "throughput": 47.77499500034454,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-Coder-3B-Instruct",
+          "name": "Qwen/Qwen2.5-Coder-3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.01,
+                "output": 0.03
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 642.2,
+              "throughput": 183.40323605301018,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-Coder-7B-Instruct",
+          "name": "Qwen/Qwen2.5-Coder-7B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.01,
+                "output": 0.03
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 555,
+              "throughput": 144.59394563251902,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen2.5-VL-72B-Instruct",
+          "name": "Qwen/Qwen2.5-VL-72B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 1.01,
+                "output": 1.01
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 555.4,
+              "throughput": 34.41374819089444,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-14B",
+          "name": "Qwen/Qwen3-14B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 595.8,
+              "throughput": 94.33107292028346,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.12000000000000001,
+                "output": 0.24000000000000002
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 297.2,
+              "throughput": 81.54889714906588,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-235B-A22B",
+          "name": "Qwen/Qwen3-235B-A22B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.8
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 848.4,
+              "throughput": 25.95683318297413,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 32000,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 841.8,
+              "throughput": 14.028637577936905,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+          "name": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.58
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 688.8,
+              "throughput": 49.26059127409452,
+              "is_model_author": false
+            },
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 32768,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 721.8,
+              "throughput": 13.501019036247964,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 0.855,
+                "output": 2.565
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 358.4,
+              "throughput": 100.246835931847,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.09,
+                "output": 0.55
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 289.8,
+              "throughput": 24.207300148218167,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "name": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.3,
+                "output": 3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 827,
+              "throughput": 57.71724979271612,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.22999999999999998,
+                "output": 2.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 441,
+              "throughput": 62.958989763955664,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-30B-A3B",
+          "name": "Qwen/Qwen3-30B-A3B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.12000000000000001,
+                "output": 0.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 274.4,
+              "throughput": 89.60210180413003,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-32B",
+          "name": "Qwen/Qwen3-32B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.08,
+                "output": 0.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 829.8,
+              "throughput": 47.570526705562536,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.08,
+                "output": 0.28
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 400.4,
+              "throughput": 62.3293794794797,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-4B-Instruct-2507",
+          "name": "Qwen/Qwen3-4B-Instruct-2507",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.01,
+                "output": 0.03
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 636,
+              "throughput": 109.65548469315709,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-4B-Thinking-2507",
+          "name": "Qwen/Qwen3-4B-Thinking-2507",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.01,
+                "output": 0.03
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 622.4,
+              "throughput": 157.58905773057683,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-8B",
+          "name": "Qwen/Qwen3-8B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "nscale",
+              "status": "live",
+              "context_length": 40960,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 676.6,
+              "throughput": 132.65474200941884,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "name": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 0.228,
+                "output": 0.912
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 294.8,
+              "throughput": 141.4799755707993,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+          "name": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.38,
+                "output": 1.55
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 686.8,
+              "throughput": 63.14616227449577,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Coder-Next",
+          "name": "Qwen/Qwen3-Coder-Next",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.2,
+                "output": 1.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 769,
+              "throughput": 122.11621280552649,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+          "name": "Qwen/Qwen3-Next-80B-A3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.15,
+                "output": 1.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 988.2,
+              "throughput": 120.27921722193419,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.09,
+                "output": 1.1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 2199.4,
+              "throughput": 49.22691439162578,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+          "name": "Qwen/Qwen3-VL-235B-A22B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.3,
+                "output": 1.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 916,
+              "throughput": 38.76088899134534,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.8799999999999999
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 659.8,
+              "throughput": 26.472392289166407,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "name": "Qwen/Qwen3-VL-235B-A22B-Thinking",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.98,
+                "output": 3.95
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 852.4,
+              "throughput": 40.466974818834125,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+          "name": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.2,
+                "output": 0.7
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1277.2,
+              "throughput": 103.59952096151315,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.15,
+                "output": 0.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 323.4,
+              "throughput": 23.41452765792109,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-122B-A10B",
+          "name": "Qwen/Qwen3.5-122B-A10B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.4,
+                "output": 3.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 982,
+              "throughput": 90.09372112173199,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.29,
+                "output": 2.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 346.6,
+              "throughput": 138.62432586916623,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-27B",
+          "name": "Qwen/Qwen3.5-27B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.3,
+                "output": 2.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 874.4,
+              "throughput": 58.99275088259653,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.26,
+                "output": 2.5999999999999996
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 235.8,
+              "throughput": 80.54990153624017,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-35B-A3B",
+          "name": "Qwen/Qwen3.5-35B-A3B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.25,
+                "output": 2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 869.8,
+              "throughput": 90.38072575503845,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.14,
+                "output": 1
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 668.4,
+              "throughput": 32.95692389577575,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-397B-A17B",
+          "name": "Qwen/Qwen3.5-397B-A17B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.6,
+                "output": 3.6
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 893,
+              "throughput": 67.40157695825593,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 0.684,
+                "output": 4.104
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 630.4,
+              "throughput": 79.69481875939303,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.71,
+                "output": 4.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 346.8,
+              "throughput": 95.87519374366191,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.45,
+                "output": 2.9999999999999996
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 538.6,
+              "throughput": 57.972402366904745,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.5-9B",
+          "name": "Qwen/Qwen3.5-9B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.17,
+                "output": 0.25
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 252.2,
+              "throughput": 110.03010443533219,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.12,
+                "output": 0.18
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 356.8,
+              "throughput": 32.4962918448563,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.15
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 295.8,
+              "throughput": 104.2049146887859,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.6-27B",
+          "name": "Qwen/Qwen3.6-27B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "ovhcloud",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.47,
+                "output": 3.19
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 442.4,
+              "throughput": 76.06084718581369,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.32,
+                "output": 3.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 459,
+              "throughput": 23.38351924260768,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Qwen/Qwen3.6-35B-A3B",
+          "name": "Qwen/Qwen3.6-35B-A3B",
+          "owned_by": "Qwen",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 0.285,
+                "output": 1.71
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 426.6,
+              "throughput": 184.03344439727223,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.95
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 278.2,
+              "throughput": 102.1528599753942,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Sao10K/L3-8B-Lunaris-v1",
+          "name": "Sao10K/L3-8B-Lunaris-v1",
+          "owned_by": "Sao10K",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 8192,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 338.2,
+              "throughput": 80.61202366331216,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "Sao10K/L3-8B-Stheno-v3.2",
+          "name": "Sao10K/L3-8B-Stheno-v3.2",
+          "owned_by": "Sao10K",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 8192,
+              "pricing": {
+                "input": 0.05,
+                "output": 0.05
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 403.8,
+              "throughput": 86.512591460303,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "speakleash/Bielik-11B-v3.0-Instruct",
+          "name": "speakleash/Bielik-11B-v3.0-Instruct",
+          "owned_by": "speakleash",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.4,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1060.8,
+              "throughput": 55.84529032570731,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "stepfun-ai/Step-3.5-Flash",
+          "name": "stepfun-ai/Step-3.5-Flash",
+          "owned_by": "stepfun-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.1,
+                "output": 0.3
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 237,
+              "throughput": 87.47532540779696,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "stepfun-ai/Step-3.7-Flash",
+          "name": "stepfun-ai/Step-3.7-Flash",
+          "owned_by": "stepfun-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.2,
+                "output": 1.15
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 214.8,
+              "throughput": 89.66945035959561,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "swiss-ai/Apertus-70B-Instruct-2509",
+          "name": "swiss-ai/Apertus-70B-Instruct-2509",
+          "owned_by": "swiss-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.82,
+                "output": 2.92
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 617,
+              "throughput": 63.90008245626477,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "swiss-ai/Apertus-8B-Instruct-2509",
+          "name": "swiss-ai/Apertus-8B-Instruct-2509",
+          "owned_by": "swiss-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 782.2,
+              "throughput": 141.1749485761855,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "swiss-ai/Apertus-v1.5-70B",
+          "name": "swiss-ai/Apertus-v1.5-70B",
+          "owned_by": "swiss-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.82,
+                "output": 2.92
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 619.6,
+              "throughput": 64.27315613437136,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "swiss-ai/Apertus-v1.5-8B",
+          "name": "swiss-ai/Apertus-v1.5-8B",
+          "owned_by": "swiss-ai",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 572.2,
+              "throughput": 148.62313389537476,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "tencent/Hy3",
+          "name": "tencent/Hy3",
+          "owned_by": "tencent",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.14,
+                "output": 0.58
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 318.8,
+              "throughput": 26.050388144546652,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "thinkingmachines/Inkling",
+          "name": "thinkingmachines/Inkling",
+          "owned_by": "thinkingmachines",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 1,
+                "output": 4.05
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 201.6,
+              "throughput": 74.9035913863335,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 1048576,
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 420,
+              "throughput": 104.27528675703859,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1,
+                "output": 4.05
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 205,
+              "throughput": 138.36738871450683,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 0.95,
+                "output": 4.05
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 494.6,
+              "throughput": 91.12430301210154,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "thinkingmachines/Inkling-Small",
+          "name": "thinkingmachines/Inkling-Small",
+          "owned_by": "thinkingmachines",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 0.5,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 185.6,
+              "throughput": 167.24532605092602,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.5,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 245.8,
+              "throughput": 207.83982209380957,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 524288,
+              "pricing": {
+                "input": 0.45,
+                "output": 1.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 291.8,
+              "throughput": 98.30620467293275,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "utter-project/EuroLLM-22B-Instruct-2512",
+          "name": "utter-project/EuroLLM-22B-Instruct-2512",
+          "owned_by": "utter-project",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.1,
+                "output": 0.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2310.75,
+              "throughput": 2.83904062741991,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "XiaomiMiMo/MiMo-V2.5",
+          "name": "XiaomiMiMo/MiMo-V2.5",
+          "owned_by": "XiaomiMiMo",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 262144,
+              "pricing": {
+                "input": 0.4,
+                "output": 2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 3071.8,
+              "throughput": 31.462801192474608,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "XiaomiMiMo/MiMo-V2.5-Pro",
+          "name": "XiaomiMiMo/MiMo-V2.5-Pro",
+          "owned_by": "XiaomiMiMo",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1,
+                "output": 2.9999999999999996
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 301.4,
+              "throughput": 81.53563501005983,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/AutoGLM-Phone-9B-Multilingual",
+          "name": "zai-org/AutoGLM-Phone-9B-Multilingual",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 65536,
+              "pricing": {
+                "input": 0.035,
+                "output": 0.138
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 396.6,
+              "throughput": 80.62956177796856,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4-32B-0414",
+          "name": "zai-org/GLM-4-32B-0414",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 32000,
+              "pricing": {
+                "input": 0.55,
+                "output": 1.66
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 874.8,
+              "throughput": 38.05233771427383,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5",
+          "name": "zai-org/GLM-4.5",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2414,
+              "throughput": 53.36206923483535,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5-Air",
+          "name": "zai-org/GLM-4.5-Air",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.13,
+                "output": 0.85
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 720.8,
+              "throughput": 53.473870832061095,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2101.2,
+              "throughput": 62.745154954591996,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5V",
+          "name": "zai-org/GLM-4.5V",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 65536,
+              "pricing": {
+                "input": 0.6,
+                "output": 1.8
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1245.6,
+              "throughput": 71.45800490665331,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2750,
+              "throughput": 59.626373821524716,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5V-FP8",
+          "name": "zai-org/GLM-4.5V-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1725.4,
+              "throughput": 68.74704301441275,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.6",
+          "name": "zai-org/GLM-4.6",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.55,
+                "output": 2.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1000.2,
+              "throughput": 21.899242057094423,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3153,
+              "throughput": 41.81640940226462,
+              "is_model_author": true
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 0.5,
+                "output": 2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 544.8,
+              "throughput": 34.89065832409589,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.6-FP8",
+          "name": "zai-org/GLM-4.6-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2498.3333333333335,
+              "throughput": 47.53592988031718,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.6V",
+          "name": "zai-org/GLM-4.6V",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2731,
+              "throughput": 43.001709357425575,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.6V-Flash",
+          "name": "zai-org/GLM-4.6V-Flash",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 0.3,
+                "output": 0.9
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 797.6,
+              "throughput": 56.1146098646116,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.6V-FP8",
+          "name": "zai-org/GLM-4.6V-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text",
+              "image"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2427.2,
+              "throughput": 43.717052105041134,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.7",
+          "name": "zai-org/GLM-4.7",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 204800,
+              "pricing": {
+                "input": 0.6,
+                "output": 2.2
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1150.6,
+              "throughput": 39.731406750061474,
+              "is_model_author": false
+            },
+            {
+              "provider": "cerebras",
+              "status": "live",
+              "context_length": 131072,
+              "pricing": {
+                "input": 2.25,
+                "output": 2.75
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 168,
+              "throughput": 442.8778545370116,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1964,
+              "throughput": 64.24257998201207,
+              "is_model_author": true
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 200000,
+              "pricing": {
+                "input": 0.6,
+                "output": 2.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 455.2,
+              "throughput": 146.62657859246306,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 0.4,
+                "output": 1.75
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 528.8,
+              "throughput": 52.55617618043233,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.7-Flash",
+          "name": "zai-org/GLM-4.7-Flash",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 200000,
+              "pricing": {
+                "input": 0.07,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2384,
+              "throughput": 62.442742822543245,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2167,
+              "throughput": 68.54949273375377,
+              "is_model_author": true
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 0.060000000000000005,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 409.6,
+              "throughput": 46.790252759024696,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.7-FP8",
+          "name": "zai-org/GLM-4.7-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2777,
+              "throughput": 48.81873132703481,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-5",
+          "name": "zai-org/GLM-5",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 202800,
+              "pricing": {
+                "input": 1,
+                "output": 3.2
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1288.6,
+              "throughput": 39.29903407585495,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3294,
+              "throughput": 37.64068204915873,
+              "is_model_author": true
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 0.6,
+                "output": 2.08
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 980.6,
+              "throughput": 29.976868180154703,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-5.1",
+          "name": "zai-org/GLM-5.1",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3020.75,
+              "throughput": 47.956648366922565,
+              "is_model_author": true
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 202752,
+              "pricing": {
+                "input": 1.05,
+                "output": 3.5
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 778.4,
+              "throughput": 56.58935258392436,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-5.1-FP8",
+          "name": "zai-org/GLM-5.1-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3001.3333333333335,
+              "throughput": 53.907241645030545,
+              "is_model_author": true
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-5.2",
+          "name": "zai-org/GLM-5.2",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2548,
+              "throughput": 41.37699862188162,
+              "is_model_author": false
+            },
+            {
+              "provider": "together",
+              "status": "live",
+              "context_length": 512000,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 551.2,
+              "throughput": 132.86721340090682,
+              "is_model_author": false
+            },
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1147.4,
+              "throughput": 38.842098065308846,
+              "is_model_author": false
+            },
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3108.4,
+              "throughput": 56.377205365956186,
+              "is_model_author": true
+            },
+            {
+              "provider": "scaleway",
+              "status": "live",
+              "pricing": {
+                "input": 2.052,
+                "output": 6.27
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 714.8,
+              "throughput": 69.79705026072729,
+              "is_model_author": false
+            },
+            {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 1.4,
+                "output": 4.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 1415.6,
+              "throughput": 68.9113068893114,
+              "is_model_author": false
+            },
+            {
+              "provider": "deepinfra",
+              "status": "live",
+              "context_length": 1048576,
+              "pricing": {
+                "input": 0.7499999999999999,
+                "output": 2.4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 423.6,
+              "throughput": 60.56689407871401,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-5.2-FP8",
+          "name": "zai-org/GLM-5.2-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2790.8,
+              "throughput": 56.78769106609006,
+              "is_model_author": true
+            }
+          ]
+        }
+      ]
     },
     "OpenRouter": {
       "success": true,
@@ -36094,13 +42001,13 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000002926",
-            "completion": "0.0000009196",
-            "input_cache_read": "0.00000005434"
+            "prompt": "0.000000266",
+            "completion": "0.000000836",
+            "input_cache_read": "0.0000000494"
           },
           "top_provider": {
-            "context_length": 1024000,
-            "max_completion_tokens": 128000,
+            "context_length": 1048576,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,

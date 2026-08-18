@@ -76,6 +76,37 @@
           ]
         },
         {
+          "id": "alpindale/WizardLM-2-8x22B",
+          "name": "alpindale/WizardLM-2-8x22B",
+          "owned_by": "alpindale",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "novita",
+              "status": "live",
+              "context_length": 65535,
+              "pricing": {
+                "input": 0.62,
+                "output": 0.62
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 517.5,
+              "throughput": 12.502987864640653,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
           "id": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
           "name": "baidu/ERNIE-4.5-VL-424B-A47B-Base-PT",
           "owned_by": "baidu",
@@ -613,10 +644,10 @@
                 "output": 2.5
               },
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1456.75,
-              "throughput": 17.33602840732696,
+              "first_token_latency_ms": 1468.8,
+              "throughput": 21.11597740405645,
               "is_model_author": false
             }
           ]
@@ -809,8 +840,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 572.6,
-              "throughput": 167.76332624491593,
+              "first_token_latency_ms": 629.4,
+              "throughput": 160.98484074857532,
               "is_model_author": false
             }
           ]
@@ -907,8 +938,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 709.4,
-              "throughput": 67.99490062782385,
+              "first_token_latency_ms": 675.5,
+              "throughput": 26.641769295582723,
               "is_model_author": false
             }
           ]
@@ -1042,8 +1073,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1244.8,
-              "throughput": 32.977497445806364,
+              "first_token_latency_ms": 1462.4,
+              "throughput": 28.308751258053483,
               "is_model_author": false
             },
             {
@@ -1125,8 +1156,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 844.5,
-              "throughput": 19.17440668739812,
+              "first_token_latency_ms": 685.4,
+              "throughput": 27.395850857819475,
               "is_model_author": false
             }
           ]
@@ -1228,8 +1259,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 522.4,
-              "throughput": 36.82267950410184,
+              "first_token_latency_ms": 642,
+              "throughput": 38.74169749251195,
               "is_model_author": false
             },
             {
@@ -1288,8 +1319,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 724.6,
-              "throughput": 36.99545149941677,
+              "first_token_latency_ms": 674.6,
+              "throughput": 24.475803016644367,
               "is_model_author": false
             }
           ]
@@ -1360,8 +1391,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 522.6,
-              "throughput": 109.46454414881468,
+              "first_token_latency_ms": 640.4,
+              "throughput": 90.07270261224583,
               "is_model_author": false
             }
           ]
@@ -1754,8 +1785,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 380.2,
-              "throughput": 20.736462252088938,
+              "first_token_latency_ms": 1034,
+              "throughput": 15.90021822803972,
               "is_model_author": false
             }
           ]
@@ -1800,8 +1831,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 464.6,
-              "throughput": 93.3112467586323,
+              "first_token_latency_ms": 430.8,
+              "throughput": 95.31490859633462,
               "is_model_author": false
             },
             {
@@ -1835,8 +1866,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 371,
-              "throughput": 30.429068187185344,
+              "first_token_latency_ms": 306.2,
+              "throughput": 28.211662145548217,
               "is_model_author": false
             }
           ]
@@ -2265,8 +2296,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1036.2,
-              "throughput": 39.773252003092786,
+              "first_token_latency_ms": 545.4,
+              "throughput": 61.5028562924458,
               "is_model_author": false
             }
           ]
@@ -2379,8 +2410,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1135.25,
-              "throughput": 37.663734717562534,
+              "first_token_latency_ms": 739.4,
+              "throughput": 39.01561354986456,
               "is_model_author": false
             }
           ]
@@ -2489,8 +2520,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1327.4,
-              "throughput": 52.02685531504263,
+              "first_token_latency_ms": 1651.2,
+              "throughput": 48.72824572671816,
               "is_model_author": false
             },
             {
@@ -2540,8 +2571,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 395.6,
-              "throughput": 145.8552066627572,
+              "first_token_latency_ms": 313.4,
+              "throughput": 154.18824264883472,
               "is_model_author": false
             },
             {
@@ -2587,8 +2618,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1250,
-              "throughput": 33.081564883015744,
+              "first_token_latency_ms": 1228.8,
+              "throughput": 33.0478225207498,
               "is_model_author": false
             },
             {
@@ -2628,6 +2659,21 @@
               "is_model_author": false
             },
             {
+              "provider": "baseten",
+              "status": "live",
+              "context_length": 262000,
+              "pricing": {
+                "input": 0.95,
+                "output": 4
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 316.8,
+              "throughput": 142.82716973704294,
+              "is_model_author": false
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 262144,
@@ -2638,8 +2684,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 871,
-              "throughput": 29.607632046152514,
+              "first_token_latency_ms": 1108.2,
+              "throughput": 19.73536967589148,
               "is_model_author": false
             }
           ]
@@ -2706,23 +2752,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 665.6,
-              "throughput": 84.3829780498844,
-              "is_model_author": false
-            },
-            {
-              "provider": "deepinfra",
-              "status": "live",
-              "context_length": 1048576,
-              "pricing": {
-                "input": 2.8499999999999996,
-                "output": 14.25
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 701.4,
-              "throughput": 15.502561156091758,
+              "first_token_latency_ms": 636.2,
+              "throughput": 85.30906703954085,
               "is_model_author": false
             }
           ]
@@ -2835,8 +2866,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 542.6,
-              "throughput": 115.42451296622983,
+              "first_token_latency_ms": 536.8,
+              "throughput": 113.6771622245719,
               "is_model_author": false
             }
           ]
@@ -2968,8 +2999,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 369.2,
-              "throughput": 161.64123649613276,
+              "first_token_latency_ms": 261.2,
+              "throughput": 177.40945040200495,
               "is_model_author": false
             },
             {
@@ -3018,8 +3049,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 364.6,
-              "throughput": 69.80278459982478,
+              "first_token_latency_ms": 390.2,
+              "throughput": 38.78327938319436,
               "is_model_author": false
             },
             {
@@ -3124,8 +3155,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 369.4,
-              "throughput": 206.0857863259123,
+              "first_token_latency_ms": 404.2,
+              "throughput": 197.727984620335,
               "is_model_author": false
             },
             {
@@ -3144,9 +3175,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 213.2,
-              "throughput": 75.96895858974065,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 329.2,
+              "throughput": 79.59269538014925,
               "is_model_author": false
             },
             {
@@ -3609,8 +3640,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 969,
-              "throughput": 23.17807398968511,
+              "first_token_latency_ms": 719,
+              "throughput": 27.1879927484246,
               "is_model_author": false
             },
             {
@@ -4018,8 +4049,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1298.6,
-              "throughput": 48.772453277889596,
+              "first_token_latency_ms": 813.6,
+              "throughput": 57.75506473974377,
               "is_model_author": false
             },
             {
@@ -4383,8 +4414,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 965.6,
-              "throughput": 82.75703508999547,
+              "first_token_latency_ms": 876.2,
+              "throughput": 84.8144243059193,
               "is_model_author": false
             },
             {
@@ -4465,8 +4496,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 441.6,
-              "throughput": 118.90539844895065,
+              "first_token_latency_ms": 799.4,
+              "throughput": 83.07592261740398,
               "is_model_author": false
             },
             {
@@ -4533,8 +4564,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 436,
-              "throughput": 38.651053600015054,
+              "first_token_latency_ms": 467.6,
+              "throughput": 34.031541381997286,
               "is_model_author": false
             },
             {
@@ -4586,8 +4617,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 383,
-              "throughput": 74.26309493135197,
+              "first_token_latency_ms": 343.25,
+              "throughput": 64.66348619064169,
               "is_model_author": false
             },
             {
@@ -4934,8 +4965,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 662.6666666666666,
-              "throughput": 144.01876467346872,
+              "first_token_latency_ms": 837.6666666666666,
+              "throughput": 141.45556420444862,
               "is_model_author": false
             }
           ]
@@ -4996,8 +5027,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 537.2,
-              "throughput": 149.6972252603178,
+              "first_token_latency_ms": 620.8,
+              "throughput": 147.84373522991933,
               "is_model_author": false
             }
           ]
@@ -5059,8 +5090,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 306.8,
-              "throughput": 128.00212015962688,
+              "first_token_latency_ms": 363.8,
+              "throughput": 138.3070931042103,
               "is_model_author": false
             },
             {
@@ -5132,8 +5163,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 210.6,
-              "throughput": 179.33189160328337,
+              "first_token_latency_ms": 205.4,
+              "throughput": 114.97860092626827,
               "is_model_author": false
             },
             {
@@ -5230,8 +5261,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 305.6,
-              "throughput": 80.58721264979847,
+              "first_token_latency_ms": 279.4,
+              "throughput": 73.16478147767893,
               "is_model_author": false
             }
           ]
@@ -5293,8 +5324,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 810.4,
-              "throughput": 39.07581538135888,
+              "first_token_latency_ms": 1022.2,
+              "throughput": 48.26256914051273,
               "is_model_author": false
             },
             {
@@ -5302,6 +5333,32 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.5",
+          "name": "zai-org/GLM-4.5",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2414,
+              "throughput": 53.36206923483535,
+              "is_model_author": true
             }
           ]
         },
@@ -5340,8 +5397,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2103.8,
-              "throughput": 48.35140298842875,
+              "first_token_latency_ms": 1913.6,
+              "throughput": 65.95470137031404,
               "is_model_author": true
             }
           ]
@@ -5456,8 +5513,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 4845.5,
-              "throughput": 16.39957842976937,
+              "first_token_latency_ms": 2268.6666666666665,
+              "throughput": 50.05490529543837,
               "is_model_author": true
             },
             {
@@ -5471,8 +5528,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 563,
-              "throughput": 21.4922310605189,
+              "first_token_latency_ms": 516.2,
+              "throughput": 45.459433036070656,
               "is_model_author": false
             }
           ]
@@ -5524,8 +5581,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2265.8,
-              "throughput": 60.57840186052961,
+              "first_token_latency_ms": 2068.2,
+              "throughput": 48.869865372852956,
               "is_model_author": true
             }
           ]
@@ -5614,8 +5671,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1741,
-              "throughput": 35.025130659327786,
+              "first_token_latency_ms": 1333.6,
+              "throughput": 41.54851429619206,
               "is_model_author": false
             },
             {
@@ -5623,16 +5680,6 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
-            },
-            {
-              "provider": "zai-org",
-              "status": "live",
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 2302,
-              "throughput": 55.90027391134217,
-              "is_model_author": true
             },
             {
               "provider": "baseten",
@@ -5722,9 +5769,35 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 4319.4,
-              "throughput": 48.945597946139245,
+              "first_token_latency_ms": 1427.4,
+              "throughput": 40.28629222902042,
               "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "zai-org/GLM-4.7-FP8",
+          "name": "zai-org/GLM-4.7-FP8",
+          "owned_by": "zai-org",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2338,
+              "throughput": 53.14908317831517,
+              "is_model_author": true
             }
           ]
         },
@@ -5784,8 +5857,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1402.8,
-              "throughput": 53.79216085162557,
+              "first_token_latency_ms": 1012.8,
+              "throughput": 50.72968760260867,
               "is_model_author": false
             }
           ]
@@ -5907,9 +5980,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 891.2,
-              "throughput": 44.78901318971454,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 2620,
+              "throughput": 43.12728270821628,
               "is_model_author": false
             },
             {
@@ -7646,8 +7719,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1256,
-                "win_rate": 56.5,
+                "elo": 1257,
+                "win_rate": 56.6,
                 "rank": 5
               },
               {
@@ -7853,8 +7926,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1256,
-                "win_rate": 56.5,
+                "elo": 1257,
+                "win_rate": 56.6,
                 "rank": 5
               },
               {
@@ -8305,7 +8378,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1180,
+                "elo": 1181,
                 "win_rate": 59.5,
                 "rank": 61
               },
@@ -8423,7 +8496,7 @@
                 "category": "svg",
                 "elo": 1186,
                 "win_rate": 58.8,
-                "rank": 32
+                "rank": 33
               },
               {
                 "arena": "models",
@@ -8546,7 +8619,7 @@
                 "category": "svg",
                 "elo": 1186,
                 "win_rate": 58.8,
-                "rank": 32
+                "rank": 33
               },
               {
                 "arena": "models",
@@ -9268,7 +9341,7 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1263,
+                "elo": 1264,
                 "win_rate": 56,
                 "rank": 4
               },
@@ -9556,7 +9629,7 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1263,
+                "elo": 1264,
                 "win_rate": 56,
                 "rank": 4
               },
@@ -9801,8 +9874,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1250,
-                "win_rate": 56,
+                "elo": 1249,
+                "win_rate": 55.9,
                 "rank": 8
               },
               {
@@ -10096,8 +10169,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1250,
-                "win_rate": 56,
+                "elo": 1249,
+                "win_rate": 55.9,
                 "rank": 8
               },
               {
@@ -10812,7 +10885,7 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1187,
+                "elo": 1185,
                 "win_rate": 52.3,
                 "rank": 24
               },
@@ -10973,7 +11046,7 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1187,
+                "elo": 1185,
                 "win_rate": 52.3,
                 "rank": 24
               },
@@ -11410,7 +11483,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1232,
-                "win_rate": 53.9,
+                "win_rate": 53.8,
                 "rank": 10
               },
               {
@@ -11418,7 +11491,7 @@
                 "category": "fullstack",
                 "elo": 1274,
                 "win_rate": 57.5,
-                "rank": 8
+                "rank": 7
               },
               {
                 "arena": "agents",
@@ -11437,14 +11510,14 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1234,
-                "win_rate": 51.8,
+                "elo": 1236,
+                "win_rate": 52.1,
                 "rank": 10
               },
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1244,
+                "elo": 1243,
                 "win_rate": 54.7,
                 "rank": 8
               },
@@ -11473,7 +11546,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1295,
-                "win_rate": 54.1,
+                "win_rate": 54,
                 "rank": 16
               },
               {
@@ -11597,7 +11670,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1232,
-                "win_rate": 53.9,
+                "win_rate": 53.8,
                 "rank": 10
               },
               {
@@ -11605,7 +11678,7 @@
                 "category": "fullstack",
                 "elo": 1274,
                 "win_rate": 57.5,
-                "rank": 8
+                "rank": 7
               },
               {
                 "arena": "agents",
@@ -11624,14 +11697,14 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1234,
-                "win_rate": 51.8,
+                "elo": 1236,
+                "win_rate": 52.1,
                 "rank": 10
               },
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1244,
+                "elo": 1243,
                 "win_rate": 54.7,
                 "rank": 8
               },
@@ -11660,7 +11733,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1295,
-                "win_rate": 54.1,
+                "win_rate": 54,
                 "rank": 16
               },
               {
@@ -13884,8 +13957,8 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1253,
-                "win_rate": 47.6,
+                "elo": 1252,
+                "win_rate": 47.5,
                 "rank": 35
               },
               {
@@ -15261,7 +15334,7 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1035,
+                "elo": 1036,
                 "win_rate": 38.3,
                 "rank": 22
               },
@@ -15424,7 +15497,7 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1035,
+                "elo": 1036,
                 "win_rate": 38.3,
                 "rank": 22
               },
@@ -16269,7 +16342,7 @@
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1099,
+                "elo": 1100,
                 "win_rate": 42.4,
                 "rank": 26
               },
@@ -16283,7 +16356,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1203,
+                "elo": 1204,
                 "win_rate": 51.4,
                 "rank": 9
               },
@@ -16590,7 +16663,7 @@
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1099,
+                "elo": 1100,
                 "win_rate": 42.4,
                 "rank": 26
               },
@@ -16604,7 +16677,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1203,
+                "elo": 1204,
                 "win_rate": 51.4,
                 "rank": 9
               },
@@ -16816,15 +16889,15 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1221,
-                "win_rate": 55.6,
+                "elo": 1222,
+                "win_rate": 55.7,
                 "rank": 13
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1226,
-                "win_rate": 55.8,
+                "elo": 1225,
+                "win_rate": 55.7,
                 "rank": 14
               },
               {
@@ -16845,8 +16918,8 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1221,
-                "win_rate": 53.6,
-                "rank": 12
+                "win_rate": 53.5,
+                "rank": 11
               },
               {
                 "arena": "agents",
@@ -17221,15 +17294,15 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1221,
-                "win_rate": 55.6,
+                "elo": 1222,
+                "win_rate": 55.7,
                 "rank": 13
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1226,
-                "win_rate": 55.8,
+                "elo": 1225,
+                "win_rate": 55.7,
                 "rank": 14
               },
               {
@@ -17250,8 +17323,8 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1221,
-                "win_rate": 53.6,
-                "rank": 12
+                "win_rate": 53.5,
+                "rank": 11
               },
               {
                 "arena": "agents",
@@ -17428,29 +17501,29 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1223,
-                "win_rate": 53.7,
+                "elo": 1224,
+                "win_rate": 53.8,
                 "rank": 11
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1202,
-                "win_rate": 46.4,
+                "elo": 1201,
+                "win_rate": 46.3,
                 "rank": 18
               },
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1159,
+                "elo": 1158,
                 "win_rate": 40.8,
                 "rank": 17
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1253,
-                "win_rate": 54.3,
+                "elo": 1252,
+                "win_rate": 54.2,
                 "rank": 6
               },
               {
@@ -17464,7 +17537,7 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1245,
-                "win_rate": 50,
+                "win_rate": 49.9,
                 "rank": 13
               },
               {
@@ -17605,29 +17678,29 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1223,
-                "win_rate": 53.7,
+                "elo": 1224,
+                "win_rate": 53.8,
                 "rank": 11
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1202,
-                "win_rate": 46.4,
+                "elo": 1201,
+                "win_rate": 46.3,
                 "rank": 18
               },
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1159,
+                "elo": 1158,
                 "win_rate": 40.8,
                 "rank": 17
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1253,
-                "win_rate": 54.3,
+                "elo": 1252,
+                "win_rate": 54.2,
                 "rank": 6
               },
               {
@@ -17641,7 +17714,7 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1245,
-                "win_rate": 50,
+                "win_rate": 49.9,
                 "rank": 13
               },
               {
@@ -17771,7 +17844,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1253,
-                "win_rate": 58,
+                "win_rate": 58.1,
                 "rank": 6
               },
               {
@@ -17805,15 +17878,15 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1312,
-                "win_rate": 54.2,
-                "rank": 12
+                "elo": 1308,
+                "win_rate": 53.6,
+                "rank": 13
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1318,
-                "win_rate": 56.7,
+                "win_rate": 56.6,
                 "rank": 5
               }
             ],
@@ -17898,7 +17971,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1253,
-                "win_rate": 58,
+                "win_rate": 58.1,
                 "rank": 6
               },
               {
@@ -17932,15 +18005,15 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1312,
-                "win_rate": 54.2,
-                "rank": 12
+                "elo": 1308,
+                "win_rate": 53.6,
+                "rank": 13
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1318,
-                "win_rate": 56.7,
+                "win_rate": 56.6,
                 "rank": 5
               }
             ],
@@ -20231,15 +20304,15 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1222,
-                "win_rate": 51.4,
+                "elo": 1223,
+                "win_rate": 51.6,
                 "rank": 12
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
                 "elo": 1240,
-                "win_rate": 49.4,
+                "win_rate": 49.3,
                 "rank": 13
               },
               {
@@ -20260,7 +20333,7 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1200,
-                "win_rate": 44.8,
+                "win_rate": 44.6,
                 "rank": 19
               },
               {
@@ -20268,7 +20341,7 @@
                 "category": "python-pptxslides",
                 "elo": 1185,
                 "win_rate": 44.2,
-                "rank": 14
+                "rank": 13
               },
               {
                 "arena": "agents",
@@ -20412,14 +20485,14 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1237,
-                "win_rate": 54,
+                "elo": 1238,
+                "win_rate": 54.1,
                 "rank": 8
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1242,
+                "elo": 1241,
                 "win_rate": 50.1,
                 "rank": 12
               },
@@ -20440,8 +20513,8 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1121,
-                "win_rate": 37.2,
+                "elo": 1119,
+                "win_rate": 37,
                 "rank": 19
               },
               {
@@ -20461,7 +20534,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1340,
+                "elo": 1339,
                 "win_rate": 59.3,
                 "rank": 3
               },
@@ -21089,7 +21162,7 @@
                 "category": "svg",
                 "elo": 1186,
                 "win_rate": 54.6,
-                "rank": 33
+                "rank": 34
               },
               {
                 "arena": "models",
@@ -21230,7 +21303,7 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1258,
-                "win_rate": 53.3,
+                "win_rate": 53.2,
                 "rank": 32
               }
             ],
@@ -21323,7 +21396,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1174,
-                "win_rate": 46.1,
+                "win_rate": 46,
                 "rank": 25
               },
               {
@@ -21336,16 +21409,16 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1178,
-                "win_rate": 45.8,
+                "elo": 1177,
+                "win_rate": 45.6,
                 "rank": 14
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1222,
-                "win_rate": 50.1,
-                "rank": 11
+                "elo": 1221,
+                "win_rate": 49.9,
+                "rank": 12
               },
               {
                 "arena": "agents",
@@ -21504,7 +21577,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1174,
-                "win_rate": 46.1,
+                "win_rate": 46,
                 "rank": 25
               },
               {
@@ -21517,16 +21590,16 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1178,
-                "win_rate": 45.8,
+                "elo": 1177,
+                "win_rate": 45.6,
                 "rank": 14
               },
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1222,
-                "win_rate": 50.1,
-                "rank": 11
+                "elo": 1221,
+                "win_rate": 49.9,
+                "rank": 12
               },
               {
                 "arena": "agents",
@@ -22482,7 +22555,7 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1026,
+                "elo": 1027,
                 "win_rate": 37.5,
                 "rank": 74
               },
@@ -23530,7 +23603,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1197,
-                "win_rate": 51.4,
+                "win_rate": 51.3,
                 "rank": 19
               },
               {
@@ -23557,7 +23630,7 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1216,
+                "elo": 1215,
                 "win_rate": 53.5,
                 "rank": 13
               },
@@ -23763,9 +23836,9 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1186,
+                "elo": 1185,
                 "win_rate": 47.1,
-                "rank": 13
+                "rank": 14
               },
               {
                 "arena": "agents",
@@ -23791,7 +23864,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1277,
+                "elo": 1278,
                 "win_rate": 52.2,
                 "rank": 25
               },
@@ -23951,9 +24024,9 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1186,
+                "elo": 1185,
                 "win_rate": 47.1,
-                "rank": 13
+                "rank": 14
               },
               {
                 "arena": "agents",
@@ -23979,7 +24052,7 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1277,
+                "elo": 1278,
                 "win_rate": 52.2,
                 "rank": 25
               },
@@ -24123,8 +24196,8 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1292,
-                "win_rate": 58.1,
+                "elo": 1290,
+                "win_rate": 57.9,
                 "rank": 1
               },
               {
@@ -24138,7 +24211,7 @@
                 "arena": "agents",
                 "category": "webapps",
                 "elo": 1319,
-                "win_rate": 62,
+                "win_rate": 61.9,
                 "rank": 1
               },
               {
@@ -24152,7 +24225,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1403,
-                "win_rate": 65.8,
+                "win_rate": 65.7,
                 "rank": 1
               },
               {
@@ -24441,7 +24514,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1252,
-                "win_rate": 48.5,
+                "win_rate": 48.6,
                 "rank": 36
               },
               {
@@ -29868,7 +29941,7 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1105,
+                "elo": 1104,
                 "win_rate": 41.4,
                 "rank": 36
               },
@@ -29931,7 +30004,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1175,
+                "elo": 1174,
                 "win_rate": 48.5,
                 "rank": 66
               }
@@ -30097,7 +30170,7 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1139,
+                "elo": 1137,
                 "win_rate": 46,
                 "rank": 33
               },
@@ -30812,7 +30885,7 @@
               {
                 "arena": "agents",
                 "category": "mobileapps",
-                "elo": 1139,
+                "elo": 1137,
                 "win_rate": 46,
                 "rank": 33
               },
@@ -30970,7 +31043,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1089,
+                "elo": 1090,
                 "win_rate": 34.2,
                 "rank": 19
               },
@@ -31019,9 +31092,9 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1279,
+                "elo": 1280,
                 "win_rate": 55.3,
-                "rank": 24
+                "rank": 23
               },
               {
                 "arena": "models",
@@ -31350,7 +31423,7 @@
               {
                 "arena": "agents",
                 "category": "htmlslides",
-                "elo": 1089,
+                "elo": 1090,
                 "win_rate": 34.2,
                 "rank": 19
               },
@@ -31399,9 +31472,9 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1279,
+                "elo": 1280,
                 "win_rate": 55.3,
-                "rank": 24
+                "rank": 23
               },
               {
                 "arena": "models",
@@ -35633,7 +35706,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 992,
+                "elo": 993,
                 "win_rate": 38.4,
                 "rank": 101
               },
@@ -37888,7 +37961,7 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1140,
+                "elo": 1141,
                 "win_rate": 48.5,
                 "rank": 48
               },
@@ -38573,7 +38646,7 @@
                 "arena": "agents",
                 "category": "fullstack",
                 "elo": 1214,
-                "win_rate": 50.5,
+                "win_rate": 50.4,
                 "rank": 16
               },
               {
@@ -38600,8 +38673,8 @@
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1214,
-                "win_rate": 51,
+                "elo": 1215,
+                "win_rate": 51.2,
                 "rank": 9
               },
               {
@@ -38764,7 +38837,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1281,
-                "win_rate": 50.1,
+                "win_rate": 50.2,
                 "rank": 22
               },
               {
@@ -39740,7 +39813,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1196,
-                "win_rate": 44.1,
+                "win_rate": 44,
                 "rank": 53
               },
               {
@@ -39942,7 +40015,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1190,
+                "elo": 1191,
                 "win_rate": 40.2,
                 "rank": 60
               },
@@ -40331,8 +40404,8 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1216,
-                "win_rate": 42.4,
+                "elo": 1215,
+                "win_rate": 42.3,
                 "rank": 44
               },
               {
@@ -40546,8 +40619,8 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1216,
-                "win_rate": 42.4,
+                "elo": 1215,
+                "win_rate": 42.3,
                 "rank": 44
               },
               {
@@ -41221,8 +41294,8 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 999,
-                "win_rate": 23.1,
+                "elo": 1000,
+                "win_rate": 23.2,
                 "rank": 36
               },
               {
@@ -41270,7 +41343,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1168,
+                "elo": 1167,
                 "win_rate": 44.3,
                 "rank": 24
               },
@@ -41423,16 +41496,16 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1273,
-                "win_rate": 67.1,
+                "elo": 1274,
+                "win_rate": 67.2,
                 "rank": 2
               },
               {
                 "arena": "agents",
                 "category": "fullstack",
-                "elo": 1275,
+                "elo": 1274,
                 "win_rate": 63.1,
-                "rank": 7
+                "rank": 8
               },
               {
                 "arena": "agents",
@@ -41516,7 +41589,7 @@
                 "category": "uicomponent",
                 "elo": 1310,
                 "win_rate": 52.1,
-                "rank": 13
+                "rank": 12
               },
               {
                 "arena": "models",
@@ -41610,8 +41683,8 @@
               {
                 "arena": "agents",
                 "category": "androidnative",
-                "elo": 1182,
-                "win_rate": 46.8,
+                "elo": 1177,
+                "win_rate": 45.9,
                 "rank": 22
               },
               {
@@ -41625,13 +41698,13 @@
                 "arena": "agents",
                 "category": "mobileapps",
                 "elo": 1276,
-                "win_rate": 57.6,
+                "win_rate": 57.7,
                 "rank": 2
               },
               {
                 "arena": "agents",
                 "category": "python-pptxslides",
-                "elo": 1211,
+                "elo": 1210,
                 "win_rate": 55.5,
                 "rank": 10
               },
@@ -41660,7 +41733,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1322,
-                "win_rate": 53.5,
+                "win_rate": 53.6,
                 "rank": 7
               },
               {
@@ -41878,7 +41951,7 @@
                 "category": "codecategories",
                 "elo": 1280,
                 "win_rate": 54.8,
-                "rank": 23
+                "rank": 24
               },
               {
                 "arena": "models",
@@ -42811,7 +42884,7 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1065,
+                "elo": 1066,
                 "win_rate": 42.4,
                 "rank": 63
               },
@@ -43325,7 +43398,7 @@
               {
                 "arena": "agents",
                 "category": "webapps",
-                "elo": 1214,
+                "elo": 1213,
                 "win_rate": 52.6,
                 "rank": 19
               }
@@ -43420,7 +43493,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1208,
-                "win_rate": 54.7,
+                "win_rate": 54.6,
                 "rank": 15
               },
               {
@@ -43455,7 +43528,7 @@
                 "arena": "agents",
                 "category": "python-pptxslides",
                 "elo": 1207,
-                "win_rate": 49.3,
+                "win_rate": 49.4,
                 "rank": 11
               },
               {
@@ -43503,8 +43576,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1254,
-                "win_rate": 55.5,
+                "elo": 1253,
+                "win_rate": 55.4,
                 "rank": 13
               },
               {
@@ -43613,7 +43686,7 @@
                 "arena": "agents",
                 "category": "androidnative",
                 "elo": 1208,
-                "win_rate": 54.7,
+                "win_rate": 54.6,
                 "rank": 15
               },
               {
@@ -43648,7 +43721,7 @@
                 "arena": "agents",
                 "category": "python-pptxslides",
                 "elo": 1207,
-                "win_rate": 49.3,
+                "win_rate": 49.4,
                 "rank": 11
               },
               {
@@ -43696,8 +43769,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1254,
-                "win_rate": 55.5,
+                "elo": 1253,
+                "win_rate": 55.4,
                 "rank": 13
               },
               {
@@ -43918,9 +43991,9 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1186,
+                "elo": 1187,
                 "win_rate": 50.9,
-                "rank": 34
+                "rank": 32
               },
               {
                 "arena": "models",

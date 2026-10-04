@@ -4,6 +4,42 @@
       "success": true,
       "models": [
         {
+          "id": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+          "name": "aisingapore/Gemma-SEA-LION-v4-27B-IT",
+          "owned_by": "aisingapore",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "featherless-ai",
+              "status": "live",
+              "is_free": false,
+              "is_model_author": false
+            },
+            {
+              "provider": "publicai",
+              "status": "live",
+              "pricing": {
+                "input": 0.2,
+                "output": 0.4
+              },
+              "is_free": false,
+              "supports_tools": false,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 4560,
+              "throughput": 44.11764705882353,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
           "id": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
           "name": "aisingapore/Qwen-SEA-LION-v4-32B-IT",
           "owned_by": "aisingapore",
@@ -64,8 +100,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 929.6,
-              "throughput": 13.458114186590938,
+              "first_token_latency_ms": 637.2,
+              "throughput": 15.007289746515927,
               "is_model_author": false
             }
           ]
@@ -96,8 +132,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1256.6,
-              "throughput": 42.941023937350344,
+              "first_token_latency_ms": 1492.4,
+              "throughput": 41.371449405281936,
               "is_model_author": false
             }
           ]
@@ -253,8 +289,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 194.8,
-              "throughput": 102.3829303490337,
+              "first_token_latency_ms": 201.6,
+              "throughput": 100.23348331979432,
               "is_model_author": true
             }
           ]
@@ -279,8 +315,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 359.4,
-              "throughput": 67.58612175592904,
+              "first_token_latency_ms": 225,
+              "throughput": 68.47835075950756,
               "is_model_author": true
             }
           ]
@@ -443,10 +479,10 @@
                 "output": 2.5
               },
               "is_free": false,
-              "supports_tools": false,
+              "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1068.4,
-              "throughput": 20.7536915984292,
+              "first_token_latency_ms": 1459.2,
+              "throughput": 17.032509151321904,
               "is_model_author": false
             },
             {
@@ -466,8 +502,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 627.8,
-              "throughput": 23.494938954579652,
+              "first_token_latency_ms": 548.4,
+              "throughput": 38.181939871508376,
               "is_model_author": false
             }
           ]
@@ -496,9 +532,9 @@
               },
               "is_free": false,
               "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 565.2,
-              "throughput": 147.68706960868116,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 552.2,
+              "throughput": 132.28685181790817,
               "is_model_author": false
             },
             {
@@ -534,8 +570,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 531.2,
-              "throughput": 79.2375228520805,
+              "first_token_latency_ms": 497.4,
+              "throughput": 79.20919943828582,
               "is_model_author": false
             },
             {
@@ -570,9 +606,9 @@
               },
               "is_free": false,
               "supports_tools": false,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 699.8,
-              "throughput": 145.07965681010302,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 589.8,
+              "throughput": 147.7720620046065,
               "is_model_author": false
             },
             {
@@ -608,8 +644,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 579.8,
-              "throughput": 15.606062372559455,
+              "first_token_latency_ms": 539.6,
+              "throughput": 18.28328218220609,
               "is_model_author": false
             }
           ]
@@ -645,8 +681,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 524.4,
-              "throughput": 66.80751439772196,
+              "first_token_latency_ms": 329.8,
+              "throughput": 95.9208816009138,
               "is_model_author": false
             }
           ]
@@ -756,8 +792,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1732,
-              "throughput": 12.759984688018376,
+              "first_token_latency_ms": 870,
+              "throughput": 17.384879429317156,
               "is_model_author": false
             }
           ]
@@ -787,8 +823,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1670.25,
-              "throughput": 106.6268712839232,
+              "first_token_latency_ms": 1329,
+              "throughput": 104.69538782344753,
               "is_model_author": false
             },
             {
@@ -839,8 +875,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 872.6,
-              "throughput": 105.51913616709453,
+              "first_token_latency_ms": 4782,
+              "throughput": 50.51015254066067,
               "is_model_author": false
             },
             {
@@ -854,8 +890,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 665.2,
-              "throughput": 34.643485900817026,
+              "first_token_latency_ms": 732.4,
+              "throughput": 33.995330094936875,
               "is_model_author": false
             },
             {
@@ -870,8 +906,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 680.6,
-              "throughput": 136.12866714330798,
+              "first_token_latency_ms": 520.8,
+              "throughput": 171.51479330323704,
               "is_model_author": false
             },
             {
@@ -885,8 +921,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 2442,
-              "throughput": 145.24328249818447,
+              "first_token_latency_ms": 416,
+              "throughput": 189.60838902395915,
               "is_model_author": false
             },
             {
@@ -900,8 +936,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 372.8,
-              "throughput": 23.169981626358307,
+              "first_token_latency_ms": 1212.8,
+              "throughput": 29.807039591245065,
               "is_model_author": false
             }
           ]
@@ -932,8 +968,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 561,
-              "throughput": 137.50166362630847,
+              "first_token_latency_ms": 444.2,
+              "throughput": 142.21509124409127,
               "is_model_author": false
             },
             {
@@ -978,8 +1014,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 710.8,
-              "throughput": 58.47496093024247,
+              "first_token_latency_ms": 818.4,
+              "throughput": 70.34882720795646,
               "is_model_author": false
             },
             {
@@ -1030,8 +1066,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1348.2,
-              "throughput": 55.110359588061485,
+              "first_token_latency_ms": 1388.6,
+              "throughput": 60.90859085979783,
               "is_model_author": false
             },
             {
@@ -1045,8 +1081,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 690.8,
-              "throughput": 99.46891248816112,
+              "first_token_latency_ms": 830.4,
+              "throughput": 66.43631249703981,
               "is_model_author": false
             },
             {
@@ -1060,8 +1096,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 399.2,
-              "throughput": 93.31979087986947,
+              "first_token_latency_ms": 293.6,
+              "throughput": 85.62231967729268,
               "is_model_author": false
             },
             {
@@ -1075,8 +1111,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 555.2,
-              "throughput": 40.412245848675305,
+              "first_token_latency_ms": 1099.6,
+              "throughput": 31.185893649902823,
               "is_model_author": false
             }
           ]
@@ -1107,8 +1143,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1246.8,
-              "throughput": 104.72007946583021,
+              "first_token_latency_ms": 1025,
+              "throughput": 109.29223803198458,
               "is_model_author": false
             },
             {
@@ -1118,8 +1154,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1415.4,
-              "throughput": 39.85902801995375,
+              "first_token_latency_ms": 894,
+              "throughput": 41.703135134409266,
               "is_model_author": false
             },
             {
@@ -1139,8 +1175,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 4785,
-              "throughput": 136.96753869332966,
+              "first_token_latency_ms": 4788,
+              "throughput": 122.02562538133007,
               "is_model_author": false
             },
             {
@@ -1154,8 +1190,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 520.8,
-              "throughput": 64.88523601417805,
+              "first_token_latency_ms": 405.8,
+              "throughput": 67.41283645248691,
               "is_model_author": false
             }
           ]
@@ -1192,8 +1228,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 457.4,
-              "throughput": 61.40364274530001,
+              "first_token_latency_ms": 299,
+              "throughput": 55.326288033178926,
               "is_model_author": false
             }
           ]
@@ -1268,8 +1304,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 310,
-              "throughput": 43.70906020821286,
+              "first_token_latency_ms": 304,
+              "throughput": 42.40389043160585,
               "is_model_author": false
             }
           ]
@@ -1300,8 +1336,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 721.2,
-              "throughput": 135.00096918546643,
+              "first_token_latency_ms": 497.8,
+              "throughput": 38.31685388793353,
               "is_model_author": false
             },
             {
@@ -1320,8 +1356,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 450.6,
-              "throughput": 115.17388914778837,
+              "first_token_latency_ms": 335.8,
+              "throughput": 137.78153085751296,
               "is_model_author": false
             },
             {
@@ -1367,8 +1403,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 569,
-              "throughput": 26.69356200443578,
+              "first_token_latency_ms": 950.4,
+              "throughput": 21.910709761020946,
               "is_model_author": false
             },
             {
@@ -1388,8 +1424,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1648,
-              "throughput": 9.117181586733642,
+              "first_token_latency_ms": 879.4,
+              "throughput": 21.83970188424368,
               "is_model_author": false
             }
           ]
@@ -1419,8 +1455,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 270,
-              "throughput": 84.06675905205613,
+              "first_token_latency_ms": 218.4,
+              "throughput": 86.26090390897859,
               "is_model_author": false
             }
           ]
@@ -1450,8 +1486,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 226.2,
-              "throughput": 229.5433220375421,
+              "first_token_latency_ms": 349,
+              "throughput": 224.778656496954,
               "is_model_author": false
             }
           ]
@@ -1481,8 +1517,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 659.8,
-              "throughput": 65.02943986121349,
+              "first_token_latency_ms": 349.4,
+              "throughput": 49.06853301079588,
               "is_model_author": false
             }
           ]
@@ -1512,8 +1548,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 832.6,
-              "throughput": 255.1997134350379,
+              "first_token_latency_ms": 1064.2,
+              "throughput": 243.4065643633769,
               "is_model_author": false
             },
             {
@@ -1527,8 +1563,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1954,
-              "throughput": 32.80301787764475,
+              "first_token_latency_ms": 536.6,
+              "throughput": 36.97939356369928,
               "is_model_author": false
             }
           ]
@@ -1558,8 +1594,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 962,
-              "throughput": 126.20779555938643,
+              "first_token_latency_ms": 902,
+              "throughput": 123.86725564771773,
               "is_model_author": false
             },
             {
@@ -1573,8 +1609,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 474.2,
-              "throughput": 139.32530684504098,
+              "first_token_latency_ms": 666,
+              "throughput": 179.738364249443,
               "is_model_author": false
             }
           ]
@@ -1605,8 +1641,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 615.4,
-              "throughput": 261.42278849274953,
+              "first_token_latency_ms": 875.2,
+              "throughput": 244.20488655771018,
               "is_model_author": false
             },
             {
@@ -1620,8 +1656,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 464.6,
-              "throughput": 28.53187344970063,
+              "first_token_latency_ms": 587.2,
+              "throughput": 58.077705004256096,
               "is_model_author": false
             }
           ]
@@ -1651,8 +1687,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 544,
-              "throughput": 149.21532794144514,
+              "first_token_latency_ms": 460.8,
+              "throughput": 162.5922911631013,
               "is_model_author": false
             },
             {
@@ -1665,9 +1701,9 @@
               },
               "is_free": false,
               "supports_tools": false,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 559,
-              "throughput": 148.22019011631465,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 561.8,
+              "throughput": 141.6163404333078,
               "is_model_author": false
             },
             {
@@ -1687,8 +1723,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 820.6,
-              "throughput": 17.068685545492333,
+              "first_token_latency_ms": 408.2,
+              "throughput": 38.13860888100949,
               "is_model_author": false
             }
           ]
@@ -1718,8 +1754,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 3254.25,
-              "throughput": 39.43090289009271,
+              "first_token_latency_ms": 576.4,
+              "throughput": 46.7444655854458,
               "is_model_author": false
             },
             {
@@ -1753,8 +1789,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 371.8,
-              "throughput": 55.97276586758429,
+              "first_token_latency_ms": 530.8,
+              "throughput": 43.46314388443993,
               "is_model_author": false
             },
             {
@@ -1768,8 +1804,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 402.6,
-              "throughput": 29.790149707357198,
+              "first_token_latency_ms": 428.8,
+              "throughput": 25.758151161282363,
               "is_model_author": false
             }
           ]
@@ -1800,8 +1836,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 594.6,
-              "throughput": 27.496122733589107,
+              "first_token_latency_ms": 531.2,
+              "throughput": 33.85808492025173,
               "is_model_author": false
             }
           ]
@@ -1832,8 +1868,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 995,
-              "throughput": 25.357218413058256,
+              "first_token_latency_ms": 672.6,
+              "throughput": 31.28386625791082,
               "is_model_author": false
             },
             {
@@ -1847,8 +1883,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 585.8,
-              "throughput": 72.387388895951,
+              "first_token_latency_ms": 629.8,
+              "throughput": 72.9987047854159,
               "is_model_author": false
             },
             {
@@ -1862,8 +1898,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 547.6,
-              "throughput": 15.887690986622635,
+              "first_token_latency_ms": 452.6,
+              "throughput": 37.606604907363455,
               "is_model_author": false
             }
           ]
@@ -1894,8 +1930,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 470.6,
-              "throughput": 7.444297244258645,
+              "first_token_latency_ms": 246.2,
+              "throughput": 10.223683474063245,
               "is_model_author": false
             }
           ]
@@ -1926,8 +1962,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 224.6,
-              "throughput": 89.39633243541182,
+              "first_token_latency_ms": 210,
+              "throughput": 107.32627691717099,
               "is_model_author": false
             },
             {
@@ -1984,8 +2020,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 363.6,
-              "throughput": 75.97861621820951,
+              "first_token_latency_ms": 323.6,
+              "throughput": 75.34757516039856,
               "is_model_author": false
             }
           ]
@@ -2015,8 +2051,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1132.8,
-              "throughput": 59.07265464882526,
+              "first_token_latency_ms": 1037.4,
+              "throughput": 60.294826731139025,
               "is_model_author": false
             }
           ]
@@ -2046,8 +2082,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1545.5,
-              "throughput": 62.93070963283897,
+              "first_token_latency_ms": 1491.2,
+              "throughput": 62.89216361876127,
               "is_model_author": false
             },
             {
@@ -2083,8 +2119,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 4999,
-              "throughput": 53.59631257369493,
+              "first_token_latency_ms": 1297,
+              "throughput": 59.5539770222487,
               "is_model_author": false
             },
             {
@@ -2120,8 +2156,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1120.8,
-              "throughput": 68.6699828222509,
+              "first_token_latency_ms": 986.4,
+              "throughput": 71.4972426705058,
               "is_model_author": false
             },
             {
@@ -2157,8 +2193,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 966,
-              "throughput": 42.51025204133269,
+              "first_token_latency_ms": 1103,
+              "throughput": 50.2277061364568,
               "is_model_author": false
             },
             {
@@ -2178,8 +2214,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 794,
-              "throughput": 5.887617163581555,
+              "first_token_latency_ms": 4802.8,
+              "throughput": 11.207621198734037,
               "is_model_author": false
             }
           ]
@@ -2210,8 +2246,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1225.4,
-              "throughput": 81.26365530259677,
+              "first_token_latency_ms": 1357.2,
+              "throughput": 59.66182623216433,
               "is_model_author": false
             },
             {
@@ -2225,8 +2261,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 631.6,
-              "throughput": 32.376963724207044,
+              "first_token_latency_ms": 1083.8,
+              "throughput": 30.48624418454674,
               "is_model_author": false
             },
             {
@@ -2261,8 +2297,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 966.2,
-              "throughput": 13.023332137632583,
+              "first_token_latency_ms": 862.4,
+              "throughput": 14.533520865384284,
               "is_model_author": false
             }
           ]
@@ -2292,8 +2328,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 682.8,
-              "throughput": 53.1326643844268,
+              "first_token_latency_ms": 1318.6,
+              "throughput": 72.11239743608917,
               "is_model_author": false
             },
             {
@@ -2329,8 +2365,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 631.2,
-              "throughput": 51.28569895051478,
+              "first_token_latency_ms": 492.5,
+              "throughput": 52.14837018881364,
               "is_model_author": false
             }
           ]
@@ -2361,8 +2397,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1268,
-              "throughput": 74.94653720743422,
+              "first_token_latency_ms": 847.8,
+              "throughput": 51.841023076825934,
               "is_model_author": false
             },
             {
@@ -2382,8 +2418,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1002.8,
-              "throughput": 13.96532886553786,
+              "first_token_latency_ms": 978,
+              "throughput": 10.573711878654143,
               "is_model_author": false
             }
           ]
@@ -2414,8 +2450,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1285.4,
-              "throughput": 72.17846105859613,
+              "first_token_latency_ms": 4112,
+              "throughput": 38.53119099911378,
               "is_model_author": false
             },
             {
@@ -2435,8 +2471,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 860.4,
-              "throughput": 12.625240458354208,
+              "first_token_latency_ms": 1123,
+              "throughput": 13.586218140318461,
               "is_model_author": false
             }
           ]
@@ -2467,8 +2503,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1246.4,
-              "throughput": 86.42474448788383,
+              "first_token_latency_ms": 1468.6,
+              "throughput": 85.66256068801624,
               "is_model_author": false
             },
             {
@@ -2520,8 +2556,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 332.8,
-              "throughput": 83.73375615731916,
+              "first_token_latency_ms": 4442,
+              "throughput": 39.5522683225883,
               "is_model_author": false
             },
             {
@@ -2535,8 +2571,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 907.8,
-              "throughput": 29.793690429632086,
+              "first_token_latency_ms": 979.2,
+              "throughput": 31.217527808682416,
               "is_model_author": false
             },
             {
@@ -2556,8 +2592,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1103.2,
-              "throughput": 101.57516989840077,
+              "first_token_latency_ms": 454.6,
+              "throughput": 91.52262030557944,
               "is_model_author": false
             },
             {
@@ -2571,8 +2607,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 579,
-              "throughput": 22.921591283552267,
+              "first_token_latency_ms": 1967.2,
+              "throughput": 22.124299449180874,
               "is_model_author": false
             }
           ]
@@ -2608,8 +2644,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 258.2,
-              "throughput": 23.87120969401934,
+              "first_token_latency_ms": 220.2,
+              "throughput": 33.157935864795476,
               "is_model_author": false
             }
           ]
@@ -2669,9 +2705,36 @@
               },
               "is_free": false,
               "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 320.4,
+              "throughput": 112.08825663203429,
+              "is_model_author": false
+            }
+          ]
+        },
+        {
+          "id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+          "name": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+          "owned_by": "nvidia",
+          "object": "model",
+          "architecture": {
+            "input_modalities": [
+              "text"
+            ],
+            "output_modalities": [
+              "text"
+            ]
+          },
+          "providers": [
+            {
+              "provider": "fireworks-ai",
+              "status": "live",
+              "context_length": 262144,
+              "is_free": false,
+              "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 753.6,
-              "throughput": 107.7893401085058,
+              "first_token_latency_ms": 276,
+              "throughput": 171.53440891358494,
               "is_model_author": false
             }
           ]
@@ -2701,8 +2764,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 320.2,
-              "throughput": 433.78488449020216,
+              "first_token_latency_ms": 437.4,
+              "throughput": 410.92764303642764,
               "is_model_author": false
             },
             {
@@ -2716,8 +2779,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 482.8,
-              "throughput": 107.68021170144816,
+              "first_token_latency_ms": 471.6,
+              "throughput": 198.65425047434593,
               "is_model_author": false
             },
             {
@@ -2730,9 +2793,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 195,
-              "throughput": 625.7707655987435,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 209.25,
+              "throughput": 999.7395908360718,
               "is_model_author": false
             },
             {
@@ -2746,8 +2809,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 841.4,
-              "throughput": 108.9811282940826,
+              "first_token_latency_ms": 611,
+              "throughput": 121.15504914252733,
               "is_model_author": false
             },
             {
@@ -2761,8 +2824,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 455.2,
-              "throughput": 115.30184155648381,
+              "first_token_latency_ms": 198,
+              "throughput": 170.59755516082666,
               "is_model_author": false
             },
             {
@@ -2776,8 +2839,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 389.2,
-              "throughput": 178.5746692944321,
+              "first_token_latency_ms": 308.4,
+              "throughput": 165.99215535860122,
               "is_model_author": false
             },
             {
@@ -2795,9 +2858,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 293.4,
-              "throughput": 117.28895887963532,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 266.2,
+              "throughput": 124.88526955082145,
               "is_model_author": false
             },
             {
@@ -2811,8 +2874,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 459.6,
-              "throughput": 228.2062776855367,
+              "first_token_latency_ms": 445.2,
+              "throughput": 211.47328401972854,
               "is_model_author": false
             },
             {
@@ -2826,8 +2889,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 349.2,
-              "throughput": 79.27535280702784,
+              "first_token_latency_ms": 288.2,
+              "throughput": 89.76594781274675,
               "is_model_author": false
             },
             {
@@ -2841,8 +2904,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 311.2,
-              "throughput": 34.502813695403646,
+              "first_token_latency_ms": 490.6,
+              "throughput": 98.42474186049152,
               "is_model_author": false
             }
           ]
@@ -2872,8 +2935,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 166.6,
-              "throughput": 803.6888581432137,
+              "first_token_latency_ms": 427.4,
+              "throughput": 705.1297010340813,
               "is_model_author": false
             },
             {
@@ -2887,8 +2950,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 326.2,
-              "throughput": 62.03075999324117,
+              "first_token_latency_ms": 574.2,
+              "throughput": 124.63077480730041,
               "is_model_author": false
             },
             {
@@ -2901,9 +2964,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 570.8,
-              "throughput": 153.57277553188203,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 691,
+              "throughput": 157.0404034836034,
               "is_model_author": false
             },
             {
@@ -2923,8 +2986,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 241.4,
-              "throughput": 64.81050061127675,
+              "first_token_latency_ms": 295,
+              "throughput": 80.63992637429833,
               "is_model_author": false
             },
             {
@@ -2938,8 +3001,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 325.8,
-              "throughput": 109.68641902546658,
+              "first_token_latency_ms": 409.4,
+              "throughput": 113.15146145532901,
               "is_model_author": false
             }
           ]
@@ -2997,8 +3060,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 379.6,
-              "throughput": 71.50163613266375,
+              "first_token_latency_ms": 327.6,
+              "throughput": 56.184895927221056,
               "is_model_author": false
             }
           ]
@@ -3028,8 +3091,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 452.2,
-              "throughput": 71.98230822689465,
+              "first_token_latency_ms": 363.2,
+              "throughput": 48.57461086878203,
               "is_model_author": false
             }
           ]
@@ -3059,8 +3122,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 439.6,
-              "throughput": 29.78198301780666,
+              "first_token_latency_ms": 708.8,
+              "throughput": 24.771261630935168,
               "is_model_author": false
             },
             {
@@ -3080,8 +3143,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 289.6,
-              "throughput": 33.85882084491117,
+              "first_token_latency_ms": 549.4,
+              "throughput": 25.142564109481306,
               "is_model_author": false
             }
           ]
@@ -3111,8 +3174,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 617.4,
-              "throughput": 47.74799851624752,
+              "first_token_latency_ms": 629,
+              "throughput": 46.296175830523666,
               "is_model_author": false
             },
             {
@@ -3148,8 +3211,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 639.8,
-              "throughput": 174.632508659536,
+              "first_token_latency_ms": 605.2,
+              "throughput": 137.5261657338166,
               "is_model_author": false
             },
             {
@@ -3185,8 +3248,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 517,
-              "throughput": 149.95236096918114,
+              "first_token_latency_ms": 544.4,
+              "throughput": 152.62616817173543,
               "is_model_author": false
             },
             {
@@ -3229,8 +3292,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": true,
-              "first_token_latency_ms": 558.2,
-              "throughput": 31.95342219853469,
+              "first_token_latency_ms": 494,
+              "throughput": 34.29638797848167,
               "is_model_author": false
             }
           ]
@@ -3260,8 +3323,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 576,
-              "throughput": 93.95828183562004,
+              "first_token_latency_ms": 581,
+              "throughput": 94.12157264216346,
               "is_model_author": false
             },
             {
@@ -3281,8 +3344,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 233,
-              "throughput": 20.01641345903641,
+              "first_token_latency_ms": 423.6,
+              "throughput": 44.7249215248403,
               "is_model_author": false
             }
           ]
@@ -3312,8 +3375,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1059,
-              "throughput": 41.528015857129816,
+              "first_token_latency_ms": 872,
+              "throughput": 42.18234394813484,
               "is_model_author": false
             },
             {
@@ -3327,8 +3390,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 762.8,
-              "throughput": 16.17051020367174,
+              "first_token_latency_ms": 714.6,
+              "throughput": 16.098577688462967,
               "is_model_author": false
             },
             {
@@ -3364,8 +3427,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 700,
-              "throughput": 59.671619361175786,
+              "first_token_latency_ms": 658,
+              "throughput": 56.7292846584229,
               "is_model_author": false
             },
             {
@@ -3379,8 +3442,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 660.2,
-              "throughput": 14.955716541962175,
+              "first_token_latency_ms": 693.6,
+              "throughput": 14.953329383366102,
               "is_model_author": false
             },
             {
@@ -3393,8 +3456,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 334.8,
-              "throughput": 68.07256861931359,
+              "first_token_latency_ms": 359.8,
+              "throughput": 71.1008975409703,
               "is_model_author": false
             },
             {
@@ -3408,8 +3471,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 4577,
-              "throughput": 8.216432865731463,
+              "first_token_latency_ms": 480,
+              "throughput": 16.870807394119566,
               "is_model_author": false
             }
           ]
@@ -3439,8 +3502,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1024.8,
-              "throughput": 63.61695034699462,
+              "first_token_latency_ms": 863.6,
+              "throughput": 67.03199760719431,
               "is_model_author": false
             },
             {
@@ -3460,8 +3523,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 575.6,
-              "throughput": 37.02948898218698,
+              "first_token_latency_ms": 501.2,
+              "throughput": 113.7112408501878,
               "is_model_author": false
             }
           ]
@@ -3491,8 +3554,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 213.2,
-              "throughput": 87.57456215907897,
+              "first_token_latency_ms": 334,
+              "throughput": 127.50844448444528,
               "is_model_author": false
             }
           ]
@@ -3522,8 +3585,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 606.4,
-              "throughput": 41.63843969891289,
+              "first_token_latency_ms": 691.8,
+              "throughput": 47.58244244915447,
               "is_model_author": false
             },
             {
@@ -3542,9 +3605,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 203.8,
-              "throughput": 32.1661342234258,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 352.8,
+              "throughput": 24.749615883137313,
               "is_model_author": false
             }
           ]
@@ -3611,8 +3674,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 487,
-              "throughput": 159.05896900974227,
+              "first_token_latency_ms": 600.2,
+              "throughput": 156.33726007839937,
               "is_model_author": false
             }
           ]
@@ -3642,8 +3705,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 656.8,
-              "throughput": 131.02212223413224,
+              "first_token_latency_ms": 689.8,
+              "throughput": 121.33067460369708,
               "is_model_author": false
             },
             {
@@ -3684,8 +3747,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 316.4,
-              "throughput": 129.18029874683467,
+              "first_token_latency_ms": 351.8,
+              "throughput": 140.95254498986796,
               "is_model_author": false
             }
           ]
@@ -3715,8 +3778,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 904.6,
-              "throughput": 49.27545309240464,
+              "first_token_latency_ms": 1004.2,
+              "throughput": 48.492900276166154,
               "is_model_author": false
             },
             {
@@ -3752,8 +3815,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1610,
-              "throughput": 115.37925278030475,
+              "first_token_latency_ms": 1328.2,
+              "throughput": 117.23918004104675,
               "is_model_author": false
             },
             {
@@ -3789,8 +3852,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 836.2,
-              "throughput": 122.41207258985295,
+              "first_token_latency_ms": 662.6,
+              "throughput": 144.79310579718438,
               "is_model_author": false
             },
             {
@@ -3810,8 +3873,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 687,
-              "throughput": 142.46097578803824,
+              "first_token_latency_ms": 513.6,
+              "throughput": 103.02292762058084,
               "is_model_author": false
             }
           ]
@@ -3842,8 +3905,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 794,
-              "throughput": 60.62723671007186,
+              "first_token_latency_ms": 973.2,
+              "throughput": 51.87628828138507,
               "is_model_author": false
             },
             {
@@ -3857,8 +3920,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 2416.2,
-              "throughput": 11.11913519163518,
+              "first_token_latency_ms": 735.2,
+              "throughput": 21.900773933991417,
               "is_model_author": false
             }
           ]
@@ -3889,8 +3952,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1038,
-              "throughput": 59.53439283435783,
+              "first_token_latency_ms": 956.2,
+              "throughput": 59.311433339788664,
               "is_model_author": false
             },
             {
@@ -3927,8 +3990,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 659.8,
-              "throughput": 118.34732982591109,
+              "first_token_latency_ms": 644.4,
+              "throughput": 119.96029481885566,
               "is_model_author": false
             },
             {
@@ -3948,8 +4011,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 305,
-              "throughput": 36.84037588675348,
+              "first_token_latency_ms": 221.8,
+              "throughput": 29.309116550185912,
               "is_model_author": false
             }
           ]
@@ -3980,8 +4043,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1022,
-              "throughput": 118.52965335662131,
+              "first_token_latency_ms": 898.4,
+              "throughput": 90.4688724780765,
               "is_model_author": false
             },
             {
@@ -3995,8 +4058,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 295.8,
-              "throughput": 62.093031866235435,
+              "first_token_latency_ms": 344.6,
+              "throughput": 38.179538861682644,
               "is_model_author": false
             }
           ]
@@ -4027,8 +4090,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1839.2,
-              "throughput": 48.64857395263222,
+              "first_token_latency_ms": 794.8,
+              "throughput": 60.05415337688934,
               "is_model_author": false
             },
             {
@@ -4048,8 +4111,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 350.2,
-              "throughput": 78.98679682564673,
+              "first_token_latency_ms": 221.2,
+              "throughput": 83.24147141136889,
               "is_model_author": false
             }
           ]
@@ -4080,8 +4143,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 872.4,
-              "throughput": 86.94872978591766,
+              "first_token_latency_ms": 986.6,
+              "throughput": 79.71970782014455,
               "is_model_author": false
             },
             {
@@ -4095,8 +4158,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1548.6,
-              "throughput": 9.120049029258457,
+              "first_token_latency_ms": 225,
+              "throughput": 140.34619903538928,
               "is_model_author": false
             }
           ]
@@ -4127,8 +4190,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1084.5,
-              "throughput": 69.49611582998077,
+              "first_token_latency_ms": 1231,
+              "throughput": 77.07101531626827,
               "is_model_author": false
             },
             {
@@ -4147,8 +4210,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 346,
-              "throughput": 107.72876553398547,
+              "first_token_latency_ms": 325.8,
+              "throughput": 113.69553691904738,
               "is_model_author": false
             },
             {
@@ -4162,8 +4225,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 520.2,
-              "throughput": 150.8286960918102,
+              "first_token_latency_ms": 485.4,
+              "throughput": 167.3937902826514,
               "is_model_author": false
             },
             {
@@ -4177,8 +4240,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 292.4,
-              "throughput": 40.14261772747638,
+              "first_token_latency_ms": 616,
+              "throughput": 64.53466779740725,
               "is_model_author": false
             }
           ]
@@ -4209,8 +4272,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 285,
-              "throughput": 70.44301532775748,
+              "first_token_latency_ms": 329,
+              "throughput": 106.76127349023973,
               "is_model_author": false
             },
             {
@@ -4230,8 +4293,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 450.2,
-              "throughput": 38.145150674566416,
+              "first_token_latency_ms": 441.6,
+              "throughput": 33.246619772195686,
               "is_model_author": false
             },
             {
@@ -4245,8 +4308,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 549.2,
-              "throughput": 13.70551496704498,
+              "first_token_latency_ms": 317.8,
+              "throughput": 26.007059940047903,
               "is_model_author": false
             }
           ]
@@ -4283,8 +4346,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 358.8,
-              "throughput": 77.64874127134502,
+              "first_token_latency_ms": 477.2,
+              "throughput": 78.80331872560184,
               "is_model_author": false
             },
             {
@@ -4298,8 +4361,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 402.6,
-              "throughput": 52.12088045987921,
+              "first_token_latency_ms": 306.2,
+              "throughput": 79.41643214172372,
               "is_model_author": false
             }
           ]
@@ -4335,8 +4398,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 359.4,
-              "throughput": 156.77837750709335,
+              "first_token_latency_ms": 339.2,
+              "throughput": 165.70548530894487,
               "is_model_author": false
             },
             {
@@ -4381,8 +4444,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1384.8,
-              "throughput": 28.36972791848435,
+              "first_token_latency_ms": 1577,
+              "throughput": 26.228460456098777,
               "is_model_author": false
             },
             {
@@ -4396,8 +4459,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1098.4,
-              "throughput": 43.49659757428478,
+              "first_token_latency_ms": 1940.5,
+              "throughput": 50.201789103408494,
               "is_model_author": false
             },
             {
@@ -4422,8 +4485,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 614.8,
-              "throughput": 14.50747884576719,
+              "first_token_latency_ms": 1103,
+              "throughput": 58.908085809819184,
               "is_model_author": false
             }
           ]
@@ -4454,8 +4517,23 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 656,
-              "throughput": 37.233718396801684,
+              "first_token_latency_ms": 614.6,
+              "throughput": 39.417010360348755,
+              "is_model_author": false
+            },
+            {
+              "provider": "cerebras",
+              "status": "live",
+              "context_length": 65536,
+              "pricing": {
+                "input": 0.99,
+                "output": 1.49
+              },
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": true,
+              "first_token_latency_ms": 4862,
+              "throughput": 170.99863201094394,
               "is_model_author": false
             },
             {
@@ -4475,8 +4553,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 4515,
-              "throughput": 20.11384435907235,
+              "first_token_latency_ms": 549.4,
+              "throughput": 78.29685515124683,
               "is_model_author": false
             },
             {
@@ -4490,8 +4568,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 703.2,
-              "throughput": 40.7106758517765,
+              "first_token_latency_ms": 713.2,
+              "throughput": 42.72283090857981,
               "is_model_author": false
             }
           ]
@@ -4521,8 +4599,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 531.8,
-              "throughput": 89.18962863115546,
+              "first_token_latency_ms": 369.6,
+              "throughput": 91.64837277667428,
               "is_model_author": false
             },
             {
@@ -4558,8 +4636,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 489,
-              "throughput": 87.20009405744764,
+              "first_token_latency_ms": 478.6,
+              "throughput": 104.6207413507424,
               "is_model_author": false
             },
             {
@@ -4594,8 +4672,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 900.8,
-              "throughput": 55.948831754281706,
+              "first_token_latency_ms": 2033.2,
+              "throughput": 52.58407011814766,
               "is_model_author": false
             }
           ]
@@ -4699,8 +4777,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1257.4,
-              "throughput": 99.87049722523932,
+              "first_token_latency_ms": 1255.2,
+              "throughput": 90.30040247110705,
               "is_model_author": false
             }
           ]
@@ -4736,8 +4814,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 518,
-              "throughput": 39.11843054831781,
+              "first_token_latency_ms": 611.8,
+              "throughput": 18.191930466567975,
               "is_model_author": false
             }
           ]
@@ -4757,21 +4835,6 @@
           },
           "providers": [
             {
-              "provider": "novita",
-              "status": "live",
-              "context_length": 1000000,
-              "pricing": {
-                "input": 0.834,
-                "output": 2.501
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 3034,
-              "throughput": 32.41070849808777,
-              "is_model_author": false
-            },
-            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 1048576,
@@ -4782,8 +4845,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 584,
-              "throughput": 27.853601470670156,
+              "first_token_latency_ms": 1974.8,
+              "throughput": 22.204688010320762,
               "is_model_author": false
             }
           ]
@@ -4814,8 +4877,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 392.8,
-              "throughput": 128.6407078729465,
+              "first_token_latency_ms": 177,
+              "throughput": 101.63107807687143,
               "is_model_author": false
             },
             {
@@ -4872,8 +4935,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 450,
-              "throughput": 115.4473330508866,
+              "first_token_latency_ms": 519,
+              "throughput": 32.80540316244619,
               "is_model_author": false
             }
           ]
@@ -4903,29 +4966,14 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2176,
-              "throughput": 39.214754111232644,
+              "first_token_latency_ms": 1202,
+              "throughput": 39.95953117215738,
               "is_model_author": false
             },
             {
               "provider": "featherless-ai",
               "status": "live",
               "is_free": false,
-              "is_model_author": false
-            },
-            {
-              "provider": "deepinfra",
-              "status": "live",
-              "context_length": 262144,
-              "pricing": {
-                "input": 0.14,
-                "output": 0.28
-              },
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 807.8,
-              "throughput": 16.679252071670874,
               "is_model_author": false
             }
           ]
@@ -4970,8 +5018,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 719.2,
-              "throughput": 14.547535182687259,
+              "first_token_latency_ms": 2317.2,
+              "throughput": 14.450341899076303,
               "is_model_author": false
             }
           ]
@@ -5001,8 +5049,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1584.8,
-              "throughput": 33.28495179912882,
+              "first_token_latency_ms": 1388.5,
+              "throughput": 30.49709784897994,
               "is_model_author": false
             }
           ]
@@ -5032,8 +5080,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 3472.4,
-              "throughput": 22.88122561727831,
+              "first_token_latency_ms": 2575.6,
+              "throughput": 25.761406593168136,
               "is_model_author": false
             }
           ]
@@ -5064,8 +5112,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 443,
-              "throughput": 101.51919974434402,
+              "first_token_latency_ms": 740.2,
+              "throughput": 86.60787584096506,
               "is_model_author": false
             }
           ]
@@ -5095,8 +5143,8 @@
               "is_free": false,
               "supports_tools": false,
               "supports_structured_output": false,
-              "first_token_latency_ms": 910.6,
-              "throughput": 53.259802667778025,
+              "first_token_latency_ms": 866.2,
+              "throughput": 47.689511042815454,
               "is_model_author": false
             },
             {
@@ -5104,32 +5152,6 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
-            }
-          ]
-        },
-        {
-          "id": "zai-org/GLM-4.5",
-          "name": "zai-org/GLM-4.5",
-          "owned_by": "zai-org",
-          "object": "model",
-          "architecture": {
-            "input_modalities": [
-              "text"
-            ],
-            "output_modalities": [
-              "text"
-            ]
-          },
-          "providers": [
-            {
-              "provider": "zai-org",
-              "status": "live",
-              "is_free": false,
-              "supports_tools": true,
-              "supports_structured_output": false,
-              "first_token_latency_ms": 1746.75,
-              "throughput": 40.79307930997635,
-              "is_model_author": true
             }
           ]
         },
@@ -5158,8 +5180,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1078.8,
-              "throughput": 77.1675255059775,
+              "first_token_latency_ms": 1004.8,
+              "throughput": 83.57183539211889,
               "is_model_author": false
             },
             {
@@ -5168,8 +5190,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1613.6,
-              "throughput": 90.30316591430358,
+              "first_token_latency_ms": 1669,
+              "throughput": 82.27878246795656,
               "is_model_author": true
             }
           ]
@@ -5200,8 +5222,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1133.4,
-              "throughput": 48.11297632437565,
+              "first_token_latency_ms": 1104.2,
+              "throughput": 58.456778291639125,
               "is_model_author": false
             },
             {
@@ -5210,8 +5232,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2687.2,
-              "throughput": 38.393336844039744,
+              "first_token_latency_ms": 2066.4,
+              "throughput": 57.52497431072916,
               "is_model_author": true
             }
           ]
@@ -5237,8 +5259,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2783.6,
-              "throughput": 41.68864225050475,
+              "first_token_latency_ms": 2289.75,
+              "throughput": 39.804107640990296,
               "is_model_author": true
             }
           ]
@@ -5289,8 +5311,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 544,
-              "throughput": 23.903279431966418,
+              "first_token_latency_ms": 3727,
+              "throughput": 18.022526319802772,
               "is_model_author": false
             }
           ]
@@ -5342,8 +5364,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1760,
-              "throughput": 85.5431993156544,
+              "first_token_latency_ms": 2380.6,
+              "throughput": 74.01402788992806,
               "is_model_author": true
             }
           ]
@@ -5374,8 +5396,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 4541,
-              "throughput": 31.3302838523717,
+              "first_token_latency_ms": 1155,
+              "throughput": 33.019180918362984,
               "is_model_author": false
             },
             {
@@ -5411,8 +5433,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2938.5,
-              "throughput": 50.50024479110335,
+              "first_token_latency_ms": 3460,
+              "throughput": 40.056078509913874,
               "is_model_author": true
             }
           ]
@@ -5442,8 +5464,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 3219.75,
-              "throughput": 28.334962945302845,
+              "first_token_latency_ms": 2343,
+              "throughput": 29.846291598268913,
               "is_model_author": false
             },
             {
@@ -5451,6 +5473,16 @@
               "status": "live",
               "is_free": false,
               "is_model_author": false
+            },
+            {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3079.5,
+              "throughput": 36.52061237762835,
+              "is_model_author": true
             },
             {
               "provider": "baseten",
@@ -5525,8 +5557,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2041,
-              "throughput": 64.4382766074545,
+              "first_token_latency_ms": 1552.2,
+              "throughput": 94.08828002710489,
               "is_model_author": true
             },
             {
@@ -5597,8 +5629,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1133.8,
-              "throughput": 56.1022730381301,
+              "first_token_latency_ms": 1134.4,
+              "throughput": 50.79007173108873,
               "is_model_author": false
             },
             {
@@ -5628,8 +5660,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 656.4,
-              "throughput": 27.211052293917724,
+              "first_token_latency_ms": 480.2,
+              "throughput": 73.82759013346399,
               "is_model_author": false
             }
           ]
@@ -5655,6 +5687,16 @@
               "is_model_author": false
             },
             {
+              "provider": "zai-org",
+              "status": "live",
+              "is_free": false,
+              "supports_tools": true,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 3891,
+              "throughput": 26.190652621711966,
+              "is_model_author": true
+            },
+            {
               "provider": "deepinfra",
               "status": "live",
               "context_length": 202752,
@@ -5664,9 +5706,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 765.8,
-              "throughput": 47.337850536144664,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 1833,
+              "throughput": 10.430682896809254,
               "is_model_author": false
             }
           ]
@@ -5722,8 +5764,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 1280,
-              "throughput": 52.545412753448794,
+              "first_token_latency_ms": 1321.4,
+              "throughput": 50.81199990182701,
               "is_model_author": false
             },
             {
@@ -5737,8 +5779,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 216.2,
-              "throughput": 157.1847735474229,
+              "first_token_latency_ms": 286.6,
+              "throughput": 125.65632421497614,
               "is_model_author": false
             },
             {
@@ -5753,8 +5795,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2377,
-              "throughput": 61.44540569028579,
+              "first_token_latency_ms": 2397,
+              "throughput": 60.023154722716875,
               "is_model_author": true
             },
             {
@@ -5767,8 +5809,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 410.8,
-              "throughput": 101.34470190024358,
+              "first_token_latency_ms": 456.4,
+              "throughput": 123.86573377985857,
               "is_model_author": false
             },
             {
@@ -5782,8 +5824,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 874,
-              "throughput": 87.08379834383435,
+              "first_token_latency_ms": 478.2,
+              "throughput": 78.78544842241375,
               "is_model_author": false
             },
             {
@@ -5823,8 +5865,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2176.3333333333335,
-              "throughput": 62.90383281830722,
+              "first_token_latency_ms": 2113,
+              "throughput": 65.12626152369477,
               "is_model_author": true
             }
           ]
@@ -5854,8 +5896,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 873.8,
-              "throughput": 63.18846774578211,
+              "first_token_latency_ms": 780.6,
+              "throughput": 53.109450873409514,
               "is_model_author": false
             },
             {
@@ -5869,8 +5911,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 194.4,
-              "throughput": 169.58652100897294,
+              "first_token_latency_ms": 161.2,
+              "throughput": 195.41013612771138,
               "is_model_author": false
             },
             {
@@ -5880,8 +5922,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 510,
-              "throughput": 43.61744619819535,
+              "first_token_latency_ms": 493.4,
+              "throughput": 47.39798554427957,
               "is_model_author": false
             },
             {
@@ -5896,8 +5938,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1943,
-              "throughput": 58.969218068168416,
+              "first_token_latency_ms": 2896,
+              "throughput": 51.9320627636861,
               "is_model_author": true
             },
             {
@@ -5911,8 +5953,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 819.4,
-              "throughput": 75.81470500113848,
+              "first_token_latency_ms": 1954.5,
+              "throughput": 77.84414502085215,
               "is_model_author": false
             },
             {
@@ -5926,8 +5968,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 466,
-              "throughput": 65.66850538481745,
+              "first_token_latency_ms": 1152.8,
+              "throughput": 56.40323273797011,
               "is_model_author": false
             }
           ]
@@ -5952,8 +5994,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2995.6,
-              "throughput": 37.69099782995968,
+              "first_token_latency_ms": 2475.6,
+              "throughput": 49.78617122860657,
               "is_model_author": true
             }
           ]
@@ -5984,8 +6026,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 1401.4,
-              "throughput": 34.51319994216647,
+              "first_token_latency_ms": 1409.2,
+              "throughput": 28.01054376147085,
               "is_model_author": false
             },
             {
@@ -5999,8 +6041,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 300.4,
-              "throughput": 56.844163096153764,
+              "first_token_latency_ms": 178.6,
+              "throughput": 69.06901932695396,
               "is_model_author": false
             },
             {
@@ -6010,8 +6052,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": true,
-              "first_token_latency_ms": 2720.2,
-              "throughput": 78.91419036903001,
+              "first_token_latency_ms": 1193.6,
+              "throughput": 89.86747345605968,
               "is_model_author": false
             },
             {
@@ -6026,8 +6068,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2398.8,
-              "throughput": 38.7542202230023,
+              "first_token_latency_ms": 2504.6,
+              "throughput": 36.16243737493488,
               "is_model_author": true
             },
             {
@@ -6055,9 +6097,9 @@
               },
               "is_free": false,
               "supports_tools": true,
-              "supports_structured_output": true,
-              "first_token_latency_ms": 4181,
-              "throughput": 14.037502150352658,
+              "supports_structured_output": false,
+              "first_token_latency_ms": 822,
+              "throughput": 13.849740752340189,
               "is_model_author": false
             }
           ]
@@ -6083,8 +6125,8 @@
               "is_free": false,
               "supports_tools": true,
               "supports_structured_output": false,
-              "first_token_latency_ms": 2429.2,
-              "throughput": 45.79203026527998,
+              "first_token_latency_ms": 2741.2,
+              "throughput": 42.903179676451494,
               "is_model_author": true
             }
           ]
@@ -6473,9 +6515,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000176",
+            "prompt": "0.000000136",
             "completion": "0.0000042",
-            "input_cache_read": "0.00000016"
+            "input_cache_read": "0.00000012"
           },
           "top_provider": {
             "context_length": 1048576,
@@ -6791,9 +6833,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000003992",
+            "prompt": "0.000000576",
             "completion": "0.000013",
-            "input_cache_read": "0.00000045"
+            "input_cache_read": "0.0000003"
           },
           "top_provider": {
             "context_length": 1048576,
@@ -7362,9 +7404,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000024",
+            "prompt": "0.0000000333",
             "completion": "0.0000005",
-            "input_cache_read": "0.0000000216"
+            "input_cache_read": "0.00000003"
           },
           "top_provider": {
             "context_length": 1048576,
@@ -7439,9 +7481,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000075",
+            "prompt": "0.00000005",
             "completion": "0.0000044",
-            "input_cache_read": "0.000000065"
+            "input_cache_read": "0.00000004"
           },
           "top_provider": {
             "context_length": 1048576,
@@ -8312,7 +8354,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1303,
+                "elo": 1302,
                 "win_rate": 56,
                 "rank": 12
               }
@@ -8519,7 +8561,7 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1303,
+                "elo": 1302,
                 "win_rate": 56,
                 "rank": 12
               }
@@ -9221,7 +9263,7 @@
                 "category": "dataviz",
                 "elo": 1174,
                 "win_rate": 56.4,
-                "rank": 66
+                "rank": 67
               },
               {
                 "arena": "models",
@@ -9344,7 +9386,7 @@
                 "category": "dataviz",
                 "elo": 1174,
                 "win_rate": 56.4,
-                "rank": 66
+                "rank": 67
               },
               {
                 "arena": "models",
@@ -9442,7 +9484,7 @@
                 "category": "3d",
                 "elo": 1229,
                 "win_rate": 58.5,
-                "rank": 35
+                "rank": 36
               },
               {
                 "arena": "models",
@@ -9587,7 +9629,7 @@
                 "category": "3d",
                 "elo": 1229,
                 "win_rate": 58.5,
-                "rank": 35
+                "rank": 36
               },
               {
                 "arena": "models",
@@ -10300,16 +10342,16 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1238,
-                "win_rate": 52.1,
+                "elo": 1239,
+                "win_rate": 52.2,
                 "rank": 34
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1288,
-                "win_rate": 62.2,
-                "rank": 7
+                "elo": 1290,
+                "win_rate": 62.4,
+                "rank": 5
               },
               {
                 "arena": "models",
@@ -10329,7 +10371,7 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1276,
-                "win_rate": 53.3,
+                "win_rate": 53.2,
                 "rank": 22
               },
               {
@@ -10522,16 +10564,16 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1238,
-                "win_rate": 52.1,
+                "elo": 1239,
+                "win_rate": 52.2,
                 "rank": 34
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1288,
-                "win_rate": 62.2,
-                "rank": 7
+                "elo": 1290,
+                "win_rate": 62.4,
+                "rank": 5
               },
               {
                 "arena": "models",
@@ -10551,7 +10593,7 @@
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1276,
-                "win_rate": 53.3,
+                "win_rate": 53.2,
                 "rank": 22
               },
               {
@@ -10704,15 +10746,15 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1348,
+                "elo": 1349,
                 "win_rate": 61.1,
                 "rank": 7
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1364,
-                "win_rate": 68.4,
+                "elo": 1363,
+                "win_rate": 68.2,
                 "rank": 1
               },
               {
@@ -10739,21 +10781,21 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1315,
+                "elo": 1314,
                 "win_rate": 58.8,
                 "rank": 3
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1348,
-                "win_rate": 60.3,
+                "elo": 1349,
+                "win_rate": 60.4,
                 "rank": 5
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1316,
+                "elo": 1315,
                 "win_rate": 56.1,
                 "rank": 7
               }
@@ -10884,15 +10926,15 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1348,
+                "elo": 1349,
                 "win_rate": 61.1,
                 "rank": 7
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1364,
-                "win_rate": 68.4,
+                "elo": 1363,
+                "win_rate": 68.2,
                 "rank": 1
               },
               {
@@ -10919,21 +10961,21 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1315,
+                "elo": 1314,
                 "win_rate": 58.8,
                 "rank": 3
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1348,
-                "win_rate": 60.3,
+                "elo": 1349,
+                "win_rate": 60.4,
                 "rank": 5
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1316,
+                "elo": 1315,
                 "win_rate": 56.1,
                 "rank": 7
               }
@@ -11024,22 +11066,22 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1468,
-                "win_rate": 74.1,
+                "elo": 1476,
+                "win_rate": 75,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1395,
-                "win_rate": 64.8,
+                "elo": 1396,
+                "win_rate": 64.9,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1394,
-                "win_rate": 66.7,
+                "elo": 1398,
+                "win_rate": 67.1,
                 "rank": 1
               },
               {
@@ -11053,14 +11095,14 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1335,
-                "win_rate": 48.9,
+                "win_rate": 49,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1388,
-                "win_rate": 64,
+                "elo": 1381,
+                "win_rate": 63,
                 "rank": 2
               },
               {
@@ -11154,22 +11196,22 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1468,
-                "win_rate": 74.1,
+                "elo": 1476,
+                "win_rate": 75,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1395,
-                "win_rate": 64.8,
+                "elo": 1396,
+                "win_rate": 64.9,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1394,
-                "win_rate": 66.7,
+                "elo": 1398,
+                "win_rate": 67.1,
                 "rank": 1
               },
               {
@@ -11183,14 +11225,14 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1335,
-                "win_rate": 48.9,
+                "win_rate": 49,
                 "rank": 1
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1388,
-                "win_rate": 64,
+                "elo": 1381,
+                "win_rate": 63,
                 "rank": 2
               },
               {
@@ -12136,7 +12178,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1276,
+                "elo": 1277,
                 "win_rate": 54.4,
                 "rank": 21
               },
@@ -12144,7 +12186,7 @@
                 "arena": "models",
                 "category": "asciiart",
                 "elo": 1221,
-                "win_rate": 51.9,
+                "win_rate": 52.1,
                 "rank": 19
               },
               {
@@ -12157,9 +12199,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1257,
-                "win_rate": 52.8,
-                "rank": 29
+                "elo": 1258,
+                "win_rate": 52.9,
+                "rank": 27
               },
               {
                 "arena": "models",
@@ -12178,7 +12220,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1285,
+                "elo": 1286,
                 "win_rate": 54.1,
                 "rank": 22
               },
@@ -12323,7 +12365,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1276,
+                "elo": 1277,
                 "win_rate": 54.4,
                 "rank": 21
               },
@@ -12331,7 +12373,7 @@
                 "arena": "models",
                 "category": "asciiart",
                 "elo": 1221,
-                "win_rate": 51.9,
+                "win_rate": 52.1,
                 "rank": 19
               },
               {
@@ -12344,9 +12386,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1257,
-                "win_rate": 52.8,
-                "rank": 29
+                "elo": 1258,
+                "win_rate": 52.9,
+                "rank": 27
               },
               {
                 "arena": "models",
@@ -12365,7 +12407,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1285,
+                "elo": 1286,
                 "win_rate": 54.1,
                 "rank": 22
               },
@@ -12456,8 +12498,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1418,
-                "win_rate": 68.6,
+                "elo": 1415,
+                "win_rate": 68.4,
                 "rank": 1
               }
             ],
@@ -12537,8 +12579,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1418,
-                "win_rate": 68.6,
+                "elo": 1415,
+                "win_rate": 68.4,
                 "rank": 1
               }
             ],
@@ -13744,13 +13786,12 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000029",
-            "completion": "0.00000114",
-            "input_cache_read": "0.00000011"
+            "prompt": "0.00000025",
+            "completion": "0.000001"
           },
           "top_provider": {
-            "context_length": 128000,
-            "max_completion_tokens": 115200,
+            "context_length": 163840,
+            "max_completion_tokens": 147456,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -14468,13 +14509,13 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000028",
-            "completion": "0.000000056",
-            "input_cache_read": "0.0000000056"
+            "prompt": "0.0000000224",
+            "completion": "0.00000128",
+            "input_cache_read": "0.0000000202"
           },
           "top_provider": {
-            "context_length": 1024000,
-            "max_completion_tokens": 384000,
+            "context_length": 1048576,
+            "max_completion_tokens": 943718,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -14663,7 +14704,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1236,
-                "win_rate": 46.5,
+                "win_rate": 46.4,
                 "rank": 42
               },
               {
@@ -14965,7 +15006,7 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000022",
+            "prompt": "0.00000017",
             "completion": "0.0000042",
             "input_cache_read": "0.00000014"
           },
@@ -15045,9 +15086,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000003",
-            "completion": "0.0000012",
-            "input_cache_read": "0.000000006"
+            "prompt": "0.000000003",
+            "completion": "0.0000024",
+            "input_cache_read": "0.000000003"
           },
           "top_provider": {
             "context_length": 1048576,
@@ -15868,7 +15909,7 @@
                 "category": "uicomponent",
                 "elo": 1146,
                 "win_rate": 57.5,
-                "rank": 74
+                "rank": 75
               },
               {
                 "arena": "models",
@@ -16067,7 +16108,7 @@
                 "category": "uicomponent",
                 "elo": 1146,
                 "win_rate": 57.5,
-                "rank": 74
+                "rank": 75
               },
               {
                 "arena": "models",
@@ -17267,7 +17308,7 @@
                 "category": "asciiart",
                 "elo": 1281,
                 "win_rate": 63.5,
-                "rank": 10
+                "rank": 11
               },
               {
                 "arena": "models",
@@ -17588,7 +17629,7 @@
                 "category": "asciiart",
                 "elo": 1281,
                 "win_rate": 63.5,
-                "rank": 10
+                "rank": 11
               },
               {
                 "arena": "models",
@@ -17812,21 +17853,21 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1259,
+                "elo": 1260,
                 "win_rate": 56.4,
-                "rank": 28
+                "rank": 27
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1266,
+                "elo": 1265,
                 "win_rate": 59,
-                "rank": 15
+                "rank": 16
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1270,
+                "elo": 1271,
                 "win_rate": 54.3,
                 "rank": 27
               },
@@ -17854,8 +17895,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1280,
-                "win_rate": 55,
+                "elo": 1281,
+                "win_rate": 55.1,
                 "rank": 24
               },
               {
@@ -18217,21 +18258,21 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1259,
+                "elo": 1260,
                 "win_rate": 56.4,
-                "rank": 28
+                "rank": 27
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1266,
+                "elo": 1265,
                 "win_rate": 59,
-                "rank": 15
+                "rank": 16
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1270,
+                "elo": 1271,
                 "win_rate": 54.3,
                 "rank": 27
               },
@@ -18259,8 +18300,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1280,
-                "win_rate": 55,
+                "elo": 1281,
+                "win_rate": 55.1,
                 "rank": 24
               },
               {
@@ -18417,9 +18458,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1291,
-                "win_rate": 57,
-                "rank": 6
+                "elo": 1289,
+                "win_rate": 56.9,
+                "rank": 7
               },
               {
                 "arena": "models",
@@ -18446,7 +18487,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1306,
-                "win_rate": 54.5,
+                "win_rate": 54.4,
                 "rank": 14
               },
               {
@@ -18601,9 +18642,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1291,
-                "win_rate": 57,
-                "rank": 6
+                "elo": 1289,
+                "win_rate": 56.9,
+                "rank": 7
               },
               {
                 "arena": "models",
@@ -18630,7 +18671,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1306,
-                "win_rate": 54.5,
+                "win_rate": 54.4,
                 "rank": 14
               },
               {
@@ -18780,8 +18821,8 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1315,
-                "win_rate": 54.8,
+                "elo": 1316,
+                "win_rate": 54.7,
                 "rank": 10
               },
               {
@@ -18794,29 +18835,29 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1336,
-                "win_rate": 54.7,
+                "elo": 1337,
+                "win_rate": 54.6,
                 "rank": 8
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1289,
-                "win_rate": 54,
-                "rank": 10
+                "win_rate": 54.3,
+                "rank": 9
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1302,
-                "win_rate": 51.6,
+                "win_rate": 51.7,
                 "rank": 15
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1311,
-                "win_rate": 54.9,
+                "win_rate": 54.8,
                 "rank": 8
               }
             ],
@@ -18956,8 +18997,8 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1315,
-                "win_rate": 54.8,
+                "elo": 1316,
+                "win_rate": 54.7,
                 "rank": 10
               },
               {
@@ -18970,29 +19011,29 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1336,
-                "win_rate": 54.7,
+                "elo": 1337,
+                "win_rate": 54.6,
                 "rank": 8
               },
               {
                 "arena": "models",
                 "category": "svg",
                 "elo": 1289,
-                "win_rate": 54,
-                "rank": 10
+                "win_rate": 54.3,
+                "rank": 9
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1302,
-                "win_rate": 51.6,
+                "win_rate": 51.7,
                 "rank": 15
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1311,
-                "win_rate": 54.9,
+                "win_rate": 54.8,
                 "rank": 8
               }
             ],
@@ -19120,57 +19161,57 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1309,
-                "win_rate": 50.3,
+                "elo": 1310,
+                "win_rate": 50.4,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1281,
-                "win_rate": 53.5,
-                "rank": 11
+                "elo": 1285,
+                "win_rate": 53.8,
+                "rank": 9
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1310,
-                "win_rate": 50.9,
+                "win_rate": 50.8,
                 "rank": 11
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1269,
-                "win_rate": 50.2,
+                "elo": 1267,
+                "win_rate": 49.9,
                 "rank": 25
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1320,
-                "win_rate": 51.7,
+                "elo": 1321,
+                "win_rate": 51.6,
                 "rank": 10
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1291,
-                "win_rate": 53.8,
-                "rank": 8
+                "elo": 1287,
+                "win_rate": 53.4,
+                "rank": 11
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1322,
-                "win_rate": 53.5,
+                "elo": 1321,
+                "win_rate": 53.4,
                 "rank": 12
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1308,
-                "win_rate": 50.6,
+                "win_rate": 50.5,
                 "rank": 10
               }
             ],
@@ -19296,57 +19337,57 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1309,
-                "win_rate": 50.3,
+                "elo": 1310,
+                "win_rate": 50.4,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1281,
-                "win_rate": 53.5,
-                "rank": 11
+                "elo": 1285,
+                "win_rate": 53.8,
+                "rank": 9
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1310,
-                "win_rate": 50.9,
+                "win_rate": 50.8,
                 "rank": 11
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1269,
-                "win_rate": 50.2,
+                "elo": 1267,
+                "win_rate": 49.9,
                 "rank": 25
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1320,
-                "win_rate": 51.7,
+                "elo": 1321,
+                "win_rate": 51.6,
                 "rank": 10
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1291,
-                "win_rate": 53.8,
-                "rank": 8
+                "elo": 1287,
+                "win_rate": 53.4,
+                "rank": 11
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1322,
-                "win_rate": 53.5,
+                "elo": 1321,
+                "win_rate": 53.4,
                 "rank": 12
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1308,
-                "win_rate": 50.6,
+                "win_rate": 50.5,
                 "rank": 10
               }
             ],
@@ -20269,7 +20310,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1014,
+                "elo": 1013,
                 "win_rate": 22,
                 "rank": 107
               },
@@ -20290,7 +20331,7 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 997,
+                "elo": 998,
                 "win_rate": 19.4,
                 "rank": 108
               },
@@ -21298,8 +21339,9 @@
             "instruct_type": "llama3"
           },
           "pricing": {
-            "prompt": "0.0000001",
-            "completion": "0.00000032"
+            "prompt": "0.00000022",
+            "completion": "0.0000005",
+            "input_cache_read": "0.00000011"
           },
           "top_provider": {
             "context_length": 131072,
@@ -21784,15 +21826,15 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1274,
-                "win_rate": 49.4,
+                "win_rate": 49.3,
                 "rank": 22
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1291,
-                "win_rate": 56.9,
-                "rank": 5
+                "elo": 1289,
+                "win_rate": 56.7,
+                "rank": 6
               },
               {
                 "arena": "models",
@@ -21804,7 +21846,7 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1281,
+                "elo": 1280,
                 "win_rate": 50.9,
                 "rank": 19
               },
@@ -21963,8 +22005,8 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1322,
-                "win_rate": 53.1,
+                "elo": 1321,
+                "win_rate": 52.9,
                 "rank": 13
               },
               {
@@ -21978,7 +22020,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1319,
-                "win_rate": 52.6,
+                "win_rate": 52.4,
                 "rank": 8
               },
               {
@@ -21991,7 +22033,7 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1312,
+                "elo": 1313,
                 "win_rate": 50.5,
                 "rank": 12
               },
@@ -22000,21 +22042,21 @@
                 "category": "svg",
                 "elo": 1289,
                 "win_rate": 55.7,
-                "rank": 11
+                "rank": 10
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1309,
-                "win_rate": 52.4,
+                "elo": 1308,
+                "win_rate": 52.3,
                 "rank": 13
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1320,
-                "win_rate": 52.6,
-                "rank": 5
+                "elo": 1319,
+                "win_rate": 52.4,
+                "rank": 6
               }
             ],
             "artificial_analysis": {
@@ -22188,36 +22230,36 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1411,
+                "elo": 1412,
                 "win_rate": 64.2,
                 "rank": 2
               },
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1359,
-                "win_rate": 57.9,
+                "elo": 1360,
+                "win_rate": 57.8,
                 "rank": 3
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1334,
-                "win_rate": 56.8,
+                "elo": 1333,
+                "win_rate": 56.7,
                 "rank": 8
               },
               {
                 "arena": "models",
                 "category": "gamedev",
                 "elo": 1354,
-                "win_rate": 56.1,
+                "win_rate": 56,
                 "rank": 4
               },
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1319,
-                "win_rate": 51.8,
+                "elo": 1316,
+                "win_rate": 51.5,
                 "rank": 2
               },
               {
@@ -22231,7 +22273,7 @@
                 "arena": "models",
                 "category": "website",
                 "elo": 1365,
-                "win_rate": 58.8,
+                "win_rate": 58.7,
                 "rank": 1
               },
               {
@@ -22605,7 +22647,7 @@
                 "category": "dataviz",
                 "elo": 1149,
                 "win_rate": 50,
-                "rank": 77
+                "rank": 76
               },
               {
                 "arena": "models",
@@ -23186,7 +23228,7 @@
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1254,
-                "win_rate": 51,
+                "win_rate": 50.9,
                 "rank": 33
               },
               {
@@ -25884,7 +25926,7 @@
                 "category": "dataviz",
                 "elo": 1258,
                 "win_rate": 52,
-                "rank": 27
+                "rank": 28
               },
               {
                 "arena": "models",
@@ -26053,7 +26095,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1255,
+                "elo": 1256,
                 "win_rate": 50.5,
                 "rank": 29
               },
@@ -26062,7 +26104,7 @@
                 "category": "asciiart",
                 "elo": 1209,
                 "win_rate": 48.3,
-                "rank": 24
+                "rank": 23
               },
               {
                 "arena": "models",
@@ -26075,7 +26117,7 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1233,
-                "win_rate": 48.8,
+                "win_rate": 48.7,
                 "rank": 42
               },
               {
@@ -26139,9 +26181,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.000000499",
+            "prompt": "0.00000072",
             "completion": "0.000013",
-            "input_cache_read": "0.00000049"
+            "input_cache_read": "0.0000007"
           },
           "top_provider": {
             "context_length": 1048576,
@@ -27248,9 +27290,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1104,
-                "win_rate": 37.9,
-                "rank": 60
+                "elo": 1103,
+                "win_rate": 37.5,
+                "rank": 59
               },
               {
                 "arena": "models",
@@ -27262,9 +27304,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1150,
-                "win_rate": 37.7,
-                "rank": 76
+                "elo": 1149,
+                "win_rate": 37.5,
+                "rank": 77
               },
               {
                 "arena": "models",
@@ -27277,15 +27319,15 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1070,
-                "win_rate": 33,
+                "win_rate": 32.9,
                 "rank": 68
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1146,
+                "elo": 1147,
                 "win_rate": 36.6,
-                "rank": 75
+                "rank": 74
               },
               {
                 "arena": "models",
@@ -27377,9 +27419,9 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1104,
-                "win_rate": 37.9,
-                "rank": 60
+                "elo": 1103,
+                "win_rate": 37.5,
+                "rank": 59
               },
               {
                 "arena": "models",
@@ -27391,9 +27433,9 @@
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1150,
-                "win_rate": 37.7,
-                "rank": 76
+                "elo": 1149,
+                "win_rate": 37.5,
+                "rank": 77
               },
               {
                 "arena": "models",
@@ -27406,15 +27448,15 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1070,
-                "win_rate": 33,
+                "win_rate": 32.9,
                 "rank": 68
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1146,
+                "elo": 1147,
                 "win_rate": 36.6,
-                "rank": 75
+                "rank": 74
               },
               {
                 "arena": "models",
@@ -31917,7 +31959,7 @@
                 "category": "uicomponent",
                 "elo": 1247,
                 "win_rate": 57.4,
-                "rank": 36
+                "rank": 37
               },
               {
                 "arena": "models",
@@ -32636,7 +32678,7 @@
                 "category": "uicomponent",
                 "elo": 1247,
                 "win_rate": 57.4,
-                "rank": 36
+                "rank": 37
               },
               {
                 "arena": "models",
@@ -32906,7 +32948,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1265,
-                "win_rate": 53.9,
+                "win_rate": 53.8,
                 "rank": 30
               },
               {
@@ -33289,7 +33331,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1265,
-                "win_rate": 53.9,
+                "win_rate": 53.8,
                 "rank": 30
               },
               {
@@ -40777,7 +40819,7 @@
                 "category": "asciiart",
                 "elo": 1105,
                 "win_rate": 43.2,
-                "rank": 59
+                "rank": 58
               },
               {
                 "arena": "models",
@@ -40812,7 +40854,7 @@
                 "category": "uicomponent",
                 "elo": 1184,
                 "win_rate": 52.2,
-                "rank": 59
+                "rank": 60
               },
               {
                 "arena": "models",
@@ -41267,8 +41309,8 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1127,
-                "win_rate": 41.8,
+                "elo": 1128,
+                "win_rate": 42.1,
                 "rank": 54
               },
               {
@@ -41303,7 +41345,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1240,
-                "win_rate": 51.1,
+                "win_rate": 51,
                 "rank": 42
               },
               {
@@ -41529,7 +41571,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1281,
+                "elo": 1282,
                 "win_rate": 54.8,
                 "rank": 20
               },
@@ -41580,7 +41622,7 @@
                 "category": "website",
                 "elo": 1280,
                 "win_rate": 54.8,
-                "rank": 21
+                "rank": 22
               }
             ],
             "artificial_analysis": {
@@ -41664,7 +41706,7 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1252,
+                "elo": 1253,
                 "win_rate": 48.5,
                 "rank": 30
               },
@@ -41680,13 +41722,13 @@
                 "category": "codecategories",
                 "elo": 1274,
                 "win_rate": 50.5,
-                "rank": 24
+                "rank": 25
               },
               {
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1284,
-                "win_rate": 51.1,
+                "win_rate": 51.2,
                 "rank": 18
               },
               {
@@ -41700,14 +41742,14 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1213,
-                "win_rate": 47.8,
+                "win_rate": 47.9,
                 "rank": 22
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1264,
-                "win_rate": 48.9,
+                "win_rate": 48.8,
                 "rank": 32
               },
               {
@@ -43111,16 +43153,16 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1079,
-                "win_rate": 37.1,
+                "elo": 1080,
+                "win_rate": 37.2,
                 "rank": 64
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1184,
-                "win_rate": 42.2,
-                "rank": 60
+                "elo": 1185,
+                "win_rate": 42.3,
+                "rank": 59
               },
               {
                 "arena": "models",
@@ -43345,9 +43387,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000000825",
-            "completion": "0.00000033",
-            "input_cache_read": "0.000000020625",
+            "prompt": "0.000000132",
+            "completion": "0.000000528",
+            "input_cache_read": "0.000000033",
             "overrides": [
               {
                 "utc_start": 0,
@@ -43555,9 +43597,9 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000007506",
-            "completion": "0.0000022509",
-            "input_cache_read": "0.0000000378",
+            "prompt": "0.000000834",
+            "completion": "0.000002501",
+            "input_cache_read": "0.000000042",
             "overrides": [
               {
                 "utc_start": 0,
@@ -43856,23 +43898,23 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1106,
-                "win_rate": 34.2,
-                "rank": 58
+                "elo": 1102,
+                "win_rate": 33.7,
+                "rank": 60
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1210,
-                "win_rate": 42.2,
+                "win_rate": 42.1,
                 "rank": 50
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1173,
-                "win_rate": 38.1,
-                "rank": 67
+                "elo": 1175,
+                "win_rate": 38.2,
+                "rank": 66
               },
               {
                 "arena": "models",
@@ -43884,22 +43926,22 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1112,
-                "win_rate": 34,
+                "elo": 1113,
+                "win_rate": 34.1,
                 "rank": 56
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1206,
-                "win_rate": 41.3,
+                "elo": 1204,
+                "win_rate": 41,
                 "rank": 53
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1228,
-                "win_rate": 44.2,
+                "elo": 1229,
+                "win_rate": 44.3,
                 "rank": 48
               }
             ],
@@ -44156,23 +44198,23 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1106,
-                "win_rate": 34.2,
-                "rank": 58
+                "elo": 1102,
+                "win_rate": 33.7,
+                "rank": 60
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1210,
-                "win_rate": 42.2,
+                "win_rate": 42.1,
                 "rank": 50
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1173,
-                "win_rate": 38.1,
-                "rank": 67
+                "elo": 1175,
+                "win_rate": 38.2,
+                "rank": 66
               },
               {
                 "arena": "models",
@@ -44184,22 +44226,22 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1112,
-                "win_rate": 34,
+                "elo": 1113,
+                "win_rate": 34.1,
                 "rank": 56
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1206,
-                "win_rate": 41.3,
+                "elo": 1204,
+                "win_rate": 41,
                 "rank": 53
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1228,
-                "win_rate": 44.2,
+                "elo": 1229,
+                "win_rate": 44.3,
                 "rank": 48
               }
             ],
@@ -45212,8 +45254,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1081,
-                "win_rate": 37.8,
+                "elo": 1082,
+                "win_rate": 37.9,
                 "rank": 63
               },
               {
@@ -45449,8 +45491,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1081,
-                "win_rate": 37.8,
+                "elo": 1082,
+                "win_rate": 37.9,
                 "rank": 63
               },
               {
@@ -45609,16 +45651,16 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1273,
+                "elo": 1274,
                 "win_rate": 50.4,
                 "rank": 23
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1265,
-                "win_rate": 54.6,
-                "rank": 16
+                "elo": 1266,
+                "win_rate": 54.8,
+                "rank": 15
               },
               {
                 "arena": "models",
@@ -45644,8 +45686,8 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1221,
-                "win_rate": 49.1,
+                "elo": 1222,
+                "win_rate": 49.2,
                 "rank": 18
               },
               {
@@ -45814,7 +45856,7 @@
                 "category": "asciiart",
                 "elo": 1285,
                 "win_rate": 57.7,
-                "rank": 9
+                "rank": 10
               },
               {
                 "arena": "models",
@@ -45840,15 +45882,15 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1245,
-                "win_rate": 49.7,
+                "elo": 1244,
+                "win_rate": 49.6,
                 "rank": 14
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1300,
-                "win_rate": 53.6,
+                "elo": 1297,
+                "win_rate": 53.1,
                 "rank": 17
               },
               {
@@ -45961,9 +46003,9 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1247,
-                "win_rate": 44.4,
-                "rank": 37
+                "elo": 1250,
+                "win_rate": 44.8,
+                "rank": 36
               },
               {
                 "arena": "models",
@@ -46139,9 +46181,9 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1229,
+                "elo": 1230,
                 "win_rate": 50.8,
-                "rank": 36
+                "rank": 35
               },
               {
                 "arena": "models",
@@ -46161,8 +46203,8 @@
                 "arena": "models",
                 "category": "dataviz",
                 "elo": 1258,
-                "win_rate": 53.6,
-                "rank": 28
+                "win_rate": 53.7,
+                "rank": 29
               },
               {
                 "arena": "models",
@@ -46174,14 +46216,14 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1176,
+                "elo": 1177,
                 "win_rate": 50.5,
                 "rank": 34
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1262,
+                "elo": 1263,
                 "win_rate": 53.8,
                 "rank": 33
               },
@@ -46271,8 +46313,8 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1260,
-                "win_rate": 54.3,
-                "rank": 27
+                "win_rate": 54.2,
+                "rank": 28
               },
               {
                 "arena": "models",
@@ -46284,14 +46326,14 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1273,
+                "elo": 1272,
                 "win_rate": 52,
                 "rank": 26
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1267,
+                "elo": 1266,
                 "win_rate": 50.5,
                 "rank": 26
               },
@@ -46305,15 +46347,15 @@
               {
                 "arena": "models",
                 "category": "svg",
-                "elo": 1179,
-                "win_rate": 48.3,
+                "elo": 1178,
+                "win_rate": 48.1,
                 "rank": 33
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1259,
-                "win_rate": 51.8,
+                "elo": 1258,
+                "win_rate": 51.6,
                 "rank": 34
               },
               {
@@ -46484,44 +46526,44 @@
               {
                 "arena": "models",
                 "category": "3d",
-                "elo": 1342,
-                "win_rate": 57.8,
+                "elo": 1343,
+                "win_rate": 57.9,
                 "rank": 8
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1324,
-                "win_rate": 53.7,
+                "win_rate": 53.5,
                 "rank": 6
               },
               {
                 "arena": "models",
                 "category": "dataviz",
-                "elo": 1334,
-                "win_rate": 59.2,
+                "elo": 1333,
+                "win_rate": 59.1,
                 "rank": 7
               },
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1319,
+                "elo": 1321,
                 "win_rate": 53.2,
                 "rank": 11
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1347,
-                "win_rate": 59.5,
+                "elo": 1346,
+                "win_rate": 59.4,
                 "rank": 6
               },
               {
                 "arena": "models",
                 "category": "website",
                 "elo": 1319,
-                "win_rate": 52.2,
-                "rank": 6
+                "win_rate": 52,
+                "rank": 5
               }
             ],
             "artificial_analysis": {
@@ -47588,7 +47630,7 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1264,
-                "win_rate": 56,
+                "win_rate": 55.9,
                 "rank": 25
               },
               {
@@ -47730,9 +47772,9 @@
               {
                 "arena": "models",
                 "category": "codecategories",
-                "elo": 1273,
+                "elo": 1274,
                 "win_rate": 53.4,
-                "rank": 25
+                "rank": 24
               },
               {
                 "arena": "models",
@@ -47891,7 +47933,7 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.0000003",
+            "prompt": "0.00000038",
             "completion": "0.00000349",
             "input_cache_read": "0.00000026"
           },
@@ -48006,15 +48048,15 @@
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1210,
-                "win_rate": 46.9,
-                "rank": 23
+                "elo": 1208,
+                "win_rate": 46.6,
+                "rank": 24
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1296,
-                "win_rate": 51.5,
+                "win_rate": 51.3,
                 "rank": 14
               },
               {
@@ -48035,21 +48077,21 @@
                 "arena": "models",
                 "category": "svg",
                 "elo": 1219,
-                "win_rate": 49.4,
+                "win_rate": 49.3,
                 "rank": 19
               },
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1300,
+                "elo": 1301,
                 "win_rate": 55.3,
                 "rank": 16
               },
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1296,
-                "win_rate": 50.9,
+                "elo": 1295,
+                "win_rate": 50.6,
                 "rank": 15
               }
             ],
@@ -48088,13 +48130,13 @@
             "instruct_type": null
           },
           "pricing": {
-            "prompt": "0.00000011",
-            "completion": "0.00000339",
-            "input_cache_read": "0.0000001"
+            "prompt": "0.0000014",
+            "completion": "0.0000044",
+            "input_cache_read": "0.00000014"
           },
           "top_provider": {
             "context_length": 1048576,
-            "max_completion_tokens": 943718,
+            "max_completion_tokens": 131072,
             "is_moderated": false
           },
           "per_request_limits": null,
@@ -48137,21 +48179,21 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1373,
-                "win_rate": 66,
+                "win_rate": 65.9,
                 "rank": 5
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1217,
-                "win_rate": 46.2,
+                "elo": 1220,
+                "win_rate": 46.9,
                 "rank": 20
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1319,
-                "win_rate": 56.3,
+                "win_rate": 56.1,
                 "rank": 7
               },
               {
@@ -48164,8 +48206,8 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1342,
-                "win_rate": 56.6,
+                "elo": 1340,
+                "win_rate": 55.9,
                 "rank": 7
               },
               {
@@ -48178,8 +48220,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1331,
-                "win_rate": 58.5,
+                "elo": 1329,
+                "win_rate": 58.4,
                 "rank": 9
               },
               {
@@ -48334,7 +48376,7 @@
                 "category": "svg",
                 "elo": 1290,
                 "win_rate": 57.1,
-                "rank": 9
+                "rank": 8
               },
               {
                 "arena": "models",
@@ -48346,9 +48388,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1279,
+                "elo": 1280,
                 "win_rate": 48.5,
-                "rank": 22
+                "rank": 21
               }
             ],
             "artificial_analysis": {
@@ -48471,7 +48513,7 @@
                 "category": "svg",
                 "elo": 1290,
                 "win_rate": 57.1,
-                "rank": 9
+                "rank": 8
               },
               {
                 "arena": "models",
@@ -48483,9 +48525,9 @@
               {
                 "arena": "models",
                 "category": "website",
-                "elo": 1279,
+                "elo": 1280,
                 "win_rate": 48.5,
-                "rank": 22
+                "rank": 21
               }
             ],
             "artificial_analysis": {
@@ -48702,21 +48744,21 @@
                 "arena": "models",
                 "category": "3d",
                 "elo": 1373,
-                "win_rate": 66,
+                "win_rate": 65.9,
                 "rank": 5
               },
               {
                 "arena": "models",
                 "category": "asciiart",
-                "elo": 1217,
-                "win_rate": 46.2,
+                "elo": 1220,
+                "win_rate": 46.9,
                 "rank": 20
               },
               {
                 "arena": "models",
                 "category": "codecategories",
                 "elo": 1319,
-                "win_rate": 56.3,
+                "win_rate": 56.1,
                 "rank": 7
               },
               {
@@ -48729,8 +48771,8 @@
               {
                 "arena": "models",
                 "category": "gamedev",
-                "elo": 1342,
-                "win_rate": 56.6,
+                "elo": 1340,
+                "win_rate": 55.9,
                 "rank": 7
               },
               {
@@ -48743,8 +48785,8 @@
               {
                 "arena": "models",
                 "category": "uicomponent",
-                "elo": 1331,
-                "win_rate": 58.5,
+                "elo": 1329,
+                "win_rate": 58.4,
                 "rank": 9
               },
               {
@@ -48988,7 +49030,7 @@
                 "arena": "models",
                 "category": "uicomponent",
                 "elo": 1220,
-                "win_rate": 48.7,
+                "win_rate": 48.6,
                 "rank": 47
               },
               {
